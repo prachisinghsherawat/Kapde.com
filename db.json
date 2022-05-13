@@ -1,0 +1,711 @@
+{
+    "tops" : [{
+        "id":1,
+        "imgUrl" :"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/4/10/9e85c6cd-3c3c-4b27-85c9-16e7b14a5f681618035750282-1.jpg",
+        "price" :"1030",
+        "size" : "small" ,
+        "colour" :"skyblue" ,
+        "brand" :"ajio"
+    },
+    {
+        "id":2,
+        "imgUrl" :"https://assets.ajio.com/medias/sys_master/root/h64/ha6/14040348688414/-1117Wx1400H-461014015-pink-MODEL.jpg",
+        "price" :"2040",
+        "size" :"small" ,
+        "colour" : "pink",
+        "brand" : "ajio"
+    },
+
+    {  
+        "id":3,
+        "imgUrl" :"https://img.shopstyle-cdn.com/sim/f0/ef/f0ef90fb8299853de8636ff511620a80_best/allegra-k-womens-button-down-long-sleeve-elastic-ruffled-cuffs-peter-pan-collar-shirt-blouse-white-16.jpg",
+        "price" :"3100",
+        "size" : "extra large",
+        "colour" : "blue",
+        "brand" :"gucci"
+    },
+    {         
+        "id":4,
+        "imgUrl" :"https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7269197/2018/9/26/3ed3c8f9-84c8-4698-ab3a-3bbdf31ea0d01537963405698-La-Zoire-Women-Dusty-Pink-Solid-Top-3241537963405484-1.jpg",
+        "price" :"1800",
+        "size" : "large",
+        "colour" :"pink" ,
+        "brand" : "levis"
+    },
+    
+    {   
+        "id":7,
+        "imgUrl" :"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9657067/2019/5/27/ffe8539c-ece8-4b00-b49a-638da8524c501558950900001-plusS-Women-Tops-7371558950899289-1.jpg",
+        "price" :"800",
+        "size" : "large",
+        "colour" : "green",
+        "brand" : "gucci"
+    },
+    {
+        "id":8,
+        "imgUrl" :"https://cdn.shopify.com/s/files/1/0634/1790/9469/products/xl-tttp003961-tokyo-talkies-original-imafxqnnmhcrtnyg.jpg?v=1646840081",
+        "price" : "3000",
+        "size" : "extra large",
+        "colour" : "yellow",
+        "brand" : "levis"
+    },
+   
+    {    
+        "id":9,
+        "imgUrl" :"https://img.faballey.com/images/product/TOP04860Z/1.jpg",
+        "price" : "2040",
+        "size" : "large",
+        "colour" : "white",
+        "brand" : "shein"
+    },
+   
+   
+    {
+        "id":10,
+        "imgUrl" :"https://assets.ajio.com/medias/sys_master/root/20211207/0HMN/61af9213aeb2690110fd6ba2/-473Wx593H-462559451-multi-MODEL.jpg",
+        "price" :"1000",
+        "size" : "small",
+        "colour" :"skyblue" ,
+        "brand" :"ajio"
+    },
+    {    
+        "id":5,
+        "imgUrl" :"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/2/18/07b7a314-decd-421a-b447-01b2411e24e61613643428870-1.jpg",
+        "price" :"2300",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"ajio"
+    },
+    {
+        "id":6,
+        "imgUrl" :"https://img.faballey.com/images/Product/TOP05298Z/1.jpg",
+        "price" :"2000",
+        "size" : "large",
+        "colour" : "pink",
+        "brand" :"shein"
+    },
+   
+   
+    {
+        "id":11,
+        "imgUrl" :"https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010433681-Blue-Navy-1000010433681_01-2100.jpg",
+        "price" :"1600",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"gucci"
+    },
+
+    { 
+        "id":12,
+        "imgUrl" :"https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010444516-Grey-Sage-1000010444516_01-2100.jpg",
+        "price" :"1200",
+        "size" : "extra large",
+        "colour" : "skyblue",
+        "brand" :"gucci"
+    }],
+
+     
+    "kurtis": [{
+        "id":1,
+        "imgUrl" :"https://i.pinimg.com/474x/d3/20/0e/d3200ed3ecbe70bd48b07321bf3d7e8e.jpg",
+        "price" :"2300",
+        "size" : "small",
+        "colour" :"green" ,
+        "brand" :"ajio"
+    },
+    {
+        "id":2,
+        "imgUrl" :"https://static.cilory.com/593615-thickbox_default/round-with-string-navy-blue-rayon-slub-embroidered-long-kurti.jpg",
+        "price" :"3100",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"shein"
+    },
+    {
+        "id":3,
+        "imgUrl" :"https://www.kianafashion.com/wp-content/uploads/2020/09/designer-long-kurti-1.jpg",
+        "price" :"1400",
+        "size" : "small",
+        "colour" :"white" ,
+        "brand" :"levis"
+    },
+
+    {
+        "id":4,
+        "imgUrl" :"https://static.cilory.com/570793-large_default/flared-foil-print-green-rayon-long-kurti.jpg.webp",
+        "price" :"3300",
+        "size" : "small",
+        "colour" :"green" ,
+        "brand" :"ajio"
+    },
+   
+    {
+        "id":5,
+        "imgUrl" :"https://stylesatlife.com/wp-content/uploads/2020/10/White-Chiffon-Umbrella-Kurti.jpg.webp",
+        "price" :"2100",
+        "size" : "small",
+        "colour" :"white" ,
+        "brand" :"gucci"
+    },
+    
+    {
+        "id":6,
+        "imgUrl" :"https://www.aishwaryadesignstudio.com/content/images/thumbs/0098869_partywear-designer-foil-print-pink-kurti.jpeg",
+        "price" :"1300",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"shein"
+    },
+    {
+        "id":7,
+        "imgUrl" :"https://m.media-amazon.com/images/I/61bPFkYM++L._UL1280_.jpg",
+        "price" :"1000",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"gucci"
+    },
+    {
+        "id":13,
+        "imgUrl" :"https://i.pinimg.com/564x/c0/2b/e4/c02be42c9ad8f70e43322970e264a1df.jpg",
+        "price" :"2000",
+        "size" : "extralarge",
+        "colour" :"black" ,
+        "brand" :"levis"
+    },
+    {
+        "id":14,
+        "imgUrl" :"https://i.pinimg.com/originals/6e/8e/8d/6e8e8dccf847183feccbf8728c021b8f.jpg",
+        "price" :"2000",
+        "size" : "extralarge",
+        "colour" :"brown" ,
+        "brand" :"levis"
+    },
+    {
+        "id":8,
+        "imgUrl" :"https://5.imimg.com/data5/SELLER/Default/2021/7/EP/DH/UN/5984312/branded-ladies-kurta-500x500.jpg",
+        "price" :"900",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"ajio"
+    },
+    {
+        "id":9,
+        "imgUrl" :"https://www.shahifits.in/wp-content/uploads/2021/02/New-Trend-Designer-Sky-Blue-Color-Anarkali-Kurti-Design-Images.-e1613734098888.jpg",
+        "price" :"2000",
+        "size" : "small",
+        "colour" :"skyblue" ,
+        "brand" :"levis"
+    },
+   
+    {
+        "id":10,
+        "imgUrl" :"https://static.cilory.com/493586-thickbox_default/mustard-pleated-cotton-printed-long-kurti.jpg",
+        "price" :"3800",
+        "size" : "small",
+        "colour" :"yellow" ,
+        "brand" :"ajio"
+    },
+
+     {
+        "id":11,
+        "imgUrl" :"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-410,/pub/media/catalog/product/j/a/jaipur_kurti_jk3244_1.jpg?rnd=20200526195200",
+        "price" :"2800",
+        "size" : "small",
+        "colour" :"green" ,
+        "brand" :"shein"
+    },
+
+    {
+        "id":12,
+        "imgUrl" :"https://i.pinimg.com/originals/ed/d7/a1/edd7a1cc1b64fcad2e5889c1473bd96b.jpg",
+        "price" :"2800",
+        "size" : "large",
+        "colour" :"black" ,
+        "brand" :"shein"
+    },
+    
+    {
+        "id":15,
+        "imgUrl" :"https://www.fabja.com/pub/media/catalog/product/d/e/designer_pink_rayon_party_wear_anarkali_kurti_fj9346.jpg",
+        "price" :"5900",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"gucci"
+    }],
+
+   "denims" :[ 
+
+    {
+        "id":10,
+        "imgUrl" : "https://storage.googleapis.com/share-gdicdn/images/product/100052859/100052859_07H_1332x2000.jpg",
+        "price" :"6800",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"levis"
+    },
+    {
+        "id":11,
+        "imgUrl" : "https://media.nastygal.com/i/nastygal/agg98253_black_xl",
+        "price" :"1800",
+        "size" : "large",
+        "colour" :"black" ,
+        "brand" :"ajio"
+    },
+    
+    {
+        "id":12,
+        "imgUrl" : "https://fiver.media/cdn-thumb/280x420/e5p/images/mu/2019/05/19/light-pink-denim-jacket-light-pink-116705-5.jpg",
+        "price" :"2800",
+        "size" : "large",
+        "colour" :"pink" ,
+        "brand" :"ajio"
+    },
+
+       {
+        "id":1,
+       "imgUrl" : "https://i.pinimg.com/originals/d7/f3/41/d7f34127f13c9b0aa0647ab9b53feef2.jpg",
+        "price" :"900",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"gucci"
+    },
+    {
+        "id":2,
+        "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0PiIcja7sM7wAhfhdizGOpN0tbCAt05sbK-UlKBG_fY5OoelMknzk4oYBCHQ53HtBFY&usqp=CAU",
+        "price" :"4800",
+        "size" : "large",
+        "colour" :"brown" ,
+        "brand" :"ajio"
+    },
+    
+    
+
+{
+    "id":3,
+    "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210830/wX8s/612cfaafaeb269a268820413/-473Wx593H-460967091-blue-MODEL.jpg",
+    "price" :"2800",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"levis"
+},
+
+{
+    "id":4,
+    "imgUrl" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16491504/2021/12/13/f42b7142-6a64-431a-97b0-6c0ddc3c8b391639375751068WoodsWomenOrangeColourblockedLeatherWaterResistantBomberJack1.jpg",
+    "price" :"1000",
+    "size" : "large",
+    "colour" :"pink" ,
+    "brand" :"ajio"
+},
+{
+    "id":5,
+    "imgUrl" : "https://i.pinimg.com/originals/03/3f/ac/033facfc6d69ee8462722a612f90c17a.jpg",
+    "price" :"1300",
+    "size" : "extralarge",
+    "colour" :"black" ,
+    "brand" :"gucci"
+},
+{
+    "id":6,
+    "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJhbzX1cwTOIETVqZhRskA-QUasDkHwQb7Zn44vko9dRculEcOFZLHnwKoc9gJxr9OfQ&usqp=CAU",
+    "price" :"1800",
+    "size" : "large",
+    "colour" :"blue" ,
+    "brand" :"ajio"
+},
+
+{
+    "id":7,
+    "imgUrl" : "https://i.pinimg.com/originals/2d/53/4b/2d534b8578df0d7fa0010ff29a2c473f.jpg",
+    "price" :"1500",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"levis"
+},
+{
+    "id":8,
+    "imgUrl" : "https://rukminim2.flixcart.com/image/332/398/ktrk13k0/jacket/8/7/y/xs-no-lady-pink-jkt-printcorners-original-imag7yzzt8fksp8y.jpeg?q=50",
+    "price" :"1200",
+    "size" : "small",
+    "colour" :"pink" ,
+    "brand" :"shein"
+},
+{
+    "id":9,
+    "imgUrl" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14455420/2021/6/23/37bff78e-cce8-46de-9648-9d5be1d0eaf51624446043415-Leather-Retail-Women-Brown-Solid-Lightweight-Leather-Jacket--1.jpg",
+    "price" :"2900",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"gucci"
+}
+    
+   ],
+
+    "frocks" :[
+
+        {
+            "id":1,
+            "imgUrl" : "https://newclotheshop.com/wp-content/uploads/2017/10/party-wear-western-dresses-for-girls-2017-2018-0.jpg",
+            "price" :"2700",
+            "size" : "small",
+            "colour" :"black" ,
+            "brand" :"levis"
+        },
+
+     {
+        "id":2,
+        "imgUrl" : "https://images.meesho.com/images/products/37827662/tynka_512.jpg",
+        "price" :"4000",
+        "size" : "small",
+        "colour" :"green" ,
+        "brand" :"gucci"
+    },
+    {
+        "id":3,
+        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17710140/2022/4/13/020f18cb-f72c-481d-8a83-2b1baecf60df1649843949795-HERENOW-Women-Dresses-3771649843949219-1.jpg",
+        "price" :"2000",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"shein"
+    },
+    {
+        "id":4,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010831531-Blue-Blue-1000010831531_01-2100.jpg",
+        "price" :"2400",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"gucci"
+    },
+    { 
+        "id":5,
+        "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/hello-design-black-gown-polka-dot-print-a-line-maxi-dress.jpg",
+        "price" :"3800",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"ajio"
+    },   
+ 
+    {
+        "id":6,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010443755-White-OffWhite-1000010443755_01-2100.jpg",
+        "price" :"2800",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"levis"
+    },
+    {
+        "id":7,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011049028-Green-Green-1000011049028_01-2100.jpg",
+        "price" :"2300",
+        "size" : "small",
+        "colour" :"yellow" ,
+        "brand" :"shein"
+
+   },
+    
+    {
+        "id":8,
+        "imgUrl" : "https://img.faballey.com/Images/Product/DRS04062Z/3.jpg",
+        "price" :"1200",
+        "size" : "small",
+        "colour" :"green" ,
+        "brand" :"gucci"
+    },
+
+    {
+        "id":9,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010831586-Pink-Fuchsia-1000010831586_01-2100.jpg",
+        "price" :"1290",
+        "size" : "small",
+        "colour" :"pink" ,
+        "brand" :"ajio"
+    },
+
+     {
+        "id":10,
+         "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010831586-White-OffWhite-1000010831586_01-2100.jpg",
+         "price" :"1300",
+         "size" : "small",
+         "colour" :"white" ,
+         "brand" :"shein"
+     },
+
+     {
+        "id":11,
+        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/12/413e9263-2e79-4d2e-9f57-b648c9b1a1e31620827715374-1.jpg",
+        "price" :"1200",
+        "size" : "small",
+        "colour" :"brown" ,
+        "brand" :"levis"
+    },
+     {
+        "id":12,
+         "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010601969-Blue-Blue-1000010601969_01-2100.jpg",
+         "price" :"2900",
+         "size" : "small",
+         "colour" :"blue" ,
+         "brand" :"ajio"
+     },
+     
+     {
+        "id":13,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010831607-Black-Black-1000010831607_01-2100.jpg",
+        "price" :"2000",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"gucci"
+     },
+
+     {
+        "id":14,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010831487-Blue-Blue-1000010831487_01-2100.jpg",
+        "price" :"3000",
+        "size" : "small",
+        "colour" :"skyblue" ,
+        "brand" :"ajio"
+     },
+
+    
+     {
+        "id":15,
+         "imgUrl" : "https://img.faballey.com/images/product/DRS03896Z/1.jpg",
+         "price" :"2800",
+         "size" : "small",
+         "colour" :"green" ,
+         "brand" :"levis"
+    }],
+
+    "jackets" : [{
+        "id":1,
+        "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009803866-Var3-MidBlue-1000009803866-Var3_01-2100.jpg",
+         "price" :"1900",
+         "size" : "small",
+         "colour" :"blue" ,
+         "brand" :"levis"
+        },
+
+        {
+            "id":2,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/23/195de7eb-dfb2-4d36-ba01-5c6f6e1e4e761614072396710-1.jpg",
+             "price" :"1200",
+             "size" : "small",
+             "colour" :"black" ,
+             "brand" :"shein"
+        },
+
+        {
+            "id":3,
+            "imgUrl" : "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQqoFpBiWmCZoEdT3RDVJshLj3MW2-P9yfyd57SahMZamPPE3msS9pR5MdIWq3WOmnbLcUqz0Qw6rqmTnoeZb5Ufmx5PKIxE_SSpa4djjA&usqp=CAE",
+             "price" :"700",
+             "size" : "small",
+             "colour" :"skyblue" ,
+             "brand" :"levis"
+        },
+
+        {
+            "id":4,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16091198/2022/1/28/5e414fd8-a6d8-4123-9b43-1792fcd8cf321643350766622-Tokyo-Talkies-Women-Mustard-Yellow-Crop-Biker-Jacket-6831643-1.jpg",
+             "price" :"1000",
+             "size" : "small",
+             "colour" :"yellow" ,
+             "brand" :"shein"
+        },
+
+        {
+            "id":5,
+            "imgUrl" : "https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/7772555/2018/11/21/35140744-8dc1-4ce7-9feb-56c7cc2b0ccf1542798726927-STREET-9-Women-Black-Solid-Satin-Bomber-Jacket-6061542798726594-1.jpg",
+             "price" :"2200",
+             "size" : "small",
+             "colour" :"blue" ,
+             "brand" :"gucci"
+        },
+        {
+            "id":6,
+            "imgUrl" : "https://images.bestsellerclothing.in/data/only/oct-12-2021/230022702_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto",
+             "price" :"1300",
+             "size" : "small",
+             "colour" :"pink" ,
+             "brand" :"ajio"
+        },
+        {
+            "id":7,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15982484/2022/1/28/e47ad4d8-5d76-4704-96a6-0f5e8a3aba0b1643350694155-Tokyo-Talkies-Women-Black-Crop-Leather-Jacket-64716433506937-3.jpg",
+             "price" :"500",
+             "size" : "small",
+             "colour" :"black" ,
+             "brand" :"ajio"
+        },
+        {
+            "id":8,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14362698/2021/10/7/882eb546-67ff-4304-b626-9c0f785142741633606656885-Mast--Harbour-Women-Jackets-4791633606656397-3.jpg",
+             "price" :"700",
+             "size" : "small",
+             "colour" :"pink" ,
+             "brand" :"gucci"
+        },
+
+        {
+            "id":9,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15256736/2021/8/25/3852fe87-88a0-467c-a1bf-fcbbda8624941629897088201TokyoTalkiesWomenBlueWashedStripedCropTailoredJacket1.jpg",
+             "price" :"900",
+             "size" : "small",
+             "colour" :"skyblue" ,
+             "brand" :"ajio"
+        },
+
+        {
+            "id":10,
+            "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20201231/O7I3/5fedc949f997dd8c17b6a15a/-1117Wx1400H-460777991-lightpink-MODEL.jpg",
+             "price" :"3000",
+             "size" : "small",
+             "colour" :"pink" ,
+             "brand" :"shein"
+        },
+
+        {
+            "id":11,
+            "imgUrl" : "https://www.jayjays.com.au/MJ/aurora/images/products/large/940109_sagegreen_l.jpg",
+             "price" :"3200",
+             "size" : "small",
+             "colour" :"green" ,
+             "brand" :"levis"
+        },
+      
+        {
+            "id":12,
+            "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14231126/2021/8/31/0ced8374-b12c-457b-a2b6-53e3065fbc391630395989507-all-about-you-Women-Jackets-8931630395988880-1.jpg",
+             "price" :"1080",
+             "size" : "small",
+             "colour" :"yellow" ,
+             "brand" :"ajio"
+        }],
+
+        "middis" : [
+            {
+                "id":1,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010446681-Pink-Pink-1000010446681_03-2100.jpg",
+                 "price" :"800",
+                 "size" : "small",
+                 "colour" :"pink" ,
+                 "brand" :"gucci"
+            },
+            {
+                "id":2,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009803565-Black-Black-1000009803565_03-2100.jpg",
+                 "price" :"5100",
+                 "size" : "small",
+                 "colour" :"black" ,
+                 "brand" :"levis"
+            },
+            {
+                "id":3,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010125789-White-White-1000010125789_03-2100.jpg",
+                 "price" :"4100",
+                 "size" : "large",
+                 "colour" :"white" ,
+                 "brand" :"shein"
+            },
+            {
+                "id":4,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010806575-Black-Black-1000010806575_01-2100.jpg",
+                 "price" :"2700",
+                 "size" : "extra large",
+                 "colour" :"black" ,
+                 "brand" :"gucci"
+            },
+            {
+                "id":5,
+                "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15045150/2021/8/6/e7447680-273d-4f9a-8322-0f2b25d5c4151628230462240LaZoireBlueFloralGeorgetteDress1.jpg",
+                 "price" :"3800",
+                 "size" : "extralarge",
+                 "colour" :"skyblue" ,
+                 "brand" :"shein"
+            },
+           
+            {
+                "id":6,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009848803-Pink-Pink-1000009848803_03-2100.jpg",
+                 "price" :"2100",
+                 "size" : "large",
+                 "colour" :"pink" ,
+                 "brand" :"gucci"
+            },
+            {
+                "id":7,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010446670-Green-DarkGreen-1000010446670_01-2100.jpg",
+                 "price" :"3100",
+                 "size" : "small",
+                 "colour" :"green" ,
+                 "brand" :"gucci"
+            },
+            {
+                "id":8,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009848868-Multicolour-1000009848868_01-2100.jpg",
+                 "price" :"42000",
+                 "size" : "small",
+                 "colour" :"white" ,
+                 "brand" :"levis"
+            },
+            {
+                "id":9,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009839916-White-White-1000009839916_01-2100.jpg",
+                 "price" :"1900",
+                 "size" : "large",
+                 "colour" :"white" ,
+                 "brand" :"ajio"
+            },
+            {
+                "id":10,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010472751-Yellow-Yellow-1000010472751_01-2100.jpg",
+                 "price" :"2200",
+                 "size" : "small",
+                 "colour" :"yellow" ,
+                 "brand" :"shein"
+            },
+            {
+                "id":11,
+                "imgUrl" :"https://im.berrybenka.com/assets/upload/product/zoom/148261_iese-maroon-midi-dress_maroon_1GUJP.jpg",
+                 "price" :"2800",
+                 "size" : "small",
+                 "colour" :"brown" ,
+                 "brand" :"levis"
+            },
+            {
+                "id":12,
+                "imgUrl" : "https://www.lulus.com/images/product/xlarge/2869150_568022.jpg",
+                 "price" :"1500",
+                 "size" : "small",
+                 "colour" :"blue" ,
+                 "brand" :"ajio"
+            },
+           
+            {
+                "id":13,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010443645-Pink-Pink-1000010443645_01-2100.jpg",
+                 "price" :"3000",
+                 "size" : "small",
+                 "colour" :"pink" ,
+                 "brand" :"ajio"
+            },
+            {
+                "id":14,
+                "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010144820-Black-Black-1000010144820_01-2100.jpg",
+                 "price" :"4000",
+                 "size" : "extralarge",
+                 "colour" :"black" ,
+                 "brand" :"gucci"
+            },
+            {
+                "id":15,
+                "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/1/30/70cd01a0-6404-4612-91e2-edd27a8257021580358347693-1.jpg",
+                 "price" :"2080",
+                 "size" : "large",
+                 "colour" :"green" ,
+                 "brand" :"ajio"
+            }
+        ]
+
+
+
+
+}
