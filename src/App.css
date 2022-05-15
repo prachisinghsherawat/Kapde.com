@@ -289,7 +289,7 @@ p{
       height: 100px;
       width: 90%;
       margin: auto;
-      margin-top: -54%;
+      margin-top: -30%;
     }
     
     .sales2{
@@ -318,15 +318,15 @@ p{
     }
 
     .leftDiv{
-      width: 27%;
+      width: 32%;
       font-size: 13px;
       background-color: rgb(247, 254, 255);
     }
 
     .rightDiv{
-      height: 200px;
+      height: 180px;
       grid-gap: 17px;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(2,1fr);
     }
 
     .selectTag{
@@ -342,7 +342,7 @@ p{
 
   .leftPart{
     width: 48%;
-    height: 220px;
+    height: 250px;
     margin-left: 3%;
     margin-top: 9%;
   }
