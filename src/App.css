@@ -1,429 +1,429 @@
 .carousel{
-    margin-top: 2%;
-    height: 480px;
-    
-  }
+  margin-top: 2%;
+  height: 480px;
   
-  h1{
-    text-align: center;
-  }
+}
 
-  /* -------------------------------------- Home Product Page ------------------------------------------ */
-  
-  .mainDiv{
+h1{
+  text-align: center;
+}
+
+/* -------------------------------------- Home Product Page ------------------------------------------ */
+
+.mainDiv{
+  display: flex;
+  width: 100%;
+}
+
+.leftDiv{
+  width: 24%;
+  padding: 4%;
+  margin-right: 3%;
+  margin-left: 2%;
+  background-color: rgb(255, 255, 219);
+}
+
+.rightDiv{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  height: 400px;
+  width: 65%;
+}
+
+.rightDiv>div{
+  height: 86%;
+  width: 94%;
+}
+
+p{
+  font-weight: bolder;
+  margin-top: 2%;
+  font-size: 25px;
+}
+
+.rightDiv>div>img{
+  width: 100%;
+  height: 100%;
+}
+
+.boxes{
+  border: none;
+}
+
+/* ------------------------------------------ Navbar ----------------------------------------------------*/
+
+.navbar{
+  padding: 1%;
+  position: fixed;
+}
+
+.cartIcon{
+  height: 60px;
+  width: 70px;
+  margin-left: 5%;
+}
+
+/* ----------------------------------------- Home Page ------------------------------------------------------ */
+
+.sales{
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 14%;
+}
+
+.sales2{
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 6%;
+}
+
+/* ------------------------------------------- Landing Page ---------------------------------------------- */
+
+.threebox{
+    height: 430px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
   }
-  
-  .leftDiv{
-    width: 24%;
-    padding: 4%;
-    margin-right: 3%;
-    margin-left: 2%;
-    background-color: rgb(255, 255, 219);
-  }
-  
-  .rightDiv{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3,1fr);
-    height: 400px;
-    width: 65%;
-  }
-  
-  .rightDiv>div{
-    height: 86%;
-    width: 94%;
-  }
-  
-  p{
-    font-weight: bolder;
-    margin-top: 2%;
-    font-size: 25px;
-  }
-  
-  .rightDiv>div>img{
-    width: 100%;
+
+.threebox >div{
+    width: 31%;
     height: 100%;
-  }
-  
-  .boxes{
-    border: none;
-  }
-  
-  /* ------------------------------------------ Navbar ----------------------------------------------------*/
+ }
 
-  .navbar{
-    padding: 1%;
-    position: fixed;
-  }
+.selectTag{
+  width: 50%;
+  margin-left: 46%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
 
-  .cartIcon{
-    height: 60px;
-    width: 70px;
-    margin-left: 5%;
+/* --------------------------------------  Product Page ------------------------------------------ */ 
+
+.detailsPage{
+  display: flex;
+  width: 90%;
+  margin :auto;
+  height: 650px;
+}
+
+.leftPart{
+  margin-left: 12%;
+  width: 28%;
+  height: 550px;
+  margin-top: 4%;
+ 
+} 
+
+.rightPart{
+  margin-left: 3%;
+  width: 38%;
+  height: 500px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#price{
+  font-weight: bolder;
+  margin-bottom: 8%;
+  font-size: 50px;
+  color: rgb(6, 65, 88);
+}
+
+#cartButton{
+  width: 170px;
+  height: 54px;
+  font-size: 18px;
+  margin-top: 8%;
+  padding: 1.5% 4%;
+  background-color: rgb(14, 72, 99);
+  color: white;
+}
+
+/* -------------------------------------- Cart Page ------------------------------------------------ */
+
+.cartDiv{
+  height: 150px;
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+#cartImage{
+  height: 100%;
+  width: 12%;
+}
+.flexdiv{
+  display: flex;
+  height: 180px;
+  
+}
+.imgdiv{
+  width: 180px;
+  height: 160px;
+  border: 1px solid rgb(153, 153, 153);
+  margin-right: 5%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+.imgdiv>img{
+  width: 100%;
+  height: 100%;
+}
+.counter{
+  display:flex;
+  margin-right: 10%;
+  width: 150px;
+  height:40px;
+  margin-top: 4%;
+
+}
+.counter button{
+  width: 30%;
+  margin-right:8%;
+  margin-left:8%;
+  background-color:black;
+  color: white;
+  font-size: 20px;
+}
+.Details{
+  display: flex;
+  width: 57%;
+  margin-top: 4%;
+}
+.Details>p{
+ margin-left: 2%;
+ font-weight: 300;
+}
+.Details>p:nth-child(5){
+  color: teal;
+  font-weight: 600;
+}
+.Details>button{
+  height: 40px;
+  margin-left: 5%;
+  background-color: rgb(168, 3, 3);
+  padding: 0% 2%;
+  color: whitesmoke;
+  border: none;
+ 
+}
+#mycart{
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+
+#payBtn{
+  margin-left: 82%;
+  border: none;
+  padding: 1% 2%;
+  background-color: rgb(8, 94, 41);
+  color: white;
+}
+
+
+/* ---------------------------------- Payment Page --------------------------------------------------- */
+
+.paydiv{
+  height: 600px;
+  width: 70%;
+  
+}
+
+.paymentBox{
+  margin: auto;
+  width: 20%;
+  height: 500px;
+}
+
+#paymentBtn{
+  margin-top: 5%;
+  padding: 6% 12%;
+  background-color: rgb(1, 18, 56);
+}
+
+
+/* ------------------------------- Payment Successful ------------------------------------------------ */
+
+.paySuccess{
+  width: 60%;
+  margin: auto;
+  height: 500px;
+  margin-top: 5%;
+}
+
+
+
+
+/* ----------------------------------- MEDIA QUERIES ----------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+
+  h1{
+    text-align: left;
+    padding: 1% 6%;
   }
   
-  /* ----------------------------------------- Home Page ------------------------------------------------------ */
+  .carousel{
+      height: 200px;
+  }
+
+  .FlexDiv{
+      width: 90%;
+      height: -17%;
+  }
+
+  .boxes>img{
+      width: 100%;
+  }
 
   .sales{
-    height: 300px;
-    width: 90%;
-    margin: auto;
-    margin-top: 14%;
-  }
-  
-  .sales2{
-    height: 300px;
-    width: 90%;
-    margin: auto;
-    margin-top: 6%;
-  }
+      height: 100px;
+      width: 90%;
+      margin: auto;
+      margin-top: -34%;
+    }
+    
+    .sales2{
+      height: 100px;
+      width: 90%;
+      margin: auto;
+      margin-top: 5%;
+    }
 
-  /* ------------------------------------------- Landing Page ---------------------------------------------- */
-
-  .threebox{
-      height: 430px;
+    .threebox{
+      height: 130px;
       width: 90%;
       margin: auto;
       margin-top: 5%;
       display: flex;
       justify-content: space-between;
-    }
+  }
 
   .threebox >div{
       width: 31%;
       height: 100%;
-   }
-
-  .selectTag{
-    width: 50%;
-    margin-left: 46%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-    margin-bottom: 1%;
   }
 
-  /* --------------------------------------  Product Page ------------------------------------------ */ 
+    p{
+      font-size: 14px;
+    }
 
-  .detailsPage{
-    display: flex;
-    width: 90%;
-    margin :auto;
-    height: 650px;
-  }
+    .leftDiv{
+      width: 27%;
+      font-size: 13px;
+      background-color: rgb(247, 254, 255);
+    }
+
+    .rightDiv{
+      height: 200px;
+      grid-gap: 17px;
+      grid-template-columns: repeat(3,1fr);
+    }
+
+    .selectTag{
+      width: 90%;
+      margin-left: 4%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2%;
+      margin-bottom: 1%;
+    }
+
+   
 
   .leftPart{
-    margin-left: 12%;
-    width: 28%;
-    height: 550px;
-    margin-top: 4%;
-   
-  } 
+    width: 48%;
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 9%;
+  }
 
   .rightPart{
-    margin-left: 3%;
-    width: 38%;
-    height: 500px;
-    margin-top: 10%;
-    text-align: center;
+    font-size: 15px;
+    margin-top: 14%;
+    
+  }
+
+  .rightPart>h3{
+    font-size: 15px;
   }
 
   #price{
-    font-weight: bolder;
-    margin-bottom: 8%;
-    font-size: 50px;
-    color: rgb(6, 65, 88);
+    font-size: 25px;
+    margin-left: 12%;
+    font-weight: bold;
+  }
+
+  .imgdiv{
+    width: 80px;
+    height: 60px;
+    border: 1px solid rgb(153, 153, 153);
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+  }
+
+  .flexdiv{
+    height: 100px;
   }
 
   #cartButton{
-    width: 170px;
-    height: 54px;
-    font-size: 18px;
-    margin-top: 8%;
-    padding: 1.5% 4%;
-    background-color: rgb(14, 72, 99);
-    color: white;
-  }
-
-  /* -------------------------------------- Cart Page ------------------------------------------------ */
-
-  .cartDiv{
-    height: 150px;
     width: 80%;
-    margin: auto;
-    margin-top: 1%;
+    font-size: 12px;
+    padding: 1px 2px;
   }
 
-  #cartImage{
-    height: 100%;
-    width: 12%;
-  }
-  .flexdiv{
-    display: flex;
-    height: 180px;
-    
-  }
-  .imgdiv{
-    width: 180px;
-    height: 160px;
-    border: 1px solid rgb(153, 153, 153);
-    margin-right: 5%;
-    margin-bottom: 3%;
-    margin-left: 3%;
-  }
-  .imgdiv>img{
-    width: 100%;
-    height: 100%;
-  }
   .counter{
-    display:flex;
-    margin-right: 10%;
-    width: 150px;
-    height:40px;
-    margin-top: 4%;
-  
+    margin-right: 2%;
   }
-  .counter button{
-    width: 30%;
-    margin-right:8%;
-    margin-left:8%;
-    background-color:black;
-    color: white;
-    font-size: 20px;
-  }
-  .Details{
-    display: flex;
-    width: 57%;
-    margin-top: 4%;
-  }
-  .Details>p{
-   margin-left: 2%;
-   font-weight: 300;
-  }
-  .Details>p:nth-child(5){
-    color: teal;
-    font-weight: 600;
-  }
-  .Details>button{
-    height: 40px;
-    margin-left: 5%;
-    background-color: rgb(168, 3, 3);
-    padding: 0% 2%;
-    color: whitesmoke;
-    border: none;
-   
-  }
+
   #mycart{
-    margin-top: 2%;
-    margin-bottom: 4%;
+    font-size: 25px;
   }
 
-  
+  .counter>button{
+    padding: 0%;
+    font-size: 9px;
+    height: 20px;
+    width: 18px;
+  }
+
+  .Details>button{
+    padding: 0% 2%;
+    font-size: 10px;
+    height: 20px;
+  }
+
   #payBtn{
-    margin-left: 82%;
-    border: none;
-    padding: 1% 2%;
-    background-color: rgb(8, 94, 41);
-    color: white;
+    width: 150px;
+    margin-left: 52%;
+    height: 40px;
   }
-
-
-  /* ---------------------------------- Payment Page --------------------------------------------------- */
 
   .paydiv{
-    height: 600px;
-    width: 70%;
-    
+    margin-top: 6%;
   }
 
   .paymentBox{
-    margin: auto;
-    width: 20%;
-    height: 500px;
+    width: 64%;
+    padding: 5% 12%;
   }
-
-  #paymentBtn{
-    margin-top: 5%;
-    padding: 6% 12%;
-    background-color: rgb(1, 18, 56);
-  }
-
-
-  /* ------------------------------- Payment Successful ------------------------------------------------ */
 
   .paySuccess{
-    width: 60%;
-    margin: auto;
-    height: 500px;
-    margin-top: 5%;
+    width: 67%;
+    height: 300px;
+    margin-top: 11%;
   }
-
-
-
-
-  /* ----------------------------------- MEDIA QUERIES ----------------------------------------------------- */
-
-  @media only screen and (max-width: 700px) {
-
-    h1{
-      text-align: left;
-      padding: 1% 6%;
-    }
-    
-    .carousel{
-        height: 200px;
-    }
-
-    .FlexDiv{
-        width: 90%;
-        height: -17%;
-    }
-
-    .boxes>img{
-        width: 100%;
-    }
-
-    .sales{
-        height: 100px;
-        width: 90%;
-        margin: auto;
-        margin-top: -34%;
-      }
-      
-      .sales2{
-        height: 100px;
-        width: 90%;
-        margin: auto;
-        margin-top: 5%;
-      }
-
-      .threebox{
-        height: 130px;
-        width: 90%;
-        margin: auto;
-        margin-top: 5%;
-        display: flex;
-        justify-content: space-between;
-    }
-  
-    .threebox >div{
-        width: 31%;
-        height: 100%;
-    }
-
-      p{
-        font-size: 14px;
-      }
-
-      .leftDiv{
-        width: 27%;
-        font-size: 13px;
-        background-color: rgb(247, 254, 255);
-      }
-
-      .rightDiv{
-        height: 200px;
-        grid-gap: 17px;
-        grid-template-columns: repeat(3,1fr);
-      }
-
-      .selectTag{
-        width: 90%;
-        margin-left: 4%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 2%;
-        margin-bottom: 1%;
-      }
-
-     
-
-    .leftPart{
-      width: 48%;
-      height: 220px;
-      margin-left: 3%;
-      margin-top: 9%;
-    }
-
-    .rightPart{
-      font-size: 15px;
-      margin-top: 14%;
-      
-    }
-
-    .rightPart>h3{
-      font-size: 15px;
-    }
-
-    #price{
-      font-size: 25px;
-      margin-left: 12%;
-      font-weight: bold;
-    }
-
-    .imgdiv{
-      width: 80px;
-      height: 60px;
-      border: 1px solid rgb(153, 153, 153);
-      margin-right: 5%;
-      margin-bottom: 1%;
-      margin-left: 3%;
-    }
-
-    .flexdiv{
-      height: 100px;
-    }
-  
-    #cartButton{
-      width: 80%;
-      font-size: 12px;
-      padding: 1px 2px;
-    }
-
-    .counter{
-      margin-right: 2%;
-    }
-
-    #mycart{
-      font-size: 25px;
-    }
-
-    .counter>button{
-      padding: 0%;
-      font-size: 9px;
-      height: 20px;
-      width: 18px;
-    }
-
-    .Details>button{
-      padding: 0% 2%;
-      font-size: 10px;
-      height: 20px;
-    }
-
-    #payBtn{
-      width: 150px;
-      margin-left: 52%;
-      height: 40px;
-    }
-
-    .paydiv{
-      margin-top: 6%;
-    }
-
-    .paymentBox{
-      width: 64%;
-      padding: 5% 12%;
-    }
-
-    .paySuccess{
-      width: 67%;
-      height: 300px;
-      margin-top: 11%;
-    }
-   
+ 
 }
 
 /* Media queries ended */
