@@ -23,11 +23,13 @@ export const Cart = ()=>{
             <div key={index} className="flexdiv">
               <div className="imgdiv"> <img  src={el.imgUrl} alt="" />
               </div>
-                <div className="counter">
+
+                {/* <div className="counter">
                     <button>+</button>
                       <p>{count}</p>
                        <button>-</button>
-                </div>
+                </div> */}
+                
                       <div className="Details">
                     <p>Price: {el.price}</p>
                     <p>Size: {el.size}</p>

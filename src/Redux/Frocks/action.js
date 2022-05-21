@@ -10,7 +10,7 @@ export const FrocksData = (payload) => ({
 
 export const getFrocksData = () => (dispatch) => {
 
-    axios.get("https://kapde.herokuapp.com/frocks").then((res) => {
+    axios.get("https://kapde-backend-api.herokuapp.com/frock").then((res) => {
         dispatch(FrocksData(res.data))
     })
 }

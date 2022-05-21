@@ -17,7 +17,7 @@ export const MiddisDetails = () => {
     
      const getData = ()=>{
          console.log(id)
-        let updatedData = MiddisData.filter((el)=>el.id==id )
+        let updatedData = MiddisData.filter((el)=>el._id==id )
         setData(updatedData)
      }
     //console.log(data)

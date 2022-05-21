@@ -58,7 +58,7 @@ export const Home = () => {
  <HomeProduct />
  
         
-        
+    
         
         
         </div>

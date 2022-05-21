@@ -98,7 +98,7 @@ export const Tops = () => {
         <div className="rightDiv">
             
             {topsData.map((el)=>(
-                <div onClick={()=>  navigate(`/topsdetails/${el.id}`)} key={el.id}>
+                <div onClick={()=>  navigate(`/topsdetails/${el._id}`)} key={el._id}>
                     <img src={el.imgUrl}/>
                     <p>{"Rs. "+el.price}</p>
                 </div>

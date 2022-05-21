@@ -17,7 +17,7 @@ export const JacketsDetails = () => {
     
      const getData = ()=>{
          console.log(id)
-        let updatedData = JacketsData.filter((el)=>el.id==id )
+        let updatedData = JacketsData.filter((el)=>el._id==id )
         setData(updatedData)
      }
     console.log(data)

@@ -40,30 +40,30 @@ export function Payment() {
 
   return (
     <>
-    <h1 id="mycart">Enter Your Card Details</h1>
     <div className="paymentBox">
+    <h1 id="mypay">YOUR CARD DETAILS</h1>
     <Box
       sx={{
         alignItems: 'center',
         '& > :not(style)': { m: 1 },
       }}
     >
-      <TextField onClick={HandleChange}
+      <TextField className="inputIs" onClick={HandleChange}
         id="name"
         label="Name"
       /> 
 
-     <TextField onClick={HandleChange}
+     <TextField className="inputIs" onClick={HandleChange}
         id="cardNo"
         label="Card Number"
       /> 
 
-      <TextField onClick={HandleChange}
+      <TextField className="inputIs" onClick={HandleChange}
         id="expiry"
         label="Expiry Date"
       /> 
 
-      <TextField onClick={HandleChange}
+      <TextField className="inputIs" onClick={HandleChange}
         id="cvv"
         label="CVV"
       /> 
@@ -72,7 +72,7 @@ export function Payment() {
 
 
     <Stack direction="row" spacing={2}>
-      <Button onClick={HandleSubmit} id='paymentBtn' variant="contained">Place Your Order</Button>
+      <Button onClick={HandleSubmit} id='paymentBtn' variant="contained">SUBMIT HERE</Button>
     </Stack>
  
     </Box>

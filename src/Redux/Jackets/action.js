@@ -10,7 +10,7 @@ export const JacketsData = (payload) => ({
 
 export const getJacketsData = () => (dispatch) => {
 
-    axios.get("https://kapde.herokuapp.com/jackets").then((res) => {
+    axios.get("https://kapde-backend-api.herokuapp.com/jackets").then((res) => {
         dispatch(JacketsData(res.data))
     })
 }

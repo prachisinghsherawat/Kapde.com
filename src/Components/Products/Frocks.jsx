@@ -100,7 +100,7 @@ export const Frocks = () => {
         <div className="rightDiv">
             
             {FrocksData.map((el)=>(
-                <div onClick={()=>  navigate(`/frocksdetails/${el.id}`)} key={el.id}>
+                <div onClick={()=>  navigate(`/frocksdetails/${el._id}`)} key={el._id}>
                     <img src={el.imgUrl}/>
                     <p>{"Rs. "+el.price}</p>
                 </div>

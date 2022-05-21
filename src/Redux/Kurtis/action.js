@@ -11,7 +11,7 @@ export const kurtiData = (payload) => ({
 
 export const getKurtiData = () => (dispatch) => {
 
-    axios.get("https://kapde.herokuapp.com/kurtis").then((res)=>{
+    axios.get("https://kapde-backend-api.herokuapp.com/kurti").then((res)=>{
         dispatch(kurtiData(res.data))
     })
 }

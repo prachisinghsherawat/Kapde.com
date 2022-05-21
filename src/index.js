@@ -6,12 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom"
 import { Provider } from 'react-redux';
 import {store} from "./Redux/store"
+// import ToggleColorMode from './Components/Context/Theme';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
     <BrowserRouter>
-    <App />
+    {/* <ToggleColorMode > */}
+    <App/>
+    {/* </ToggleColorMode> */}
     </BrowserRouter>
     </Provider>
   </React.StrictMode>,

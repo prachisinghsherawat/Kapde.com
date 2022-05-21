@@ -17,7 +17,7 @@ export const KurtisDetails = () => {
     
      const getData = ()=>{
          console.log(id)
-        let updatedData = KurtisData.filter((el)=>el.id==id )
+        let updatedData = KurtisData.filter((el)=>el._id==id )
         setData(updatedData)
      }
    // console.log(data)

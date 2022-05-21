@@ -11,7 +11,7 @@ export const DenimData = (payload) => ({
 
 export const getDenimData = () => (dispatch) => {
 
-    axios.get("https://kapde.herokuapp.com/denims").then((res)=>{
+    axios.get("https://kapde-backend-api.herokuapp.com/denims").then((res)=>{
         dispatch(DenimData(res.data))
     })
 }

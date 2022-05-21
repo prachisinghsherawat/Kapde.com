@@ -101,7 +101,7 @@ export const Kurtis = () => {
         <div className="rightDiv">
             
             {KurtisData.map((el)=>(
-                <div onClick={()=>  navigate(`/kurtisdetails/${el.id}`)} key={el.id}>
+                <div onClick={()=>  navigate(`/kurtisdetails/${el._id}`)} key={el._id}>
                     <img src={el.imgUrl}/>
                     <p>{"Rs. "+el.price}</p>
                 </div>

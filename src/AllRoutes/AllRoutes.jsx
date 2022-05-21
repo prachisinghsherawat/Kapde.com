@@ -1,4 +1,6 @@
 import {Routes , Route} from "react-router"
+import { SignUp } from "../Components/Authentication/Signup"
+import { Login } from "../Components/Authentication/Login"
 import { Cart } from "../Components/Home/Cart"
 import { Home } from "../Components/Home/Home"
 import { Payment } from "../Components/Home/Payment"
@@ -24,6 +26,9 @@ export const AllRoutes =() => {
 
             <Route path ="/" element ={<Home />}/>
 
+            <Route path ="/signup" element ={<SignUp />}/>
+            <Route path ="/login" element ={<Login />}/>
+
             <Route path ="/tops" element ={<Tops/>}/>
             <Route path ="/kurtis" element ={<Kurtis />}/>
             <Route path ="/denims" element ={<Denims />}/>
@@ -41,8 +46,6 @@ export const AllRoutes =() => {
             <Route path ="/cart" element ={<Cart/>}/>
             <Route path ="/payment" element ={<Payment />}/>
             <Route path ="/paymentsuccessful" element ={<PaymentSuccessful />}/>
-         
-
             
         </Routes>
     )

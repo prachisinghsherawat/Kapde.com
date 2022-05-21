@@ -103,7 +103,7 @@ export const Middis = () => {
         <div className="rightDiv">
             
             {MiddisData.map((el)=>(
-                <div onClick={()=>  navigate(`/middisdetails/${el.id}`)} key={el.id}>
+                <div onClick={()=>  navigate(`/middisdetails/${el._id}`)} key={el._id}>
                     <img src={el.imgUrl}/>
                     <p>{"Rs. "+el.price}</p>
                 </div>

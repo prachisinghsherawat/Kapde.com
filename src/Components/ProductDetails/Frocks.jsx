@@ -16,7 +16,7 @@ export const FrocksDetails = () => {
     
      const getData = ()=>{
          console.log(id)
-        let updatedData = FrocksData.filter((el)=>el.id==id )
+        let updatedData = FrocksData.filter((el)=>el._id==id )
         setData(updatedData)
      }
     //console.log(data)

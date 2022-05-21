@@ -102,7 +102,7 @@ export const Jackets = () => {
         <div className="rightDiv">
             
             {JacketsData.map((el)=>(
-                <div onClick={()=>  navigate(`/jacketsdetails/${el.id}`)} key={el.id}>
+                <div onClick={()=>  navigate(`/jacketsdetails/${el._id}`)} key={el._id}>
                     <img src={el.imgUrl}/>
                     <p>{"Rs. "+el.price}</p>
                 </div>
