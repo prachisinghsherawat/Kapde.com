@@ -26,8 +26,12 @@ export const AllRoutes =() => {
 
             <Route path ="/" element ={<Home />}/>
 
+            {/* ------------------------------ Authentication --------------------------------- */}
+
             <Route path ="/signup" element ={<SignUp />}/>
             <Route path ="/login" element ={<Login />}/>
+
+            {/* --------------------------- Products -------------------------------------------- */}
 
             <Route path ="/tops" element ={<Tops/>}/>
             <Route path ="/kurtis" element ={<Kurtis />}/>
@@ -35,6 +39,8 @@ export const AllRoutes =() => {
             <Route path ="/frocks" element ={<Frocks />}/>
             <Route path ="/jackets" element ={<Jackets />}/>
             <Route path ="/middis" element ={<Middis />}/>
+
+            {/* --------------------------- Products Details -------------------------------------- */}
 
             <Route path ="/topsdetails/:id" element ={<TopsDetails/>}/>
             <Route path ="/kurtisdetails/:id" element ={<KurtisDetails/>}/>
