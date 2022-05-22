@@ -24,12 +24,18 @@ export const AllRoutes =() => {
     return(
         <Routes>
 
+            {/* -------------------------------- Home ----------------------------------------- */}
+
             <Route path ="/" element ={<Home />}/>
+
+
 
             {/* ------------------------------ Authentication --------------------------------- */}
 
             <Route path ="/signup" element ={<SignUp />}/>
             <Route path ="/login" element ={<Login />}/>
+
+
 
             {/* --------------------------- Products -------------------------------------------- */}
 
@@ -40,6 +46,8 @@ export const AllRoutes =() => {
             <Route path ="/jackets" element ={<Jackets />}/>
             <Route path ="/middis" element ={<Middis />}/>
 
+
+
             {/* --------------------------- Products Details -------------------------------------- */}
 
             <Route path ="/topsdetails/:id" element ={<TopsDetails/>}/>
@@ -48,6 +56,9 @@ export const AllRoutes =() => {
             <Route path ="/frocksdetails/:id" element ={<FrocksDetails />}/>
             <Route path ="/jacketsdetails/:id" element ={<JacketsDetails/>}/>
             <Route path ="/middisdetails/:id" element ={<MiddisDetails/>}/>
+
+
+            {/* --------------------------- Cart and Payment --------------------------------------- */}
 
             <Route path ="/cart" element ={<Cart/>}/>
             <Route path ="/payment" element ={<Payment />}/>
