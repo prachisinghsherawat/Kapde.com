@@ -48,22 +48,22 @@ export function Payment() {
         '& > :not(style)': { m: 1 },
       }}
     >
-      <TextField className="inputIs" onClick={HandleChange}
+      <TextField className="inputIs" onChange={HandleChange}
         id="name"
         label="Name"
       /> 
 
-     <TextField className="inputIs" onClick={HandleChange}
+     <TextField className="inputIs" onChange={HandleChange}
         id="cardNo"
         label="Card Number"
       /> 
 
-      <TextField className="inputIs" onClick={HandleChange}
+      <TextField className="inputIs" onChange={HandleChange}
         id="expiry"
         label="Expiry Date"
       /> 
 
-      <TextField className="inputIs" onClick={HandleChange}
+      <TextField className="inputIs" onChange={HandleChange}
         id="cvv"
         label="CVV"
       /> 
