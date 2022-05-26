@@ -121,7 +121,7 @@ export const Kurtis = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <div className="paginationDiv">
+            <div id="paginationDiv">
                 <PaginationControlled handleChange={handleChange} page={page}/>
             </div>
 

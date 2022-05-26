@@ -179,25 +179,24 @@ p{
 
 /* ------------------------------------- Pagination ------------------------------------------------- */
 
-.PageBox{
+/* #PageBox{
   margin-left: 90%;
   text-align: center;
   width: 450%;
   border: 4px solid rgb(221, 8, 8);
-}
+} */
 
 #pagination{
   font-size: 40px;
-  margin: auto;
-  width: 450%;
-  border: 4px solid rgb(2, 80, 90);
+  margin-left: 0%;
+  width: 300%;
 }
 
 #paginationDiv{
-  border: 4px solid black;
   display: flex;
-  margin: auto;
-  width: 100%;
+  margin-left: 90%;
+  width: 200%;
+  text-align: center;
 }
 
 /* -------------------------------------- Cart Page ------------------------------------------------ */

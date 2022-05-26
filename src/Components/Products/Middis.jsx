@@ -122,7 +122,7 @@ export const Middis = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <div className="paginationDiv">
+            <div id="paginationDiv">
                 <PaginationControlled handleChange={handleChange} page={page}/>
             </div>
 
