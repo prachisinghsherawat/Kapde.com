@@ -111,18 +111,14 @@ export const Tops = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
-            
-
-
-            
-
-            {/* --------------------------------------- Pagination -----------------------------------------> */}
-
-            <div id="paginationDiv" >
-                <PaginationControlled handleChange={handleChange} page={page}/>
-            </div>
 
         </div>
+        </div>
+
+        {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+        <div id="paginationDiv" >
+                <PaginationControlled handleChange={handleChange} page={page}/>
         </div>
         </>
     )

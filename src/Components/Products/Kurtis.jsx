@@ -114,19 +114,16 @@ export const Kurtis = () => {
                 </div>
             ))}
 
-            
+        </div>
+        </div>
 
-
-            
-
-            {/* --------------------------------------- Pagination -----------------------------------------> */}
+        
+        {/* --------------------------------------- Pagination -----------------------------------------> */}
 
             <div id="paginationDiv">
                 <PaginationControlled handleChange={handleChange} page={page}/>
             </div>
 
-        </div>
-        </div>
         </>
     )
     

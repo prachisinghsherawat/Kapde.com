@@ -114,19 +114,14 @@ export const Jackets = () => {
                 </div>
             ))}
 
-            
+        </div>
+        </div>
 
+        {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            
-
-            {/* --------------------------------------- Pagination -----------------------------------------> */}
-
-            <div id="paginationDiv">
+         <div id="paginationDiv">
                 <PaginationControlled handleChange={handleChange} page={page}/>
             </div>
-
-        </div>
-        </div>
         </>
     )
     

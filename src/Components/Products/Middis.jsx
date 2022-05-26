@@ -115,18 +115,14 @@ export const Middis = () => {
                 </div>
             ))}
 
-            
-
-
-            
-
-            {/* --------------------------------------- Pagination -----------------------------------------> */}
-
-            <div id="paginationDiv">
-                <PaginationControlled handleChange={handleChange} page={page}/>
-            </div>
 
         </div>
+        </div>
+
+         {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+        <div id="paginationDiv">
+                <PaginationControlled handleChange={handleChange} page={page}/>
         </div>
         </>
     )

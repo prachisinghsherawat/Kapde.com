@@ -189,13 +189,14 @@ p{
 #pagination{
   font-size: 40px;
   margin-left: 0%;
-  width: 300%;
+  width: 100%;
 }
 
 #paginationDiv{
   display: flex;
-  margin-left: 90%;
-  width: 200%;
+  margin-left: 50%;
+  margin-top: 3%;
+  width: 30%;
   text-align: center;
 }
 
@@ -386,12 +387,14 @@ p{
     }
 
     .leftDiv{
+      margin-top: 1%;
       width: 33%;
       font-size: 9px;
       background-color: rgb(238, 238, 235);
     }
 
     .rightDiv{
+      margin-top: 16%;
       height: 180px;
       grid-gap: 17px;
       grid-template-columns: repeat(2,1fr);
@@ -423,12 +426,15 @@ p{
 
   .rightPart>h3{
     font-size: 15px;
+    margin-left: 8%;
+    background-color: rgb(252, 255, 236);
   }
 
   #price{
     font-size: 25px;
     margin-left: 12%;
     font-weight: bold;
+    width: 102%;
   }
 
   .imgdiv{
@@ -523,15 +529,15 @@ p{
   }
 
   #pagination{
-    font-size: 30px;
-    margin-left: -60%;
-    width: 300%;
+    font-size: 40px;
+    margin-left: 0%;
+    width: 100%;
   }
   
   #paginationDiv{
     display: flex;
-    margin-left: 50%;
-    margin-top: 6%;
+    margin-left: 40%;
+    margin-top: -35%;
     width: 70%;
     text-align: center;
   }
