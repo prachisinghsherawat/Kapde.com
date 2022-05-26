@@ -8,7 +8,7 @@ export const MiddisData = (payload) => ({
     payload : payload
 })
 
-export const getMiddisData = () => (dispatch) => {
+export const getMiddisData = (page) => (dispatch) => {
 
     axios.get(`https://kapde.herokuapp.com/middi?page=${page}`).then((res) => {
         dispatch(MiddisData(res.data))

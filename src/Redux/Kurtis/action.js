@@ -8,7 +8,7 @@ export const kurtiData = (payload) => ({
     payload : payload
 })
 
-export const getKurtiData = () => (dispatch) => {
+export const getKurtiData = (page) => (dispatch) => {
 
     axios.get(`https://kapde.herokuapp.com/kurti?page=${page}`).then((res)=>{
         dispatch(kurtiData(res.data))
