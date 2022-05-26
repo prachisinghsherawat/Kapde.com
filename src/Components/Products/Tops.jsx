@@ -4,6 +4,7 @@ import { getTopsData } from "../../Redux/Tops/action"
 import { FilterPage } from "../Home/FilterPage"
 import SelectLabels from "../Home/SelectTag";
 import { useNavigate } from "react-router";
+import PaginationControlled from "../Pagination/Pagination";
 
 export const Tops = () => {
 
@@ -13,14 +14,20 @@ export const Tops = () => {
     const [sort,setSort]   = useState("");
 
     const navigate = useNavigate()
-   
     const dispatch = useDispatch()
-    var topsData = useSelector((store)=> store.tops.tops)         // array wala ---> Reducer
-    useEffect(()=>{getData()},[])
+
+    useEffect(()=>{getData()},[page])
+
+    var topsData = useSelector((store)=> store.tops.tops)            // array wala ---> Reducer
+    
 
     const getData = () => {
-        dispatch(getTopsData())
+        dispatch(getTopsData(page))
     }
+
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
 
 
     // Filter page data
@@ -103,6 +110,15 @@ export const Tops = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
+            
+
+
+            
+
+            {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+            <PaginationControlled handleChange={handleChange} page={page}/>
+
         </div>
         </div>
         </>

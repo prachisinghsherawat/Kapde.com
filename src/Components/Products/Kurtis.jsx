@@ -5,6 +5,8 @@ import { getKurtiData} from "../../Redux/Kurtis/action";
 import { FilterPage } from "../Home/FilterPage";
 import SelectLabels from "../Home/SelectTag";
 import { useNavigate } from "react-router";
+import PaginationControlled from "../Pagination/Pagination";
+
 
 export const Kurtis = () => {
 
@@ -14,6 +16,21 @@ export const Kurtis = () => {
     const [sort,setSort]   = useState("");
 
     const navigate = useNavigate()
+    const dispatch = useDispatch();
+
+    useEffect(()=>{getData()},[page]);
+
+    var KurtisData = useSelector((store)=> store.kurtis.kurtis)
+
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
+
+    const getData = () => {
+        dispatch(getKurtiData(page))
+    }
+
+
 
     // Filter page data
 
@@ -31,17 +48,6 @@ export const Kurtis = () => {
 
      const SortApply = (value)=>{
          setSort(value)
-    }
-
-
-    const dispatch = useDispatch();
-    useEffect(()=>{getData()},[]);
-    
-    var KurtisData = useSelector((store)=> store.kurtis.kurtis)
-
-    const getData = () => {
-        
-        dispatch(getKurtiData())
     }
 
 
@@ -106,6 +112,16 @@ export const Kurtis = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
+
+            
+
+
+            
+
+            {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+            <PaginationControlled handleChange={handleChange} page={page}/>
+
         </div>
         </div>
         </>

@@ -11,6 +11,7 @@ import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { useNavigate } from "react-router"; 
+import PaginationControlled from "../Pagination/Pagination";
 
 
 export const Denims = () => {
@@ -19,16 +20,21 @@ export const Denims = () => {
     const [brand,setBrand] = useState("");
     const [size,setSize]   = useState("");
     const [sort,setSort]   = useState("");
+    const [page, setPage] = useState(1);
 
     const navigate = useNavigate();
-
     const dispatch = useDispatch();
-    useEffect(()=>{getData()},[]);
-    
+
     var DenimsData = useSelector((store)=> store.denims.denims)
 
+    useEffect(()=>{getData()},[page]);
+    
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
+
     const getData = () => {
-        dispatch(getDenimData())
+        dispatch(getDenimData(page))
     }
     
        // Filter page data
@@ -116,8 +122,17 @@ export const Denims = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
+
+
+
+
+            {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+            <PaginationControlled handleChange={handleChange} page={page}/>
+
         </div>
         </div>
+
         </>
     )
     

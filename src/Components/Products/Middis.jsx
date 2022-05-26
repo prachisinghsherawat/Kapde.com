@@ -5,6 +5,7 @@ import { getMiddisData } from "../../Redux/Middis/action";
 import { FilterPage } from "../Home/FilterPage";
 import SelectLabels from "../Home/SelectTag";
 import { useNavigate } from "react-router";
+import PaginationControlled from "../Pagination/Pagination";
 
 
 export const Middis = () => {
@@ -15,15 +16,20 @@ export const Middis = () => {
     const [sort,setSort]   = useState("");
 
     const navigate = useNavigate()
-
     const dispatch = useDispatch();
-    useEffect(()=>{getData()},[]);
+    
+    useEffect(()=>{getData()},[page]);
+
     
     var MiddisData = useSelector((store)=> store.middis.middis)
 
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
+
     const getData = () => {
         
-        dispatch(getMiddisData())
+        dispatch(getMiddisData(page))
     }
 
 
@@ -32,10 +38,10 @@ export const Middis = () => {
     const settingColor = (value)=>{
         setColor(value)
    }
-  const selectBrand = (value)=>{
+    const selectBrand = (value)=>{
            setBrand(value)
     }
-   const selectSize = (value)=>{
+    const selectSize = (value)=>{
             setSize(value)
     }
 
@@ -108,6 +114,16 @@ export const Middis = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
+
+            
+
+
+            
+
+            {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+            <PaginationControlled handleChange={handleChange} page={page}/>
+
         </div>
         </div>
         </>

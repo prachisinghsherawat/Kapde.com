@@ -5,16 +5,31 @@ import { getJacketsData } from "../../Redux/Jackets/action";
 import { FilterPage } from "../Home/FilterPage";
 import SelectLabels from "../Home/SelectTag";
 import { useNavigate } from "react-router";
-
+import PaginationControlled from "../Pagination/Pagination";
 
 export const Jackets = () => {
 
     const [color,setColor] = useState("");
     const [brand,setBrand] = useState("");
     const [size,setSize]   = useState("");
-    const [sort,setSort]   = useState("")
+    const [sort,setSort]   = useState("");
+    const [page, setPage] = useState(1);
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    useEffect(()=>{getData()},[page]);
+
+    var JacketsData = useSelector((store)=> store.jackets.jackets)
+
+    const getData = () => {
+        dispatch(getDenimData(page))
+    }
+
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
+    
 
     // Filter page data
 
@@ -34,16 +49,7 @@ export const Jackets = () => {
          setSort(value)
      }
 
-
-    const dispatch = useDispatch();
-    useEffect(()=>{getData()},[]);
-    
-    var JacketsData = useSelector((store)=> store.jackets.jackets)
-
-    const getData = () => {
-        
-        dispatch(getJacketsData())
-    }
+   
 
     // FILTERS ---------------------------->  COLOR , BRAND , SIZE
 
@@ -107,6 +113,16 @@ export const Jackets = () => {
                     <p>{"Rs. "+el.price}</p>
                 </div>
             ))}
+
+            
+
+
+            
+
+            {/* --------------------------------------- Pagination -----------------------------------------> */}
+
+            <PaginationControlled handleChange={handleChange} page={page}/>
+
         </div>
         </div>
         </>
