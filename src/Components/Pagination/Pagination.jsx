@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 export default function PaginationControlled({handleChange,page}) {
 
   return (
-    <Stack className='PageBox' spacing={2}>
+    <Stack id='PageBox' spacing={2}>
       <Typography>Page: {page}</Typography>
       <Pagination id='pagination' count={3} page={page} color='primary' onChange={handleChange} />
     </Stack>

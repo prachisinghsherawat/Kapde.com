@@ -118,7 +118,7 @@ export const Tops = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <div className="paginationDiv">
+            <div id="paginationDiv">
                 <PaginationControlled handleChange={handleChange} page={page}/>
             </div>
 

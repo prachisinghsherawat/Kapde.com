@@ -182,12 +182,22 @@ p{
 .PageBox{
   margin-left: 90%;
   text-align: center;
+  width: 450%;
+  border: 4px solid rgb(221, 8, 8);
 }
 
 #pagination{
   font-size: 40px;
   margin: auto;
-  width: 70%;
+  width: 450%;
+  border: 4px solid rgb(2, 80, 90);
+}
+
+#paginationDiv{
+  border: 4px solid black;
+  display: flex;
+  margin: auto;
+  width: 100%;
 }
 
 /* -------------------------------------- Cart Page ------------------------------------------------ */
