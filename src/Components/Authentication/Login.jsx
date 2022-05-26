@@ -22,7 +22,7 @@ export const Login = () => {
     const HandleSubmit = (e) =>{
         e.preventDefault();
 
-        axios.post("https://kapde-backend-api.herokuapp.com/login",formData).then((res) => {
+        axios.post("https://kapde.herokuapp.com/login",formData).then((res) => {
             console.log(res)
 
             if(res.data !== "please try another email or password"){
