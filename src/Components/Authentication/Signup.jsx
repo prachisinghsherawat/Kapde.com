@@ -25,7 +25,7 @@ export const SignUp = () => {
     const HandleSubmit = (e)=>{
       e.preventDefault()
 
-      axios.post("https://kapde-backend-api.herokuapp.com/register",formData).then((res)=>{
+      axios.post("https://kapde.herokuapp.com/register",formData).then((res)=>{
         //console.log(res)
             
         if(res.data !== "Please try another email"){
