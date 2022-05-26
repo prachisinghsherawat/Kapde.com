@@ -46,7 +46,7 @@ export const SignUp = () => {
     <Form className='form2' onSubmit={HandleSubmit}>
     <h1 id='authHeading'>SIGNUP HERE</h1><br />
 
-  <Form.Group className="mb-3" >
+   <Form.Group className="mb-3" >
 
     <Form.Label>First Name</Form.Label>
     <Form.Control type="name" placeholder="Enter first name" id="firstName"  onChange={Handlechange}/>
