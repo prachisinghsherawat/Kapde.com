@@ -116,7 +116,9 @@ export const Frocks = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <PaginationControlled handleChange={handleChange} page={page}/>
+            <div className="paginationDiv">
+                <PaginationControlled handleChange={handleChange} page={page}/>
+            </div>
 
         </div>
         </div>

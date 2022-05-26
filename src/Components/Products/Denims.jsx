@@ -128,7 +128,9 @@ export const Denims = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <PaginationControlled handleChange={handleChange} page={page}/>
+            <div className="paginationDiv">
+                <PaginationControlled handleChange={handleChange} page={page}/>
+            </div>
 
         </div>
         </div>

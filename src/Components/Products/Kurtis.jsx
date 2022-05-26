@@ -14,6 +14,7 @@ export const Kurtis = () => {
     const [brand,setBrand] = useState("");
     const [size,setSize]   = useState("");
     const [sort,setSort]   = useState("");
+    const [page, setPage] = useState(1);
 
     const navigate = useNavigate()
     const dispatch = useDispatch();
@@ -120,7 +121,9 @@ export const Kurtis = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <PaginationControlled handleChange={handleChange} page={page}/>
+            <div className="paginationDiv">
+                <PaginationControlled handleChange={handleChange} page={page}/>
+            </div>
 
         </div>
         </div>

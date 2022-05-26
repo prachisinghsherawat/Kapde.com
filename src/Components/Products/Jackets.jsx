@@ -23,7 +23,7 @@ export const Jackets = () => {
     var JacketsData = useSelector((store)=> store.jackets.jackets)
 
     const getData = () => {
-        dispatch(getDenimData(page))
+        dispatch(getJacketsData(page))
     }
 
     const handleChange = (event, value) => {
@@ -121,7 +121,9 @@ export const Jackets = () => {
 
             {/* --------------------------------------- Pagination -----------------------------------------> */}
 
-            <PaginationControlled handleChange={handleChange} page={page}/>
+            <div className="paginationDiv">
+                <PaginationControlled handleChange={handleChange} page={page}/>
+            </div>
 
         </div>
         </div>
