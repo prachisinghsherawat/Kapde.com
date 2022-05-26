@@ -17,3 +17,4 @@ export const DenimReducer = (store = initState , {type , payload} ) => {
         return store
     }
 }
+

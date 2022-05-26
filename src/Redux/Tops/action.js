@@ -10,7 +10,7 @@ export const TopData = (payload) => ({
 
 export const getTopsData = () => (dispatch) => {
 
-    axios.get("https://kapde-backend-api.herokuapp.com/tops").then((res) => {
+    axios.get(`https://kapde.herokuapp.com/tops?page=${page}`).then((res) => {
         dispatch(TopData(res.data))
     })
 }

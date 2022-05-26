@@ -8,6 +8,7 @@ import { KurtiReducer } from "./Kurtis/reducer";
 import { MiddisReducer } from "./Middis/reducer";
 import { TopReducer } from "./Tops/reducer";
 
+
 const rootReducer = combineReducers({
 
     tops : TopReducer ,

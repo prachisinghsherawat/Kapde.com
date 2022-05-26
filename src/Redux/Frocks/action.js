@@ -8,9 +8,10 @@ export const FrocksData = (payload) => ({
     payload : payload
 })
 
-export const getFrocksData = () => (dispatch) => {
+export const getFrocksData = (page) => (dispatch) => {
 
-    axios.get("https://kapde-backend-api.herokuapp.com/frock").then((res) => {
+    axios.get(`https://kapde.herokuapp.com/frock?page=${page}`).then((res) => {
         dispatch(FrocksData(res.data))
     })
 }
+
