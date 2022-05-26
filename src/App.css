@@ -394,6 +394,7 @@ p{
     }
 
     .rightDiv{
+      margin-top: 1%;
       height: 180px;
       grid-gap: 17px;
       grid-template-columns: repeat(2,1fr);
