@@ -10,42 +10,44 @@ export const SignUp = () => {
 
     const [formData,setformData] = useState({
 
-        firstName:"",
-        lastName:"",
-        email:"",
-        password:""
+      firstName:"",
+      lastName:"",
+      email:"",
+      password:""
     })
   
     const Handlechange = (e)=>{
-        const {id,value} = e.target;
-        setformData({...formData,[id]:value})
+      const {id,value} = e.target;
+      setformData({...formData,[id]:value})
 
     }
 
     const HandleSubmit = (e)=>{
-        e.preventDefault()
-                    console.log("prachu")
-        axios.post("https://kapde-backend-api.herokuapp.com/register",formData).then((res)=>{
-          console.log(res)
+      e.preventDefault()
+
+      axios.post("https://kapde-backend-api.herokuapp.com/register",formData).then((res)=>{
+        //console.log(res)
             
-            if(res.data !== "Please try another email"){
-                navigate("/login")
-            }
-            else{
-                alert("Please try an another email !")
-            }
+        if(res.data !== "Please try another email"){
+          navigate("/login")
+        }
+        else{
+          alert("Please try an another email !")
+        }
             
-        })
+      })
             
     }
 
 
     return(
-        <div className='authen'>
-            <Form className='form2' onSubmit={HandleSubmit}>
-                <h1 id='authHeading'>SIGNUP HERE</h1><br />
 
-<Form.Group className="mb-3" >
+    <div className='authen'>
+    <Form className='form2' onSubmit={HandleSubmit}>
+    <h1 id='authHeading'>SIGNUP HERE</h1><br />
+
+  <Form.Group className="mb-3" >
+
     <Form.Label>First Name</Form.Label>
     <Form.Control type="name" placeholder="Enter first name" id="firstName"  onChange={Handlechange}/>
     <Form.Text className="text-muted">
@@ -77,6 +79,8 @@ export const SignUp = () => {
     Submit
   </Button>
 </Form>
-        </div>
+
+
+</div>
     )
 }
