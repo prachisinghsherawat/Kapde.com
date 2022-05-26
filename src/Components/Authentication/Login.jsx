@@ -36,29 +36,29 @@ export const Login = () => {
 
     return(
 
-    <div className='authen' >
+      <div className='authen' >
 
         <Form className='form' onSubmit={HandleSubmit}>
 
             <h1 id='authHeading'>LOGIN HERE</h1><br />
 
-        <Form.Group className="mb-3" >
+          <Form.Group className="mb-3" >
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" id="email" placeholder="Enter email" onChange={HandleChange} />
             <Form.Text className="text-muted">
             </Form.Text>
-        </Form.Group>
+          </Form.Group>
 
-        <Form.Group className="mb-3" id="password" >
+          <Form.Group className="mb-3" id="password" >
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" id="password" placeholder="Password" onChange={HandleChange} />
-        </Form.Group>
+          </Form.Group>
 
-        <Button id='submitBtn' type="submit">
-         Submit
-        </Button>
+            <Button id='submitBtn' type="submit"> Submit </Button>
 
-    </Form>
-    </div>
+        </Form>
+        
+      </div>
     )
 }
+
