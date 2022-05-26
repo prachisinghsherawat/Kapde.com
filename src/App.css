@@ -386,9 +386,9 @@ p{
     }
 
     .leftDiv{
-      width: 32%;
-      font-size: 13px;
-      background-color: rgb(247, 254, 255);
+      width: 33%;
+      font-size: 9px;
+      background-color: rgb(238, 238, 235);
     }
 
     .rightDiv{
@@ -520,6 +520,20 @@ p{
 
   #authHeading{
     font-size: 22px;
+  }
+
+  #pagination{
+    font-size: 30px;
+    margin-left: -60%;
+    width: 300%;
+  }
+  
+  #paginationDiv{
+    display: flex;
+    margin-left: 50%;
+    margin-top: 6%;
+    width: 70%;
+    text-align: center;
   }
 }
 
