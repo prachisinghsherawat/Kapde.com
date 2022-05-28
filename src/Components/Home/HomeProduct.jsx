@@ -1,11 +1,13 @@
 import { Div, FlexDiv } from "./FlexBox"
 import {useNavigate} from "react-router"
+import { Footer } from "react-bootstrap/lib/Modal"
 
 export const HomeProduct = () => {
 
     const navigate = useNavigate()
 
     return(
+        <>
         <div >
             <FlexDiv className="FlexDiv">
                 <Div> <button className="boxes" onClick={  ()=> navigate("/tops")}><img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8238147e-a86e-4fe4-a830-ab5c2c49beba1598892141840-W.jpg" alt="" /> </button></Div>
@@ -54,5 +56,8 @@ export const HomeProduct = () => {
             </div>
 
         </div>
+
+        <Footer />
+        </>
     ) 
 }
