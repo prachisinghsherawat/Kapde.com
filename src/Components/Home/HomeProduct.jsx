@@ -57,7 +57,7 @@ export const HomeProduct = () => {
 
         </div>
 
-        <Footer />
+//         <Footer />
         </>
     ) 
 }
