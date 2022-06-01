@@ -54,7 +54,12 @@ export const Login = () => {
             <Form.Control type="password" id="password" placeholder="Password" onChange={HandleChange} />
           </Form.Group>
 
-            <Button id='submitBtn' type="submit"> Submit </Button>
+          <Form.Group className="mb-3" controlId="formBasicCheckbox">
+            <Form.Check type="checkbox" label="Check me out" />
+          </Form.Group><br />
+
+          <Button id='submitBtn' type="submit"> Submit </Button>
+           <br /> <br /> <br /> <br /><br /><br /><br /><br />
 
         </Form>
         
