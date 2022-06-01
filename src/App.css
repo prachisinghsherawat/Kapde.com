@@ -541,6 +541,10 @@ p{
     width: 70%;
     text-align: center;
   }
+
+  .main{
+    display: none;
+  }
 }
 
 /* Media queries ended */
