@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import logo from"./Images/logo.png"
 import apple from "./Images/apple.png"
 import google from "./Images/google.png"
