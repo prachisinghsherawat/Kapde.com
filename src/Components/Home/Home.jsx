@@ -1,6 +1,7 @@
 import {Carousel} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HomeProduct } from "./HomeProduct";
+import { Footer } from "../Footer/Footer"
 
 export const Home = () => {
 
@@ -56,6 +57,8 @@ export const Home = () => {
 </Carousel>
 
  <HomeProduct />
+
+ <Footer />
  
         
     
