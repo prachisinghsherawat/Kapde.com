@@ -1,6 +1,5 @@
 import { Div, FlexDiv } from "./FlexBox"
 import {useNavigate} from "react-router"
-// import { Footer } from "react-bootstrap/lib/Modal"
 
 export const HomeProduct = () => {
 
@@ -57,7 +56,6 @@ export const HomeProduct = () => {
 
         </div>
 
-//         <Footer />
         </>
     ) 
 }
