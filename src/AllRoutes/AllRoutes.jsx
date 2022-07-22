@@ -22,6 +22,7 @@ import { Tops } from "../Components/Products/Tops"
 export const AllRoutes =() => {
 
     return(
+        
         <Routes>
 
             {/* -------------------------------- Home ----------------------------------------- */}
