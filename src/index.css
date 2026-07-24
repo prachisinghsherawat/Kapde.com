@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'antd/dist/reset.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-canvas: 250 250 251;
+    --color-surface: 255 255 255;
+    --color-subtle: 245 245 247;
+    --color-line: 229 229 234;
+    --color-ink: 20 22 28;
+    --color-muted: 108 112 124;
+    color-scheme: light;
+  }
+
+  .dark {
+    --color-canvas: 13 15 20;
+    --color-surface: 22 25 32;
+    --color-subtle: 30 34 43;
+    --color-line: 45 50 61;
+    --color-ink: 238 240 245;
+    --color-muted: 148 155 170;
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-canvas text-ink antialiased;
+    font-family: theme('fontFamily.sans');
+  }
+
+  ::selection {
+    @apply bg-brand-600 text-white;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .surface-card {
+    @apply rounded-2xl border border-line bg-surface shadow-card;
+  }
+
+  .section-title {
+    @apply font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl;
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-subtle;
+  }
+
+  .skeleton::after {
+    @apply absolute inset-0 animate-shimmer bg-gradient-to-r from-transparent via-black/[0.06] to-transparent content-[''];
+  }
+
+  .dark .skeleton::after {
+    @apply via-white/[0.07];
+  }
+}
+
+@layer utilities {
+  /* Horizontal scrollers (category rail, size picker) without a visible bar. */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
