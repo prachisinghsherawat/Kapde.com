@@ -80,7 +80,7 @@ function ProductCard({ product }: { product: Product }) {
           {product.name}
         </Link>
 
-        <Price price={product.price} mrp={product.mrp} discount={product.discount} size="sm" />
+        <Price price={product.price} mrp={product.mrp} size="sm" />
       </div>
     </article>
   );

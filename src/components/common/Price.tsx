@@ -3,8 +3,8 @@ import { formatPrice } from '@/lib/format';
 interface PriceProps {
   price: number;
   mrp?: number;
-  discount?: number;
   size?: 'sm' | 'md' | 'lg';
+  showBadge?: boolean;
 }
 
 const sizeStyles = {
@@ -13,17 +13,20 @@ const sizeStyles = {
   lg: { price: 'text-2xl font-bold', meta: 'text-sm' },
 } as const;
 
-export default function Price({ price, mrp, discount = 0, size = 'md' }: PriceProps) {
+export default function Price({ price, mrp, size = 'md', showBadge = true }: PriceProps) {
   const styles = sizeStyles[size];
-  const showStrikethrough = discount > 0 && mrp !== undefined && mrp > price;
+  const discounted = mrp !== undefined && mrp > price;
+  const percent = discounted ? Math.round((1 - price / mrp) * 100) : 0;
 
   return (
     <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
       <span className={`${styles.price} text-ink`}>{formatPrice(price)}</span>
-      {showStrikethrough && (
+      {discounted && (
         <>
           <span className={`${styles.meta} text-muted line-through`}>{formatPrice(mrp)}</span>
-          <span className={`${styles.meta} font-semibold text-brand-600`}>{discount}% off</span>
+          {showBadge && percent > 0 && (
+            <span className={`${styles.meta} font-semibold text-brand-600`}>{percent}% off</span>
+          )}
         </>
       )}
     </div>
