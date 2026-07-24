@@ -1,32 +1,42 @@
 import { createSelector, createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import type { RootState } from '@/app/store';
+import type { Product } from '@/types';
 
+/**
+ * The wishlist keeps whole products rather than ids: the API has no
+ * "fetch these ids" endpoint, and storing the snapshot means a saved piece still
+ * renders even if the catalogue has not loaded yet.
+ */
 const wishlistSlice = createSlice({
   name: 'wishlist',
-  initialState: { ids: [] as string[] },
+  initialState: { items: [] as Product[] },
   reducers: {
-    toggleWishlist(state, action: PayloadAction<string>) {
-      const id = action.payload;
-      state.ids = state.ids.includes(id)
-        ? state.ids.filter((item) => item !== id)
-        : [...state.ids, id];
+    toggleWishlist(state, action: PayloadAction<Product>) {
+      const product = action.payload;
+      const exists = state.items.some((item) => item.id === product.id);
+      state.items = exists
+        ? state.items.filter((item) => item.id !== product.id)
+        : [product, ...state.items];
+    },
+    removeFromWishlist(state, action: PayloadAction<number>) {
+      state.items = state.items.filter((item) => item.id !== action.payload);
     },
     clearWishlist(state) {
-      state.ids = [];
+      state.items = [];
     },
   },
 });
 
-export const { toggleWishlist, clearWishlist } = wishlistSlice.actions;
+export const { toggleWishlist, removeFromWishlist, clearWishlist } = wishlistSlice.actions;
 
 export default wishlistSlice.reducer;
 
-export const selectWishlistIds = (state: RootState) => state.wishlist.ids;
+export const selectWishlistItems = (state: RootState) => state.wishlist.items;
 
-export const selectWishlistCount = (state: RootState) => state.wishlist.ids.length;
+export const selectWishlistCount = (state: RootState) => state.wishlist.items.length;
 
-export const selectWishlistSet = createSelector(
-  [selectWishlistIds],
-  (ids) => new Set(ids),
+export const selectWishlistIds = createSelector(
+  [selectWishlistItems],
+  (items) => new Set(items.map((item) => item.id)),
 );

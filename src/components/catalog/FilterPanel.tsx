@@ -1,24 +1,64 @@
-import { Button, Checkbox, Slider } from 'antd';
+import { Button, Checkbox, Rate, Slider, Switch } from 'antd';
 
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   clearFilters,
   selectActiveFilterCount,
+  selectAvailableFacets,
   selectFilters,
-  selectPriceCeiling,
+  setInStockOnly,
+  setMinRating,
   setPriceMax,
   toggleFilterValue,
 } from '@/features/catalog/catalogSlice';
-import { BRANDS, COLOURS, SIZES, SIZE_LABELS } from '@/lib/constants';
-import { formatPrice } from '@/lib/format';
+import { RATING_OPTIONS } from '@/lib/constants';
+import { formatPrice, titleCase } from '@/lib/format';
 import type { FilterListKey } from '@/types';
 
 function Group({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="border-b border-line py-5 first:pt-0 last:border-0">
-      <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">{title}</h3>
+    <section className="border-b border-line py-6 first:pt-0 last:border-0 last:pb-0">
+      <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-muted">{title}</h3>
       {children}
     </section>
+  );
+}
+
+function FacetList({
+  facetKey,
+  options,
+  selected,
+  limit = 8,
+}: {
+  facetKey: FilterListKey;
+  options: { value: string; count: number }[];
+  selected: string[];
+  limit?: number;
+}) {
+  const dispatch = useAppDispatch();
+  // Long tails stay out of the way until the shopper opts in.
+  const visible = options.slice(0, limit);
+  const hidden = options.slice(limit).filter((option) => selected.includes(option.value));
+
+  return (
+    <div className="flex flex-col gap-3">
+      {[...visible, ...hidden].map((option) => (
+        <label
+          key={option.value}
+          className="flex cursor-pointer items-center justify-between gap-3 text-[15px] text-ink"
+        >
+          <span className="flex items-center gap-2.5">
+            <Checkbox
+              checked={selected.includes(option.value)}
+              onChange={() => dispatch(toggleFilterValue({ key: facetKey, value: option.value }))}
+            />
+            {titleCase(option.value)}
+          </span>
+          <span className="text-xs tabular-nums text-muted">{option.count}</span>
+        </label>
+      ))}
+      {options.length === 0 && <p className="text-sm text-muted">Nothing to filter here.</p>}
+    </div>
   );
 }
 
@@ -26,15 +66,19 @@ export default function FilterPanel() {
   const dispatch = useAppDispatch();
   const filters = useAppSelector(selectFilters);
   const activeCount = useAppSelector(selectActiveFilterCount);
-  const priceCeiling = useAppSelector(selectPriceCeiling);
-
-  const toggle = (key: FilterListKey, value: string) =>
-    dispatch(toggleFilterValue({ key, value }));
+  const facets = useAppSelector(selectAvailableFacets);
 
   return (
     <div>
-      <div className="flex items-center justify-between pb-4">
-        <h2 className="font-display text-lg font-semibold text-ink">Filters</h2>
+      <div className="flex items-center justify-between pb-5">
+        <h2 className="font-display text-xl font-semibold text-ink">
+          Filters
+          {activeCount > 0 && (
+            <span className="ml-2 rounded-full bg-brand-600 px-2 py-0.5 text-xs font-semibold text-white">
+              {activeCount}
+            </span>
+          )}
+        </h2>
         {activeCount > 0 && (
           <Button type="link" size="small" onClick={() => dispatch(clearFilters())}>
             Clear all
@@ -42,83 +86,61 @@ export default function FilterPanel() {
         )}
       </div>
 
-      <Group title="Colour">
-        <div className="grid grid-cols-2 gap-y-2.5">
-          {COLOURS.map((colour) => (
-            <label
-              key={colour.value}
-              className="flex cursor-pointer items-center gap-2 text-sm text-ink"
-            >
-              <Checkbox
-                checked={filters.colours.includes(colour.value)}
-                onChange={() => toggle('colours', colour.value)}
-              />
-              <span
-                className="h-4 w-4 shrink-0 rounded-full border border-line"
-                style={{ backgroundColor: colour.hex }}
-                aria-hidden
-              />
-              {colour.label}
-            </label>
-          ))}
-        </div>
+      <Group title="Availability">
+        <label className="flex cursor-pointer items-center justify-between gap-3 text-[15px] text-ink">
+          Hide sold-out items
+          <Switch
+            checked={filters.inStockOnly}
+            onChange={(checked) => dispatch(setInStockOnly(checked))}
+          />
+        </label>
       </Group>
 
       <Group title="Brand">
-        <div className="flex flex-col gap-2.5">
-          {BRANDS.map((brand) => (
-            <label
-              key={brand.value}
-              className="flex cursor-pointer items-center gap-2 text-sm text-ink"
-            >
-              <Checkbox
-                checked={filters.brands.includes(brand.value)}
-                onChange={() => toggle('brands', brand.value)}
-              />
-              {brand.label}
-            </label>
-          ))}
-        </div>
+        <FacetList facetKey="brands" options={facets.brands} selected={filters.brands} />
       </Group>
 
-      <Group title="Size">
-        <div className="flex flex-wrap gap-2">
-          {SIZES.map((size) => {
-            const active = filters.sizes.includes(size);
-            return (
-              <button
-                key={size}
-                type="button"
-                aria-pressed={active}
-                onClick={() => toggle('sizes', size)}
-                className={`min-w-[3rem] rounded-lg border px-3 py-2 text-sm font-medium transition ${
-                  active
-                    ? 'border-brand-600 bg-brand-600 text-white'
-                    : 'border-line bg-surface text-ink hover:border-brand-300'
-                }`}
-                title={SIZE_LABELS[size]}
-              >
-                {size}
-              </button>
-            );
-          })}
-        </div>
+      <Group title="Product type">
+        <FacetList facetKey="tags" options={facets.tags} selected={filters.tags} limit={10} />
       </Group>
 
       <Group title="Max price">
         <Slider
           min={0}
-          max={priceCeiling}
-          step={100}
-          value={filters.priceMax ?? priceCeiling}
+          max={facets.priceCeiling}
+          step={facets.priceCeiling > 1000 ? 50 : 5}
+          value={filters.priceMax ?? facets.priceCeiling}
           tooltip={{ formatter: (value) => formatPrice(value ?? 0) }}
           onChange={(value) =>
-            dispatch(setPriceMax(value >= priceCeiling ? null : value))
+            dispatch(setPriceMax(value >= facets.priceCeiling ? null : value))
           }
         />
-        <p className="text-sm text-muted">
-          Up to <span className="font-semibold text-ink">{formatPrice(filters.priceMax ?? priceCeiling)}</span>
+        <p className="text-[15px] text-muted">
+          Up to{' '}
+          <span className="font-semibold text-ink">
+            {formatPrice(filters.priceMax ?? facets.priceCeiling)}
+          </span>
         </p>
+      </Group>
+
+      <Group title="Rating">
+        <div className="flex flex-col gap-3">
+          {RATING_OPTIONS.map((rating) => (
+            <label
+              key={rating}
+              className="flex cursor-pointer items-center gap-2.5 text-[15px] text-ink"
+            >
+              <Checkbox
+                checked={filters.minRating === rating}
+                onChange={(event) =>
+                  dispatch(setMinRating(event.target.checked ? rating : null))
+                }
+              />
+              <Rate disabled allowHalf value={rating} className="!text-xs" />
+              <span className="text-muted">& up</span>
+            </label>
+          ))}
+        </div>
       </Group>
     </div>
   );

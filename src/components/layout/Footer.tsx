@@ -90,22 +90,24 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
-            <div>
-              <h3 className="mb-3 text-sm font-semibold text-ink">Shop</h3>
-              <ul className="space-y-2">
-                {CATEGORIES.map((category) => (
-                  <li key={category.slug}>
-                    <Link
-                      to={`/c/${category.slug}`}
-                      className="text-sm text-muted transition-colors hover:text-brand-600"
-                    >
-                      {category.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-6">
+            {(['Women', 'Men', 'Accessories'] as const).map((group) => (
+              <div key={group}>
+                <h3 className="mb-3 text-sm font-semibold text-ink">{group}</h3>
+                <ul className="space-y-2">
+                  {CATEGORIES.filter((category) => category.group === group).map((category) => (
+                    <li key={category.slug}>
+                      <Link
+                        to={`/c/${category.slug}`}
+                        className="text-sm text-muted transition-colors hover:text-brand-600"
+                      >
+                        {category.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
 
             {COLUMNS.map((column) => (
               <div key={column.title}>

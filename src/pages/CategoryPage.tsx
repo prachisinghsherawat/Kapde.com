@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 
 import { useAppDispatch } from '@/app/hooks';
-import { loadProducts, resetCatalog } from '@/features/catalog/catalogSlice';
+import { loadProducts, openListing } from '@/features/catalog/catalogSlice';
 import ProductListing from '@/components/catalog/ProductListing';
 import { getCategory, isCategorySlug } from '@/lib/constants';
 
@@ -13,9 +13,8 @@ export default function CategoryPage() {
 
   useEffect(() => {
     if (!valid) return;
-    // Reset first so filters from the previous category don't carry over.
-    dispatch(resetCatalog());
-    void dispatch(loadProducts(category));
+    dispatch(openListing({ category }));
+    void dispatch(loadProducts());
   }, [dispatch, category, valid]);
 
   if (!valid) return <Navigate to="/404" replace />;

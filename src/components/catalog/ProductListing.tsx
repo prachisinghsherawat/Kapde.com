@@ -1,10 +1,12 @@
-import { Badge, Button, Drawer, Pagination, Select } from 'antd';
+import { Badge, Button, Drawer, Pagination, Result, Select } from 'antd';
 import { FilterOutlined, InboxOutlined } from '@ant-design/icons';
 
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   clearFilters,
+  loadProducts,
   selectActiveFilterCount,
+  selectCatalogError,
   selectCatalogStatus,
   selectPage,
   selectPagedProducts,
@@ -30,6 +32,7 @@ interface ProductListingProps {
 export default function ProductListing({ title, subtitle }: ProductListingProps) {
   const dispatch = useAppDispatch();
   const status = useAppSelector(selectCatalogStatus);
+  const error = useAppSelector(selectCatalogError);
   const products = useAppSelector(selectPagedProducts);
   const total = useAppSelector(selectVisibleProducts).length;
   const page = useAppSelector(selectPage);
@@ -39,16 +42,31 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
 
   const loading = status === 'loading' || status === 'idle';
 
+  if (status === 'failed') {
+    return (
+      <Result
+        status="warning"
+        title="We could not load the collection"
+        subTitle={error ?? 'Please check your connection and try again.'}
+        extra={
+          <Button type="primary" onClick={() => void dispatch(loadProducts())}>
+            Try again
+          </Button>
+        }
+      />
+    );
+  }
+
   return (
-    <div className="container py-8 lg:py-12">
+    <div className="container py-8 lg:py-10">
       <header className="mb-6">
         <h1 className="section-title">{title}</h1>
         {subtitle && <p className="mt-1 text-sm text-muted">{subtitle}</p>}
       </header>
 
       <div className="flex flex-col gap-8 lg:flex-row">
-        <aside className="hidden w-64 shrink-0 lg:block">
-          <div className="sticky top-24 surface-card p-5">
+        <aside className="hidden w-80 shrink-0 xl:w-[22rem] lg:block">
+          <div className="sticky top-24 surface-card p-6">
             <FilterPanel />
           </div>
         </aside>
@@ -56,19 +74,19 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
         <div className="min-w-0 flex-1">
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm text-muted">
-              {loading ? 'Loading products…' : pluralize(total, 'product')}
+              {loading ? 'Loading the collection…' : pluralize(total, 'product')}
             </p>
 
             <div className="flex items-center gap-2">
-              <Badge count={activeFilterCount} size="small" offset={[-2, 2]}>
-                <Button
-                  icon={<FilterOutlined />}
-                  className="lg:!hidden"
-                  onClick={() => dispatch(setFilterDrawer(true))}
-                >
-                  Filters
-                </Button>
-              </Badge>
+              {/* Hide the wrapper, not just the button — otherwise the badge floats
+                  on its own once the sidebar takes over on large screens. */}
+              <div className="lg:hidden">
+                <Badge count={activeFilterCount} size="small" offset={[-2, 2]}>
+                  <Button icon={<FilterOutlined />} onClick={() => dispatch(setFilterDrawer(true))}>
+                    Filters
+                  </Button>
+                </Badge>
+              </div>
 
               <Select<SortKey>
                 value={sort}
@@ -80,7 +98,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
             </div>
           </div>
 
-          <div className="mb-5">
+          <div className="mb-5 empty:mb-0">
             <ActiveFilterChips />
           </div>
 
@@ -116,7 +134,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
       <Drawer
         title="Filters"
         placement="left"
-        width={320}
+        width={340}
         open={drawerOpen}
         onClose={() => dispatch(setFilterDrawer(false))}
       >

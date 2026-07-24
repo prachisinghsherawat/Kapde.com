@@ -41,13 +41,14 @@ export default function AppRoutes() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
 
-          {/* Legacy paths from the previous version of the site. */}
+          {/* Legacy paths from the previous version of the site. Categories that no
+              longer exist land on search rather than a dead end. */}
           <Route path="/tops" element={<Navigate to="/c/tops" replace />} />
-          <Route path="/kurtis" element={<Navigate to="/c/kurtis" replace />} />
-          <Route path="/denims" element={<Navigate to="/c/denims" replace />} />
-          <Route path="/frocks" element={<Navigate to="/c/frocks" replace />} />
-          <Route path="/jackets" element={<Navigate to="/c/jackets" replace />} />
-          <Route path="/middis" element={<Navigate to="/c/middis" replace />} />
+          <Route path="/kurtis" element={<Navigate to="/search?q=dress" replace />} />
+          <Route path="/frocks" element={<Navigate to="/c/womens-dresses" replace />} />
+          <Route path="/middis" element={<Navigate to="/c/womens-dresses" replace />} />
+          <Route path="/denims" element={<Navigate to="/c/mens-shirts" replace />} />
+          <Route path="/jackets" element={<Navigate to="/c/mens-shirts" replace />} />
 
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

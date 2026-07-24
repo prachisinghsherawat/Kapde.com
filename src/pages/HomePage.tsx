@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import {
@@ -8,9 +8,17 @@ import {
   TruckOutlined,
 } from '@ant-design/icons';
 
+import { useAppDispatch, useAppSelector } from '@/app/hooks';
+import {
+  loadProducts,
+  selectAllProducts,
+  selectCatalogStatus,
+  selectCategoryTiles,
+  selectFeaturedProducts,
+} from '@/features/catalog/catalogSlice';
 import ProductGrid from '@/components/product/ProductGrid';
-import { getAllProducts, getFeaturedProducts } from '@/features/catalog/catalogApi';
-import { BRANDS, CATEGORIES, FREE_SHIPPING_OVER } from '@/lib/constants';
+import ProductImage from '@/components/product/ProductImage';
+import { CATEGORIES, FREE_SHIPPING_OVER } from '@/lib/constants';
 import { formatPrice } from '@/lib/format';
 
 const PERKS = [
@@ -21,8 +29,8 @@ const PERKS = [
   },
   {
     icon: <SyncOutlined />,
-    title: '30-day returns',
-    body: 'Changed your mind? Send it back, no questions.',
+    title: 'Easy returns',
+    body: 'Return windows are listed on every product page.',
   },
   {
     icon: <CreditCardOutlined />,
@@ -32,20 +40,19 @@ const PERKS = [
 ];
 
 export default function HomePage() {
-  const featured = useMemo(() => getFeaturedProducts(8), []);
+  const dispatch = useAppDispatch();
+  const status = useAppSelector(selectCatalogStatus);
+  const products = useAppSelector(selectAllProducts);
+  const featured = useAppSelector(selectFeaturedProducts);
+  const tiles = useAppSelector(selectCategoryTiles);
 
-  // One representative image per category, taken from the catalog itself so the
-  // tiles can never point at an image the store no longer sells.
-  const categoryTiles = useMemo(() => {
-    const products = getAllProducts();
-    return CATEGORIES.map((category) => ({
-      ...category,
-      image: products.find((product) => product.category === category.slug)?.image ?? '',
-      count: products.filter((product) => product.category === category.slug).length,
-    }));
-  }, []);
+  useEffect(() => {
+    void dispatch(loadProducts());
+  }, [dispatch]);
 
-  const heroImages = featured.slice(0, 3).map((product) => product.image);
+  const loading = status === 'loading' || status === 'idle';
+  const heroImages = featured.slice(0, 3).map((product) => product.thumbnail);
+  const brandCount = new Set(products.map((product) => product.brand).filter(Boolean)).size;
 
   return (
     <div className="animate-fade-up">
@@ -63,26 +70,26 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-5 max-w-md text-base text-muted">
-              Tops, kurtas, denims and dresses picked for fit and fabric first — the pieces you
-              reach for long after the trend has moved on.
+              Shirts, dresses, shoes and accessories picked for fit and fabric first — the pieces
+              you reach for long after the trend has moved on.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/c/kurtis">
+              <Link to="/c/womens-dresses">
                 <Button type="primary" size="large" icon={<ArrowRightOutlined />} iconPosition="end">
                   Shop the collection
                 </Button>
               </Link>
-              <Link to="/search?q=">
+              <Link to="/search">
                 <Button size="large">Browse everything</Button>
               </Link>
             </div>
 
             <dl className="mt-10 flex gap-8">
               {[
-                { value: `${getAllProducts().length}+`, label: 'Styles' },
-                { value: `${BRANDS.length}`, label: 'Brands' },
-                { value: '30 days', label: 'Free returns' },
+                { value: loading ? '—' : `${products.length}`, label: 'Styles' },
+                { value: loading ? '—' : `${brandCount}`, label: 'Brands' },
+                { value: `${formatPrice(FREE_SHIPPING_OVER)}+`, label: 'Free shipping' },
               ].map((stat) => (
                 <div key={stat.label}>
                   <dt className="font-display text-2xl font-bold text-ink">{stat.value}</dt>
@@ -93,13 +100,18 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="aspect-[3/4] overflow-hidden rounded-2xl shadow-lift">
-              <img src={heroImages[0]} alt="" className="h-full w-full object-cover" />
+            <div className="skeleton aspect-[3/4] overflow-hidden rounded-2xl shadow-lift">
+              {heroImages[0] && (
+                <ProductImage src={heroImages[0]} alt="" eager className="h-full w-full object-cover" />
+              )}
             </div>
             <div className="grid gap-4">
-              {heroImages.slice(1).map((src, index) => (
-                <div key={index} className="aspect-[4/3] overflow-hidden rounded-2xl shadow-card">
-                  <img src={src} alt="" className="h-full w-full object-cover" />
+              {[heroImages[1], heroImages[2]].map((src, index) => (
+                <div
+                  key={index}
+                  className="skeleton aspect-[4/3] overflow-hidden rounded-2xl shadow-card"
+                >
+                  {src && <ProductImage src={src} alt="" eager className="h-full w-full object-cover" />}
                 </div>
               ))}
             </div>
@@ -109,27 +121,35 @@ export default function HomePage() {
 
       <section className="container py-14">
         <h2 className="section-title mb-6">Shop by category</h2>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {categoryTiles.map((category) => (
-            <Link
-              key={category.slug}
-              to={`/c/${category.slug}`}
-              className="group surface-card overflow-hidden transition-shadow hover:shadow-lift"
-            >
-              <div className="aspect-square overflow-hidden bg-subtle">
-                <img
-                  src={category.image}
-                  alt={category.label}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-              </div>
-              <div className="p-3 text-center">
-                <p className="text-sm font-semibold text-ink">{category.label}</p>
-                <p className="text-xs text-muted">{category.count} styles</p>
-              </div>
-            </Link>
-          ))}
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+          {CATEGORIES.map((category) => {
+            const tile = tiles.get(category.slug);
+            return (
+              <Link
+                key={category.slug}
+                to={`/c/${category.slug}`}
+                className="group surface-card overflow-hidden transition-shadow hover:shadow-lift"
+              >
+                <div className="aspect-square overflow-hidden bg-subtle">
+                  {tile ? (
+                    <ProductImage
+                      src={tile.image}
+                      alt={category.label}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  ) : (
+                    <div className="skeleton h-full w-full" />
+                  )}
+                </div>
+                <div className="p-3 text-center">
+                  <p className="text-sm font-semibold text-ink">{category.label}</p>
+                  <p className="text-xs text-muted">
+                    {tile ? `${tile.count} styles` : category.group}
+                  </p>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -140,16 +160,13 @@ export default function HomePage() {
             <p className="mt-1 text-sm text-muted">The steepest discounts in the store right now.</p>
           </div>
           <Link
-            to="/search?q="
+            to="/search"
             className="hidden text-sm font-medium text-brand-600 hover:underline sm:block"
           >
             View all
           </Link>
         </div>
-        <ProductGrid
-          products={featured}
-          columns="grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"
-        />
+        <ProductGrid products={featured} loading={loading} skeletonCount={8} />
       </section>
 
       <section className="border-y border-line bg-surface">

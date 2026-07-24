@@ -9,8 +9,8 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: { DEFAULT: '1rem', lg: '2rem' },
-      screens: { '2xl': '1440px' },
+      padding: { DEFAULT: '0.75rem', lg: '1rem' },
+      screens: { '2xl': '1720px' },
     },
     extend: {
       colors: {

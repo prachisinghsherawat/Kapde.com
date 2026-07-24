@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 import { useAppDispatch } from '@/app/hooks';
-import { loadProducts, resetCatalog, setQuery } from '@/features/catalog/catalogSlice';
+import { loadProducts, openListing } from '@/features/catalog/catalogSlice';
 import ProductListing from '@/components/catalog/ProductListing';
 
 export default function SearchPage() {
@@ -11,15 +11,14 @@ export default function SearchPage() {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    dispatch(resetCatalog());
-    dispatch(setQuery(query));
+    dispatch(openListing({ category: null, query }));
     void dispatch(loadProducts());
   }, [dispatch, query]);
 
   return (
     <ProductListing
       title={query ? `Results for “${query}”` : 'All products'}
-      subtitle={query ? undefined : 'The full Kapde catalogue.'}
+      subtitle={query ? undefined : 'The full Kapde collection.'}
     />
   );
 }

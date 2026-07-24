@@ -4,45 +4,40 @@ import type { PayloadAction } from '@reduxjs/toolkit';
 import { lineId } from '@/lib/format';
 import { FREE_SHIPPING_OVER, SHIPPING_FEE } from '@/lib/constants';
 import type { RootState } from '@/app/store';
-import type { CartLine, CartTotals, Order, Product, Size } from '@/types';
+import type { CartLine, CartTotals, Order, Product } from '@/types';
 
 export const MAX_QTY = 10;
 
-interface CartState {
-  lines: CartLine[];
-  lastOrder: Order | null;
-}
-
-const initialState: CartState = { lines: [], lastOrder: null };
+const capacity = (stock: number) => Math.max(1, Math.min(MAX_QTY, stock));
 
 const cartSlice = createSlice({
   name: 'cart',
-  initialState,
+  initialState: { lines: [] as CartLine[], lastOrder: null as Order | null },
   reducers: {
-    addToCart(state, action: PayloadAction<{ product: Product; size: Size; qty?: number }>) {
+    addToCart(state, action: PayloadAction<{ product: Product; size: string; qty?: number }>) {
       const { product, size, qty = 1 } = action.payload;
       const id = lineId(product.id, size);
       const existing = state.lines.find((line) => line.id === id);
 
       if (existing) {
-        existing.qty = Math.min(existing.qty + qty, MAX_QTY);
+        existing.qty = Math.min(existing.qty + qty, capacity(product.stock));
         return;
       }
 
-      // Cart lines snapshot what the cart renders, so they never need to look the
-      // product up again — and a price change mid-session can't rewrite the basket.
+      // Cart lines snapshot what the cart renders, so they never need to refetch the
+      // product — and a price change mid-session cannot rewrite the basket.
       state.lines.push({
         id,
         productId: product.id,
-        name: product.name,
-        image: product.image,
+        title: product.title,
+        thumbnail: product.thumbnail,
         price: product.price,
         mrp: product.mrp,
-        brandLabel: product.brandLabel,
-        colourLabel: product.colourLabel,
+        brand: product.brand,
         category: product.category,
+        stock: product.stock,
         size,
-        qty: Math.min(qty, MAX_QTY),
+        qty: Math.min(qty, capacity(product.stock)),
       });
     },
     removeFromCart(state, action: PayloadAction<string>) {
@@ -55,7 +50,7 @@ const cartSlice = createSlice({
         return;
       }
       const line = state.lines.find((item) => item.id === id);
-      if (line) line.qty = Math.min(qty, MAX_QTY);
+      if (line) line.qty = Math.min(qty, capacity(line.stock));
     },
     clearCart(state) {
       state.lines = [];
@@ -93,15 +88,10 @@ export const selectCartTotals = createSelector([selectCartLines], (lines): CartT
   const shipping = subtotal === 0 || subtotal >= FREE_SHIPPING_OVER ? 0 : SHIPPING_FEE;
 
   return {
-    subtotal,
-    savings: mrpTotal - subtotal,
+    subtotal: Number(subtotal.toFixed(2)),
+    savings: Number((mrpTotal - subtotal).toFixed(2)),
     shipping,
-    total: subtotal + shipping,
+    total: Number((subtotal + shipping).toFixed(2)),
     itemCount: lines.reduce((total, line) => total + line.qty, 0),
   };
 });
-
-export const selectCartProductIds = createSelector(
-  [selectCartLines],
-  (lines) => new Set(lines.map((line) => line.productId)),
-);

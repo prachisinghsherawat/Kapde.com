@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Kapde
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fashion storefront built with React, TypeScript, Redux Toolkit, Ant Design and Tailwind CSS.
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
 
-### `npm start`
+| Script              | What it does                                |
+| ------------------- | ------------------------------------------- |
+| `npm run dev`       | Vite dev server with HMR                    |
+| `npm run build`     | Typecheck, then build to `build/`           |
+| `npm run preview`   | Serve the production build locally          |
+| `npm run typecheck` | `tsc --noEmit`                              |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Vite + React 18 + TypeScript** (`strict`), path alias `@/*` → `src/*`
+- **Redux Toolkit** for state, **redux-persist** for the bag, wishlist and session
+- **Ant Design v5** for components, themed from one token file
+- **Tailwind CSS** for layout and styling (Preflight off — antd ships its own reset)
 
-### `npm test`
+## Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+  app/          store, typed hooks
+  features/     one folder per domain: slice + selectors (+ api)
+  components/   presentational and composed UI, grouped by area
+  pages/        one component per route, lazy-loaded
+  routes/       route table and the auth guard
+  lib/          constants, formatting, antd theme tokens
+  types/        shared domain types
+```
 
-### `npm run build`
+## Data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Products come from the public [DummyJSON](https://dummyjson.com) API — no key, no
+backend to run. `src/features/catalog/catalogApi.ts` is the only module that talks
+to it: it fetches the ten fashion categories in parallel and maps the raw payload
+onto the `Product` type in `src/types`, reconstructing the pre-discount price so
+components never do that arithmetic themselves.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The whole fashion catalogue (49 products) is small enough to load once per session,
+so `loadProducts` short-circuits when the data is already in the store and category
+switching, filtering and sorting all happen client-side against that one copy.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sizes are the one thing the API does not carry, so `sizesFor()` in `lib/constants.ts`
+is the store's own merchandising layer: letter sizes for apparel, UK sizes for
+footwear, one size for everything else.
 
-### `npm run eject`
+## Theming
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Colours are defined once as CSS variables in `src/index.css` and consumed two ways:
+Tailwind semantic classes (`bg-surface`, `text-ink`, `border-line`) and Ant Design
+tokens in `src/lib/antdTheme.ts`. Dark mode toggles a `dark` class on `<html>`; a
+small inline script in `index.html` applies it before first paint so a reload never
+flashes white.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Notes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Authentication and payment are demonstrations. No credentials or card details are
+sent anywhere or written to storage — see the comment at the top of
+`src/features/auth/authSlice.ts`.

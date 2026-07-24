@@ -14,8 +14,9 @@ import {
 import EmptyState from '@/components/common/EmptyState';
 import Price from '@/components/common/Price';
 import QuantityStepper from '@/components/common/QuantityStepper';
+import ProductImage from '@/components/product/ProductImage';
 import OrderSummary from '@/components/cart/OrderSummary';
-import { SIZE_LABELS } from '@/lib/constants';
+import { ONE_SIZE } from '@/lib/constants';
 import { pluralize } from '@/lib/format';
 
 export default function CartPage() {
@@ -43,7 +44,7 @@ export default function CartPage() {
   }
 
   return (
-    <div className="container animate-fade-up py-8 lg:py-12">
+    <div className="container animate-fade-up py-8 lg:py-10">
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <div>
           <h1 className="section-title">Your bag</h1>
@@ -74,10 +75,9 @@ export default function CartPage() {
                 to={`/product/${line.productId}`}
                 className="h-28 w-24 shrink-0 overflow-hidden rounded-xl bg-subtle sm:h-36 sm:w-28"
               >
-                <img
-                  src={line.image}
-                  alt={line.name}
-                  loading="lazy"
+                <ProductImage
+                  src={line.thumbnail}
+                  alt={line.title}
                   className="h-full w-full object-cover"
                 />
               </Link>
@@ -86,24 +86,24 @@ export default function CartPage() {
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0">
                     <p className="text-xs font-semibold uppercase tracking-wide text-muted">
-                      {line.brandLabel}
+                      {line.brand ?? 'Kapde Studio'}
                     </p>
                     <Link
                       to={`/product/${line.productId}`}
                       className="line-clamp-2 text-sm font-medium text-ink hover:text-brand-600 sm:text-base"
                     >
-                      {line.name}
+                      {line.title}
                     </Link>
-                    <p className="mt-1 text-xs text-muted">
-                      {line.colourLabel} · Size {SIZE_LABELS[line.size]}
-                    </p>
+                    {line.size !== ONE_SIZE && (
+                      <p className="mt-1 text-xs text-muted">Size {line.size}</p>
+                    )}
                   </div>
 
                   <Button
                     type="text"
                     danger
                     icon={<DeleteOutlined />}
-                    aria-label={`Remove ${line.name}`}
+                    aria-label={`Remove ${line.title}`}
                     onClick={() => dispatch(removeFromCart(line.id))}
                   />
                 </div>
@@ -111,7 +111,7 @@ export default function CartPage() {
                 <div className="mt-auto flex flex-wrap items-end justify-between gap-3 pt-4">
                   <QuantityStepper
                     value={line.qty}
-                    max={MAX_QTY}
+                    max={Math.max(1, Math.min(MAX_QTY, line.stock))}
                     onChange={(qty) => dispatch(setQty({ id: line.id, qty }))}
                   />
                   <Price price={line.price * line.qty} mrp={line.mrp * line.qty} showBadge={false} />

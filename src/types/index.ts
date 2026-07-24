@@ -1,71 +1,79 @@
-export type CategorySlug = 'tops' | 'kurtis' | 'denims' | 'frocks' | 'jackets' | 'middis';
-export type Size = 'S' | 'L' | 'XL';
-export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating';
+export type CategorySlug =
+  | 'tops'
+  | 'womens-dresses'
+  | 'mens-shirts'
+  | 'womens-shoes'
+  | 'mens-shoes'
+  | 'womens-bags'
+  | 'womens-jewellery'
+  | 'womens-watches'
+  | 'mens-watches'
+  | 'sunglasses';
+
+export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating' | 'newest';
+
+export type Availability = 'In Stock' | 'Low Stock' | 'Out of Stock';
+
+export interface Review {
+  rating: number;
+  comment: string;
+  date: string;
+  reviewerName: string;
+}
 
 export interface Product {
-  id: string;
+  id: number;
+  slug: string;
+  title: string;
+  description: string;
   category: CategorySlug;
-  name: string;
-  image: string;
+  brand: string | null;
+  tags: string[];
   price: number;
   mrp: number;
   discount: number;
-  size: Size;
-  colour: string;
-  colourLabel: string;
-  brand: string;
-  brandLabel: string;
   rating: number;
-  reviews: number;
+  stock: number;
+  availability: Availability;
+  images: string[];
+  thumbnail: string;
+  sku: string;
+  reviews: Review[];
+  shippingInformation: string;
+  warrantyInformation: string;
+  returnPolicy: string;
+  minimumOrderQuantity: number;
 }
 
 export interface Category {
   slug: CategorySlug;
   label: string;
   singular: string;
+  group: 'Women' | 'Men' | 'Accessories';
 }
 
-export interface ColourFacet {
-  value: string;
-  label: string;
-  hex: string;
-}
-
-export interface BrandFacet {
-  value: string;
-  label: string;
-}
-
-export interface Catalog {
-  products: Product[];
-  categories: Category[];
-  sizes: Size[];
-  colours: ColourFacet[];
-  brands: BrandFacet[];
-}
-
-/** All list facets are plain `string[]` so one generic toggle reducer serves them all. */
 export interface Filters {
-  colours: string[];
   brands: string[];
-  sizes: string[];
+  tags: string[];
   priceMax: number | null;
+  minRating: number | null;
+  inStockOnly: boolean;
 }
 
-export type FilterListKey = 'colours' | 'brands' | 'sizes';
+export type FilterListKey = 'brands' | 'tags';
 
 export interface CartLine {
   id: string;
-  productId: string;
-  name: string;
-  image: string;
+  productId: number;
+  title: string;
+  thumbnail: string;
   price: number;
   mrp: number;
-  brandLabel: string;
-  colourLabel: string;
+  brand: string | null;
   category: CategorySlug;
-  size: Size;
+  size: string;
   qty: number;
+  stock: number;
 }
 
 export interface CartTotals {
