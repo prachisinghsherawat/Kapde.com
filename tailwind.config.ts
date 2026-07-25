@@ -47,10 +47,31 @@ export default {
           to: { opacity: '1', transform: 'none' },
         },
         shimmer: { '100%': { transform: 'translateX(100%)' } },
+        // Slow pan+zoom that keeps the hero image alive between slide changes.
+        kenburns: {
+          '0%': { transform: 'scale(1.05)' },
+          '100%': { transform: 'scale(1.16)' },
+        },
+        'slide-in': {
+          from: { opacity: '0', transform: 'translateY(24px)' },
+          to: { opacity: '1', transform: 'none' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-6px)' },
+        },
+        marquee: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-50%)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both',
         shimmer: 'shimmer 1.6s infinite',
+        kenburns: 'kenburns 7s ease-out both',
+        'slide-in': 'slide-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
+        float: 'float 3s ease-in-out infinite',
+        marquee: 'marquee 26s linear infinite',
       },
     },
   },

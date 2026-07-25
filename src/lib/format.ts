@@ -1,10 +1,10 @@
-const usd = new Intl.NumberFormat('en-US', {
+const inr = new Intl.NumberFormat('en-IN', {
   style: 'currency',
-  currency: 'USD',
-  maximumFractionDigits: 2,
+  currency: 'INR',
+  maximumFractionDigits: 0,
 });
 
-export const formatPrice = (value: number): string => usd.format(value);
+export const formatPrice = (value: number): string => inr.format(value);
 
 export const pluralize = (count: number, singular: string, plural = `${singular}s`): string =>
   `${count} ${count === 1 ? singular : plural}`;
@@ -13,7 +13,7 @@ export const pluralize = (count: number, singular: string, plural = `${singular}
 export const lineId = (productId: number, size: string): string => `${productId}::${size}`;
 
 export const formatDate = (iso: string): string =>
-  new Date(iso).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+  new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 
 /** "women's shoes" reads better than the API's "womens-shoes" in free text. */
 export const titleCase = (value: string): string =>

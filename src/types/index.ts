@@ -7,6 +7,9 @@ export type CategorySlug =
   | 'knitwear'
   | 'hoodies';
 
+/** The department a piece is merchandised under. */
+export type Gender = 'women' | 'men';
+
 export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating' | 'newest';
 
 export type Availability = 'In Stock' | 'Low Stock' | 'Out of Stock';
@@ -24,6 +27,7 @@ export interface Product {
   title: string;
   description: string;
   category: CategorySlug;
+  gender: Gender;
   brand: string;
   colour: string;
   colourLabel: string;
@@ -60,15 +64,23 @@ export interface ColourFacet {
   hex: string;
 }
 
+export interface Department {
+  value: Gender;
+  label: string;
+  singular: string;
+}
+
 export interface Catalog {
   products: Product[];
   banners: Banner[];
   categories: Category[];
+  genders: Department[];
   brands: string[];
   colours: ColourFacet[];
 }
 
 export interface Filters {
+  genders: string[];
   brands: string[];
   colours: string[];
   sizes: string[];
@@ -77,7 +89,7 @@ export interface Filters {
   inStockOnly: boolean;
 }
 
-export type FilterListKey = 'brands' | 'colours' | 'sizes';
+export type FilterListKey = 'genders' | 'brands' | 'colours' | 'sizes';
 
 export interface CartLine {
   id: string;

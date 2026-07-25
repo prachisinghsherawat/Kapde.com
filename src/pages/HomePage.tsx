@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { CreditCardOutlined, SyncOutlined, TruckOutlined } from '@ant-design/icons';
+import {
+  ArrowRightOutlined,
+  CreditCardOutlined,
+  SyncOutlined,
+  TruckOutlined,
+} from '@ant-design/icons';
 
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
@@ -49,17 +54,21 @@ export default function HomePage() {
     <div className="animate-fade-up">
       <HeroCarousel />
 
-      <section className="border-b border-line bg-surface">
-        <div className="container flex flex-wrap items-center justify-center gap-x-12 gap-y-4 py-6">
-          {BRANDS.map((brand) => (
-            <Link
-              key={brand}
-              to={`/search?q=${encodeURIComponent(brand)}`}
-              className="font-display text-lg font-semibold tracking-wide text-muted transition-colors hover:text-brand-600"
-            >
-              {brand}
-            </Link>
-          ))}
+      {/* Continuously scrolling brand strip. The list is doubled so the -50% loop
+          is seamless; hovering pauses it. */}
+      <section className="group border-b border-line bg-surface py-6">
+        <div className="flex overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_8%,#000_92%,transparent)]">
+          <div className="flex shrink-0 animate-marquee items-center gap-12 pr-12 group-hover:[animation-play-state:paused]">
+            {[...BRANDS, ...BRANDS].map((brand, index) => (
+              <Link
+                key={`${brand}-${index}`}
+                to={`/search?q=${encodeURIComponent(brand)}`}
+                className="whitespace-nowrap font-display text-xl font-semibold tracking-wide text-muted transition-colors hover:text-brand-600"
+              >
+                {brand}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -72,22 +81,24 @@ export default function HomePage() {
               <Link
                 key={category.slug}
                 to={`/c/${category.slug}`}
-                className="group surface-card overflow-hidden transition-shadow hover:shadow-lift"
+                className="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-line bg-subtle shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-lift"
               >
-                <div className="aspect-[4/5] overflow-hidden bg-subtle">
-                  {tile ? (
-                    <ProductImage
-                      src={tile.image}
-                      alt={category.label}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                  ) : (
-                    <div className="skeleton h-full w-full" />
-                  )}
-                </div>
-                <div className="p-3 text-center">
-                  <p className="text-sm font-semibold text-ink">{category.label}</p>
-                  <p className="text-xs text-muted">{tile ? `${tile.count} styles` : '—'}</p>
+                {tile ? (
+                  <ProductImage
+                    src={tile.image}
+                    alt={category.label}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                ) : (
+                  <div className="skeleton h-full w-full" />
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-3 text-center text-white">
+                  <p className="text-sm font-semibold drop-shadow">{category.label}</p>
+                  <p className="text-xs text-white/80">{tile ? `${tile.count} styles` : '—'}</p>
+                  <span className="mt-1 inline-flex translate-y-1 items-center gap-1 text-xs font-semibold text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                    Shop now <ArrowRightOutlined className="text-[10px]" />
+                  </span>
                 </div>
               </Link>
             );
@@ -114,12 +125,15 @@ export default function HomePage() {
       <section className="border-y border-line bg-surface">
         <div className="container grid gap-8 py-12 sm:grid-cols-3">
           {PERKS.map((perk) => (
-            <div key={perk.title} className="flex gap-4">
-              <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-50 text-lg text-brand-600 dark:bg-brand-900/40">
+            <div
+              key={perk.title}
+              className="group flex items-start gap-4 rounded-2xl p-3 transition-colors hover:bg-subtle"
+            >
+              <div className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-brand-50 text-2xl text-brand-600 transition-transform duration-300 group-hover:scale-110 dark:bg-brand-900/40">
                 {perk.icon}
               </div>
               <div>
-                <h3 className="text-sm font-semibold text-ink">{perk.title}</h3>
+                <h3 className="text-base font-semibold text-ink">{perk.title}</h3>
                 <p className="mt-1 text-sm text-muted">{perk.body}</p>
               </div>
             </div>

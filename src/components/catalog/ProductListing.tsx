@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { Badge, Button, Drawer, Pagination, Result, Select } from 'antd';
 import { FilterOutlined, InboxOutlined } from '@ant-design/icons';
 
@@ -39,6 +40,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
   const sort = useAppSelector(selectSort);
   const activeFilterCount = useAppSelector(selectActiveFilterCount);
   const drawerOpen = useAppSelector(selectFilterDrawerOpen);
+  const gridTopRef = useRef<HTMLDivElement>(null);
 
   const loading = status === 'loading' || status === 'idle';
 
@@ -57,51 +59,59 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
     );
   }
 
+  const changePage = (next: number) => {
+    dispatch(setPage(next));
+    // Jump back to the top of the results so page 2 doesn't start mid-scroll.
+    gridTopRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="container py-8 lg:py-10">
-      <header className="mb-6">
+      <header className="mb-5">
         <h1 className="section-title">{title}</h1>
         {subtitle && <p className="mt-1 text-sm text-muted">{subtitle}</p>}
       </header>
 
-      <div className="flex flex-col gap-8 lg:flex-row">
-        <aside className="hidden w-80 shrink-0 xl:w-[22rem] lg:block">
+      {/* Full-width toolbar so the filter column and the product grid start on the
+          same line below it. */}
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-y border-line py-3">
+        <p className="text-sm text-muted">
+          {loading ? 'Loading the collection…' : pluralize(total, 'product')}
+        </p>
+
+        <div className="flex items-center gap-2">
+          <div className="lg:hidden">
+            <Badge count={activeFilterCount} size="small" offset={[-2, 2]}>
+              <Button icon={<FilterOutlined />} onClick={() => dispatch(setFilterDrawer(true))}>
+                Filters
+              </Button>
+            </Badge>
+          </div>
+
+          <Select<SortKey>
+            value={sort}
+            options={SORT_OPTIONS}
+            onChange={(value) => dispatch(setSort(value))}
+            className="w-48"
+            aria-label="Sort products"
+          />
+        </div>
+      </div>
+
+      {/* Chips sit above both columns so the grid's first row always stays level
+          with the top of the filter box, filters active or not. */}
+      <div className="mb-6 empty:hidden">
+        <ActiveFilterChips />
+      </div>
+
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
+        <aside className="hidden w-72 shrink-0 xl:w-80 lg:block">
           <div className="sticky top-24 surface-card p-6">
             <FilterPanel />
           </div>
         </aside>
 
-        <div className="min-w-0 flex-1">
-          <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-            <p className="text-sm text-muted">
-              {loading ? 'Loading the collection…' : pluralize(total, 'product')}
-            </p>
-
-            <div className="flex items-center gap-2">
-              {/* Hide the wrapper, not just the button — otherwise the badge floats
-                  on its own once the sidebar takes over on large screens. */}
-              <div className="lg:hidden">
-                <Badge count={activeFilterCount} size="small" offset={[-2, 2]}>
-                  <Button icon={<FilterOutlined />} onClick={() => dispatch(setFilterDrawer(true))}>
-                    Filters
-                  </Button>
-                </Badge>
-              </div>
-
-              <Select<SortKey>
-                value={sort}
-                options={SORT_OPTIONS}
-                onChange={(value) => dispatch(setSort(value))}
-                className="w-48"
-                aria-label="Sort products"
-              />
-            </div>
-          </div>
-
-          <div className="mb-5 empty:mb-0">
-            <ActiveFilterChips />
-          </div>
-
+        <div ref={gridTopRef} className="min-w-0 flex-1 scroll-mt-24">
           {!loading && total === 0 ? (
             <EmptyState
               icon={<InboxOutlined />}
@@ -124,7 +134,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
                 total={total}
                 pageSize={PAGE_SIZE}
                 showSizeChanger={false}
-                onChange={(next) => dispatch(setPage(next))}
+                onChange={changePage}
               />
             </div>
           )}

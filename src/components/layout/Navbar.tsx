@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { Badge, Button, Drawer, Dropdown, Input, Tooltip } from 'antd';
+import { Badge, Drawer, Dropdown, Input, Tooltip } from 'antd';
 import type { MenuProps } from 'antd';
 import {
   HeartOutlined,
@@ -19,6 +19,19 @@ import { selectCartCount } from '@/features/cart/cartSlice';
 import { selectWishlistCount } from '@/features/wishlist/wishlistSlice';
 import { selectTheme, toggleTheme } from '@/features/ui/uiSlice';
 import { CATEGORIES } from '@/lib/constants';
+
+/** Shared shape for the header action icons: large tap target, hover lift, brand tint. */
+const iconButtonClass =
+  'group/icon grid h-11 w-11 place-items-center rounded-full text-ink transition-all duration-200 hover:-translate-y-0.5 hover:bg-subtle active:translate-y-0';
+
+/** First letters of the first two words, e.g. "Priya Sharma" → "PS". */
+const initials = (name: string): string =>
+  name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0]?.toUpperCase() ?? '')
+    .join('') || 'U';
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   `relative cursor-pointer py-1 text-sm font-medium transition-colors after:absolute after:inset-x-0 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:bg-brand-600 after:transition-transform hover:text-brand-600 hover:after:scale-x-100 ${
@@ -80,13 +93,14 @@ export default function Navbar() {
       }`}
     >
       <div className="container flex h-16 items-center gap-4">
-        <Button
-          type="text"
-          icon={<MenuOutlined />}
-          className="lg:!hidden"
+        <button
+          type="button"
           aria-label="Open menu"
           onClick={() => setMenuOpen(true)}
-        />
+          className={`${iconButtonClass} lg:hidden`}
+        >
+          <MenuOutlined className="text-[22px] text-ink" />
+        </button>
 
         <Link to="/" className="font-display text-2xl font-bold tracking-tight text-ink">
           Kapde<span className="text-brand-600">.</span>
@@ -113,28 +127,44 @@ export default function Navbar() {
           />
 
           <Tooltip title={theme === 'dark' ? 'Switch to light' : 'Switch to dark'}>
-            <Button
-              type="text"
+            <button
+              type="button"
               aria-label="Toggle colour theme"
-              icon={theme === 'dark' ? <SunOutlined /> : <MoonOutlined />}
               onClick={() => dispatch(toggleTheme())}
-            />
+              className={iconButtonClass}
+            >
+              <span className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600">
+                {theme === 'dark' ? <SunOutlined /> : <MoonOutlined />}
+              </span>
+            </button>
           </Tooltip>
 
-          <Link to="/wishlist" aria-label="Wishlist">
-            <Badge count={wishlistCount} size="small" offset={[-4, 4]}>
-              <Button type="text" icon={<HeartOutlined />} />
-            </Badge>
-          </Link>
+          <Tooltip title="Wishlist">
+            <Link to="/wishlist" aria-label="Wishlist" className={iconButtonClass}>
+              <Badge count={wishlistCount} size="small" offset={[-2, 2]}>
+                <HeartOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+              </Badge>
+            </Link>
+          </Tooltip>
 
-          <Link to="/cart" aria-label="Shopping bag">
-            <Badge count={cartCount} size="small" offset={[-4, 4]}>
-              <Button type="text" icon={<ShoppingOutlined />} />
-            </Badge>
-          </Link>
+          <Tooltip title="Shopping bag">
+            <Link to="/cart" aria-label="Shopping bag" className={iconButtonClass}>
+              <Badge count={cartCount} size="small" offset={[-2, 2]}>
+                <ShoppingOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+              </Badge>
+            </Link>
+          </Tooltip>
 
           <Dropdown menu={{ items: accountMenu }} placement="bottomRight" trigger={['click']}>
-            <Button type="text" icon={<UserOutlined />} aria-label="Account" />
+            <button type="button" aria-label="Account" className={iconButtonClass}>
+              {user ? (
+                <span className="grid h-8 w-8 place-items-center rounded-full bg-brand-600 text-xs font-semibold text-white transition-transform group-hover/icon:scale-105">
+                  {initials(user.name)}
+                </span>
+              ) : (
+                <UserOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+              )}
+            </button>
           </Dropdown>
         </div>
       </div>

@@ -2,12 +2,13 @@ import { createAsyncThunk, createSelector, createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit';
 
 import { fetchProducts } from './catalogApi';
-import { ALL_SIZES, PAGE_SIZE, sizesFor } from '@/lib/constants';
+import { ALL_SIZES, GENDER_VALUES, PAGE_SIZE, sizesFor } from '@/lib/constants';
 import type { RootState } from '@/app/store';
 import type {
   CategorySlug,
   FilterListKey,
   Filters,
+  Gender,
   Product,
   RequestStatus,
   SortKey,
@@ -18,6 +19,8 @@ interface CatalogState {
   status: RequestStatus;
   error: string | null;
   category: CategorySlug | null;
+  /** Department the listing is scoped to, set by the /g/:gender routes. */
+  gender: Gender | null;
   query: string;
   sort: SortKey;
   page: number;
@@ -36,6 +39,7 @@ export const loadProducts = createAsyncThunk(
 );
 
 const emptyFilters = (): Filters => ({
+  genders: [],
   brands: [],
   colours: [],
   sizes: [],
@@ -49,6 +53,7 @@ const initialState: CatalogState = {
   status: 'idle',
   error: null,
   category: null,
+  gender: null,
   query: '',
   sort: 'featured',
   page: 1,
@@ -87,9 +92,14 @@ const catalogSlice = createSlice({
     },
     openListing(
       state,
-      action: PayloadAction<{ category: CategorySlug | null; query?: string }>,
+      action: PayloadAction<{
+        category: CategorySlug | null;
+        gender?: Gender | null;
+        query?: string;
+      }>,
     ) {
       state.category = action.payload.category;
+      state.gender = action.payload.gender ?? null;
       state.query = action.payload.query ?? '';
       state.filters = emptyFilters();
       state.sort = 'featured';
@@ -148,6 +158,7 @@ export const selectQuery = (state: RootState) => state.catalog.query;
 export const selectSort = (state: RootState) => state.catalog.sort;
 export const selectPage = (state: RootState) => state.catalog.page;
 export const selectCategory = (state: RootState) => state.catalog.category;
+export const selectGender = (state: RootState) => state.catalog.gender;
 
 const matchesQuery = (product: Product, query: string): boolean => {
   if (!query.trim()) return true;
@@ -170,8 +181,14 @@ const comparators: Record<SortKey, (a: Product, b: Product) => number> = {
   newest: (a, b) => b.id - a.id,
 };
 
-export const selectScopedProducts = createSelector([selectCatalog], ({ items, category }) =>
-  category === null ? items : items.filter((product) => product.category === category),
+// The department and category scopes come from the route, so they sit outside the
+// filter panel: narrowing them is a different page, not a filter you can clear.
+export const selectScopedProducts = createSelector([selectCatalog], ({ items, category, gender }) =>
+  items.filter(
+    (product) =>
+      (category === null || product.category === category) &&
+      (gender === null || product.gender === gender),
+  ),
 );
 
 export const selectVisibleProducts = createSelector(
@@ -180,6 +197,7 @@ export const selectVisibleProducts = createSelector(
     products
       .filter(
         (product) =>
+          (filters.genders.length === 0 || filters.genders.includes(product.gender)) &&
           (filters.brands.length === 0 || filters.brands.includes(product.brand)) &&
           (filters.colours.length === 0 || filters.colours.includes(product.colour)) &&
           (filters.sizes.length === 0 ||
@@ -207,6 +225,7 @@ export const selectPagedProducts = createSelector(
 export const selectActiveFilterCount = createSelector(
   [selectFilters],
   (filters) =>
+    filters.genders.length +
     filters.brands.length +
     filters.colours.length +
     filters.sizes.length +
@@ -216,11 +235,13 @@ export const selectActiveFilterCount = createSelector(
 );
 
 export const selectAvailableFacets = createSelector([selectScopedProducts], (products) => {
+  const genders = new Map<string, number>();
   const brands = new Map<string, number>();
   const colours = new Map<string, number>();
   const sizes = new Map<string, number>();
 
   for (const product of products) {
+    genders.set(product.gender, (genders.get(product.gender) ?? 0) + 1);
     brands.set(product.brand, (brands.get(product.brand) ?? 0) + 1);
     colours.set(product.colour, (colours.get(product.colour) ?? 0) + 1);
     for (const size of sizesFor(product.category)) {
@@ -232,6 +253,10 @@ export const selectAvailableFacets = createSelector([selectScopedProducts], (pro
     b[1] - a[1] || a[0].localeCompare(b[0]);
 
   return {
+    genders: GENDER_VALUES.filter((gender) => genders.has(gender)).map((value) => ({
+      value,
+      count: genders.get(value) ?? 0,
+    })),
     brands: [...brands.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
     colours: [...colours.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
     sizes: ALL_SIZES.filter((size) => sizes.has(size)).map((value) => ({

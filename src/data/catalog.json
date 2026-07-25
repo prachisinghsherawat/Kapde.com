@@ -1,11 +1,1333 @@
 {
   "products": [
     {
+      "id": 900,
+      "slug": "zara-midi-dress-900",
+      "title": "Zara Midi Dress",
+      "description": "A midi dress from Zara, cut from a soft, fluid viscose blend. Shown in white, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Zara",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 6629,
+      "mrp": 7799,
+      "discount": 15,
+      "rating": 4.6,
+      "stock": 25,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1762154057377-cc9d3dd6900c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1762154057377-cc9d3dd6900c?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-900",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-02-15T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-04-17T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1762154057377-cc9d3dd6900c"
+    },
+    {
+      "id": 901,
+      "slug": "shein-floral-print-dress-901",
+      "title": "Shein Floral Print Dress",
+      "description": "A floral print dress from Shein, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 4959,
+      "mrp": 6199,
+      "discount": 20,
+      "rating": 4.5,
+      "stock": 9,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1616313253719-c46514cddee1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1616313253719-c46514cddee1?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-901",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Tom B.",
+          "date": "2026-04-13T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Priya S.",
+          "date": "2026-06-20T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-05-04T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1616313253719-c46514cddee1"
+    },
+    {
+      "id": 902,
+      "slug": "h-m-printed-dress-902",
+      "title": "H&M Printed Dress",
+      "description": "A printed dress from H&M, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 3429,
+      "mrp": 4899,
+      "discount": 30,
+      "rating": 4.1,
+      "stock": 32,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1768803968298-e31d64afee56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fHdvbWVuJTIwZHJlc3Nlc3xlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1768803968298-e31d64afee56?w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-902",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-03-25T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-05-22T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1768803968298-e31d64afee56"
+    },
+    {
+      "id": 903,
+      "slug": "h-m-maxi-dress-903",
+      "title": "H&M Maxi Dress",
+      "description": "A maxi dress from H&M, cut from a soft, fluid viscose blend. Shown in black, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 2999,
+      "mrp": 2999,
+      "discount": 0,
+      "rating": 4.4,
+      "stock": 20,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1764238385987-2ffa021755a1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1764238385987-2ffa021755a1?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-903",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-05-08T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Priya S.",
+          "date": "2026-06-12T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1764238385987-2ffa021755a1"
+    },
+    {
+      "id": 904,
+      "slug": "calvin-klein-bomber-jacket-904",
+      "title": "Calvin Klein Bomber Jacket",
+      "description": "A bomber jacket from Calvin Klein, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "Calvin Klein",
+      "colour": "brown",
+      "colourLabel": "Brown",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 5449,
+      "mrp": 10899,
+      "discount": 50,
+      "rating": 4.5,
+      "stock": 27,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1634200393207-3a7830a2a8f2?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1634200393207-3a7830a2a8f2?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-904",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-04-03T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-04-05T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1634200393207-3a7830a2a8f2"
+    },
+    {
+      "id": 905,
+      "slug": "m-s-puffer-jacket-905",
+      "title": "M&S Puffer Jacket",
+      "description": "A puffer jacket from M&S, cut from a weather-ready shell with a brushed lining. Shown in black, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "M&S",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 8999,
+      "mrp": 11999,
+      "discount": 25,
+      "rating": 4.4,
+      "stock": 36,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1698952163259-04268ccd37d5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1698952163259-04268ccd37d5?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-905",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Tom B.",
+          "date": "2026-05-02T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Neha R.",
+          "date": "2026-03-13T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 906,
+      "slug": "h-m-varsity-jacket-906",
+      "title": "H&M Varsity Jacket",
+      "description": "A varsity jacket from H&M, cut from a weather-ready shell with a brushed lining. Shown in red, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "red",
+      "colourLabel": "Red",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 5039,
+      "mrp": 6299,
+      "discount": 20,
+      "rating": 4.6,
+      "stock": 39,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1671823468817-4dcd72952359?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1671823468817-4dcd72952359?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-906",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Meera P.",
+          "date": "2026-04-11T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Neha R.",
+          "date": "2026-02-12T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 907,
+      "slug": "shein-utility-jacket-907",
+      "title": "Shein Utility Jacket",
+      "description": "An utility jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in grey, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "grey",
+      "colourLabel": "Grey",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 12899,
+      "mrp": 12899,
+      "discount": 0,
+      "rating": 4.2,
+      "stock": 11,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1765207885316-5e0a4e262bf0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1765207885316-5e0a4e262bf0?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-907",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Priya S.",
+          "date": "2026-01-06T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Elena V.",
+          "date": "2026-01-14T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-02-20T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 908,
+      "slug": "shein-cropped-jacket-908",
+      "title": "Shein Cropped Jacket",
+      "description": "A cropped jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in orange, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "orange",
+      "colourLabel": "Orange",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 4829,
+      "mrp": 6899,
+      "discount": 30,
+      "rating": 4.6,
+      "stock": 13,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1765207887844-afa42b0d3c4f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1765207887844-afa42b0d3c4f?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-908",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-06-05T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Meera P.",
+          "date": "2026-07-08T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-04-28T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 909,
+      "slug": "zara-biker-jacket-909",
+      "title": "Zara Biker Jacket",
+      "description": "A biker jacket from Zara, cut from a weather-ready shell with a brushed lining. Shown in black, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "Zara",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 6789,
+      "mrp": 9699,
+      "discount": 30,
+      "rating": 4.2,
+      "stock": 15,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1743539462935-aa8b9e2040db?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1743539462935-aa8b9e2040db?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-909",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Priya S.",
+          "date": "2026-02-15T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Neha R.",
+          "date": "2026-07-24T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-06-20T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 910,
+      "slug": "shein-boxy-jacket-910",
+      "title": "Shein Boxy Jacket",
+      "description": "A boxy jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in white, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 13699,
+      "mrp": 13699,
+      "discount": 0,
+      "rating": 4.2,
+      "stock": 19,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-910",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Elena V.",
+          "date": "2026-05-22T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Tom B.",
+          "date": "2026-07-11T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Priya S.",
+          "date": "2026-03-03T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 911,
+      "slug": "levi-s-denim-trucker-jacket-911",
+      "title": "Levi's Denim Trucker Jacket",
+      "description": "A denim trucker jacket from Levi's, cut from a weather-ready shell with a brushed lining. Shown in blue, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "Levi's",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 9659,
+      "mrp": 13799,
+      "discount": 30,
+      "rating": 4.1,
+      "stock": 27,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1555583743-991174c11425?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1555583743-991174c11425?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-911",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Tom B.",
+          "date": "2026-02-03T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Neha R.",
+          "date": "2026-02-23T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 912,
+      "slug": "h-m-suede-jacket-912",
+      "title": "H&M Suede Jacket",
+      "description": "A suede jacket from H&M, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "brown",
+      "colourLabel": "Brown",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 11919,
+      "mrp": 14899,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 14,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1687914904404-b683856ae25c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1687914904404-b683856ae25c?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-912",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-06-06T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-05-16T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 913,
+      "slug": "uniqlo-corduroy-jacket-913",
+      "title": "Uniqlo Corduroy Jacket",
+      "description": "A corduroy jacket from Uniqlo, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "Uniqlo",
+      "colour": "brown",
+      "colourLabel": "Brown",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 7799,
+      "mrp": 7799,
+      "discount": 0,
+      "rating": 4.7,
+      "stock": 32,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-913",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Tom B.",
+          "date": "2026-07-24T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-06-25T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-01-17T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 914,
+      "slug": "calvin-klein-field-jacket-914",
+      "title": "Calvin Klein Field Jacket",
+      "description": "A field jacket from Calvin Klein, cut from a weather-ready shell with a brushed lining. Shown in green, it layers over a knit and shrugs off a cold walk home.",
+      "category": "outerwear",
+      "gender": "men",
+      "brand": "Calvin Klein",
+      "colour": "green",
+      "colourLabel": "Green",
+      "tags": [
+        "outerwear",
+        "layering"
+      ],
+      "price": 5759,
+      "mrp": 7199,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 6,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1629353689974-af4d5c70440f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1629353689974-af4d5c70440f?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-OUT-914",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Tom B.",
+          "date": "2026-04-12T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Tom B.",
+          "date": "2026-07-22T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 915,
+      "slug": "shein-straight-leg-jeans-915",
+      "title": "Shein Straight Leg Jeans",
+      "description": "A straight leg jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 4079,
+      "mrp": 5099,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 22,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amVhbnN8ZW58MHx8MHx8fDA%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-915",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-01-10T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Neha R.",
+          "date": "2026-04-01T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 916,
+      "slug": "h-m-wide-leg-jeans-916",
+      "title": "H&M Wide Leg Jeans",
+      "description": "A wide leg jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 2649,
+      "mrp": 5299,
+      "discount": 50,
+      "rating": 4.4,
+      "stock": 8,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-916",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Priya S.",
+          "date": "2026-01-09T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Neha R.",
+          "date": "2026-03-06T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-02-24T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 917,
+      "slug": "h-m-slim-fit-jeans-917",
+      "title": "H&M Slim Fit Jeans",
+      "description": "A slim fit jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "grey",
+      "colourLabel": "Grey",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 4299,
+      "mrp": 4299,
+      "discount": 0,
+      "rating": 4.5,
+      "stock": 7,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1578693082747-50c396cacd81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fGplYW5zfGVufDB8fDB8fHww"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1578693082747-50c396cacd81?w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-917",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-04-16T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-04-11T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-07-11T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 918,
+      "slug": "zara-baggy-jeans-918",
+      "title": "Zara Baggy Jeans",
+      "description": "A baggy jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "Zara",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 7399,
+      "mrp": 7399,
+      "discount": 0,
+      "rating": 4.3,
+      "stock": 11,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1661978955233-817f19f44d82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxqZWFuc3xlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1661978955233-817f19f44d82?w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-918",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-04-15T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Elena V.",
+          "date": "2026-04-21T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 919,
+      "slug": "shein-straight-fit-jeans-919",
+      "title": "Shein Straight Fit Jeans",
+      "description": "A straight fit jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "Shein",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 4799,
+      "mrp": 5999,
+      "discount": 20,
+      "rating": 4.4,
+      "stock": 17,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-919",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Elena V.",
+          "date": "2026-04-04T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-01-21T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 920,
+      "slug": "uniqlo-slim-tapered-jeans-920",
+      "title": "Uniqlo Slim Tapered Jeans",
+      "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in black, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "Uniqlo",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 4409,
+      "mrp": 6299,
+      "discount": 30,
+      "rating": 4.3,
+      "stock": 11,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1709920680220-8ee257262056?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1709920680220-8ee257262056?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-920",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Priya S.",
+          "date": "2026-01-17T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-04-08T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 921,
+      "slug": "m-s-tapered-jeans-921",
+      "title": "M&S Tapered Jeans",
+      "description": "A tapered jeans from M&S, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
+      "category": "jeans",
+      "gender": "men",
+      "brand": "M&S",
+      "colour": "grey",
+      "colourLabel": "Grey",
+      "tags": [
+        "denim",
+        "bottoms",
+        "five-pocket"
+      ],
+      "price": 4869,
+      "mrp": 6499,
+      "discount": 25,
+      "rating": 4.1,
+      "stock": 27,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1700152005138-39bd409f2c80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1700152005138-39bd409f2c80?w=800&auto=format&fit=crop",
+      "sku": "KPD-JEA-921",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Tom B.",
+          "date": "2026-04-02T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Neha R.",
+          "date": "2026-02-20T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 922,
+      "slug": "m-s-patterned-knit-sweater-922",
+      "title": "M&S Patterned Knit Sweater",
+      "description": "A patterned knit sweater from M&S, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "men",
+      "brand": "M&S",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 1499,
+      "mrp": 2999,
+      "discount": 50,
+      "rating": 4.8,
+      "stock": 33,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1709786981112-7ab84ee3b55b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1709786981112-7ab84ee3b55b?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-922",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-03-11T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 923,
+      "slug": "h-m-cable-knit-sweater-923",
+      "title": "H&M Cable Knit Sweater",
+      "description": "A cable knit sweater from H&M, cut from a fine merino-blend knit. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 5849,
+      "mrp": 6499,
+      "discount": 10,
+      "rating": 4.3,
+      "stock": 40,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1661313761822-ca3278b6aeee?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1661313761822-ca3278b6aeee?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-923",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Priya S.",
+          "date": "2026-04-28T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Priya S.",
+          "date": "2026-06-08T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 924,
+      "slug": "shein-knitted-sweater-924",
+      "title": "Shein Knitted Sweater",
+      "description": "A knitted sweater from Shein, cut from a fine merino-blend knit. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 3239,
+      "mrp": 5399,
+      "discount": 40,
+      "rating": 4.6,
+      "stock": 6,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1677466923317-fe39ab5de57b?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1677466923317-fe39ab5de57b?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-924",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Meera P.",
+          "date": "2026-05-22T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-01-26T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Neha R.",
+          "date": "2026-04-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 925,
+      "slug": "h-m-patterned-sweater-925",
+      "title": "H&M Patterned Sweater",
+      "description": "A patterned sweater from H&M, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 3399,
+      "mrp": 3399,
+      "discount": 0,
+      "rating": 4.8,
+      "stock": 19,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1695604460161-cad706bb68fe?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1695604460161-cad706bb68fe?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-925",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-01-03T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Neha R.",
+          "date": "2026-01-14T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-05-21T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 926,
+      "slug": "uniqlo-crew-neck-sweater-926",
+      "title": "Uniqlo Crew Neck Sweater",
+      "description": "A crew neck sweater from Uniqlo, cut from a fine merino-blend knit. Shown in pink, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "women",
+      "brand": "Uniqlo",
+      "colour": "pink",
+      "colourLabel": "Pink",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 5399,
+      "mrp": 5999,
+      "discount": 10,
+      "rating": 4.7,
+      "stock": 25,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1706520001443-e099ad30b807?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1706520001443-e099ad30b807?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-926",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-04-11T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Elena V.",
+          "date": "2026-01-07T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 927,
+      "slug": "zara-roll-neck-sweater-927",
+      "title": "Zara Roll Neck Sweater",
+      "description": "A roll neck sweater from Zara, cut from a fine merino-blend knit. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "men",
+      "brand": "Zara",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 3599,
+      "mrp": 3599,
+      "discount": 0,
+      "rating": 4.2,
+      "stock": 8,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1669688174622-0393f5c6baa2?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1669688174622-0393f5c6baa2?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-927",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Tom B.",
+          "date": "2026-06-27T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Elena V.",
+          "date": "2026-02-08T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Neha R.",
+          "date": "2026-04-08T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 928,
+      "slug": "h-m-ribbed-sweater-928",
+      "title": "H&M Ribbed Sweater",
+      "description": "A ribbed sweater from H&M, cut from a fine merino-blend knit. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "men",
+      "brand": "H&M",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 3569,
+      "mrp": 5099,
+      "discount": 30,
+      "rating": 4.1,
+      "stock": 36,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1610901157620-340856d0a50f?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1610901157620-340856d0a50f?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-928",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-05-07T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-05-11T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 929,
+      "slug": "shein-colourblock-sweater-929",
+      "title": "Shein Colourblock Sweater",
+      "description": "A colourblock sweater from Shein, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 2099,
+      "mrp": 4199,
+      "discount": 50,
+      "rating": 4.7,
+      "stock": 6,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1669850858872-7ed947bac5e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHN3ZWF0ZXIlMjBtZW58ZW58MHx8MHx8fDA%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1669850858872-7ed947bac5e3?w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-929",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Tom B.",
+          "date": "2026-03-10T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-05-12T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-02-27T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
       "id": 1000,
       "slug": "levi-s-relaxed-fit-t-shirt-1000",
       "title": "Levi's Relaxed Fit T-Shirt",
       "description": "A relaxed fit t-shirt from Levi's, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -14,12 +1336,12 @@
         "jersey",
         "everyday"
       ],
-      "price": 20.99,
-      "mrp": 20.99,
+      "price": 1799,
+      "mrp": 1799,
       "discount": 0,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 22,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -47,6 +1369,7 @@
       "title": "M&S Slim Fit T-Shirt",
       "description": "A slim fit t-shirt from M&S, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -55,11 +1378,11 @@
         "jersey",
         "everyday"
       ],
-      "price": 15.99,
-      "mrp": 18.81,
+      "price": 1399,
+      "mrp": 1646,
       "discount": 15,
       "rating": 4.3,
-      "stock": 14,
+      "stock": 23,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -94,6 +1417,7 @@
       "title": "Calvin Klein Oversized T-Shirt",
       "description": "An oversized t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "black",
       "colourLabel": "Black",
@@ -102,12 +1426,12 @@
         "jersey",
         "everyday"
       ],
-      "price": 29.99,
-      "mrp": 39.99,
+      "price": 2499,
+      "mrp": 3332,
       "discount": 25,
       "rating": 4.2,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 24,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -147,6 +1471,7 @@
       "title": "H&M Boxy T-Shirt",
       "description": "A boxy t-shirt from H&M, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "H&M",
       "colour": "white",
       "colourLabel": "White",
@@ -155,11 +1480,11 @@
         "jersey",
         "everyday"
       ],
-      "price": 13.99,
-      "mrp": 23.32,
+      "price": 1199,
+      "mrp": 1998,
       "discount": 40,
       "rating": 4.5,
-      "stock": 14,
+      "stock": 25,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1651761179569-4ba2aa054997?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -188,6 +1513,7 @@
       "title": "Mango Classic Crew T-Shirt",
       "description": "A classic crew t-shirt from Mango, cut from combed organic cotton jersey. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "women",
       "brand": "Mango",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -196,12 +1522,12 @@
         "jersey",
         "everyday"
       ],
-      "price": 25.99,
-      "mrp": 25.99,
+      "price": 2199,
+      "mrp": 2199,
       "discount": 0,
       "rating": 4.7,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -235,6 +1561,7 @@
       "title": "Levi's Longline T-Shirt",
       "description": "A longline t-shirt from Levi's, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -243,11 +1570,11 @@
         "jersey",
         "everyday"
       ],
-      "price": 21.99,
-      "mrp": 24.43,
+      "price": 1899,
+      "mrp": 2110,
       "discount": 10,
       "rating": 4.2,
-      "stock": 14,
+      "stock": 27,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -288,6 +1615,7 @@
       "title": "M&S Relaxed Fit T-Shirt",
       "description": "A relaxed fit t-shirt from M&S, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -296,12 +1624,12 @@
         "jersey",
         "everyday"
       ],
-      "price": 13.99,
-      "mrp": 17.49,
+      "price": 1199,
+      "mrp": 1499,
       "discount": 20,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 28,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1627225924765-552d49cf47ad?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -329,6 +1657,7 @@
       "title": "Calvin Klein Slim Fit T-Shirt",
       "description": "A slim fit t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "white",
       "colourLabel": "White",
@@ -337,11 +1666,11 @@
         "jersey",
         "everyday"
       ],
-      "price": 25.99,
-      "mrp": 37.13,
+      "price": 2199,
+      "mrp": 3141,
       "discount": 30,
       "rating": 4.0,
-      "stock": 14,
+      "stock": 29,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -376,6 +1705,7 @@
       "title": "H&M Oversized T-Shirt",
       "description": "An oversized t-shirt from H&M, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "men",
       "brand": "H&M",
       "colour": "white",
       "colourLabel": "White",
@@ -384,12 +1714,12 @@
         "jersey",
         "everyday"
       ],
-      "price": 12.99,
-      "mrp": 25.98,
+      "price": 1099,
+      "mrp": 2198,
       "discount": 50,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 30,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1622445270936-5dcb604970e7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -429,6 +1759,7 @@
       "title": "Mango Boxy T-Shirt",
       "description": "A boxy t-shirt from Mango, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
+      "gender": "women",
       "brand": "Mango",
       "colour": "white",
       "colourLabel": "White",
@@ -437,11 +1768,11 @@
         "jersey",
         "everyday"
       ],
-      "price": 23.99,
-      "mrp": 23.99,
+      "price": 1999,
+      "mrp": 1999,
       "discount": 0,
       "rating": 4.5,
-      "stock": 14,
+      "stock": 31,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1622445272461-c6580cab8755?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -470,6 +1801,7 @@
       "title": "Levi's Oversized Poplin Shirt",
       "description": "An oversized poplin shirt from Levi's, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -478,12 +1810,12 @@
         "woven",
         "workwear"
       ],
-      "price": 27.99,
-      "mrp": 31.1,
+      "price": 2399,
+      "mrp": 2666,
       "discount": 10,
       "rating": 4.5,
-      "stock": 35,
-      "availability": "In Stock",
+      "stock": 0,
+      "availability": "Out of Stock",
       "images": [
         "https://images.unsplash.com/photo-1740711152088-88a009e877bb?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -511,6 +1843,7 @@
       "title": "M&S Regular Fit Oxford Shirt",
       "description": "A regular fit oxford shirt from M&S, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -519,12 +1852,12 @@
         "woven",
         "workwear"
       ],
-      "price": 28.99,
-      "mrp": 36.24,
+      "price": 2499,
+      "mrp": 3124,
       "discount": 20,
       "rating": 4.0,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 33,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -558,6 +1891,7 @@
       "title": "Calvin Klein Slim Fit Shirt",
       "description": "A slim fit shirt from Calvin Klein, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "white",
       "colourLabel": "White",
@@ -566,11 +1900,11 @@
         "woven",
         "workwear"
       ],
-      "price": 43.99,
-      "mrp": 62.84,
+      "price": 3699,
+      "mrp": 5284,
       "discount": 30,
       "rating": 4.5,
-      "stock": 35,
+      "stock": 34,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1603252109612-24fa03d145c8?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -611,6 +1945,7 @@
       "title": "H&M Relaxed Linen Shirt",
       "description": "A relaxed linen shirt from H&M, cut from crisp cotton poplin. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -619,11 +1954,11 @@
         "woven",
         "workwear"
       ],
-      "price": 60.99,
-      "mrp": 121.98,
+      "price": 5199,
+      "mrp": 10398,
       "discount": 50,
       "rating": 4.5,
-      "stock": 6,
+      "stock": 4,
       "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1623658580851-3b25bf83b4ea?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -652,6 +1987,7 @@
       "title": "Mango Boxy Cropped Shirt",
       "description": "A boxy cropped shirt from Mango, cut from crisp cotton poplin. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "women",
       "brand": "Mango",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -660,11 +1996,11 @@
         "woven",
         "workwear"
       ],
-      "price": 29.99,
-      "mrp": 29.99,
+      "price": 2499,
+      "mrp": 2499,
       "discount": 0,
       "rating": 4.3,
-      "stock": 35,
+      "stock": 36,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1618595426380-10f004788ee6?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -699,6 +2035,7 @@
       "title": "Levi's Classic Twill Shirt",
       "description": "A classic twill shirt from Levi's, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -707,12 +2044,12 @@
         "woven",
         "workwear"
       ],
-      "price": 34.99,
-      "mrp": 41.16,
+      "price": 2999,
+      "mrp": 3528,
       "discount": 15,
       "rating": 4.5,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 37,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1761426822041-c4a801baffc6?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -752,6 +2089,7 @@
       "title": "M&S Oversized Poplin Shirt",
       "description": "An oversized poplin shirt from M&S, cut from crisp cotton poplin. Shown in purple, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "M&S",
       "colour": "purple",
       "colourLabel": "Purple",
@@ -760,11 +2098,11 @@
         "woven",
         "workwear"
       ],
-      "price": 52.99,
-      "mrp": 70.65,
+      "price": 4499,
+      "mrp": 5999,
       "discount": 25,
       "rating": 4.5,
-      "stock": 35,
+      "stock": 38,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1704775983658-2773a9c0cce2?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -793,6 +2131,7 @@
       "title": "Calvin Klein Regular Fit Oxford Shirt",
       "description": "A regular fit oxford shirt from Calvin Klein, cut from crisp cotton poplin. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "green",
       "colourLabel": "Green",
@@ -801,12 +2140,12 @@
         "woven",
         "workwear"
       ],
-      "price": 66.99,
-      "mrp": 111.65,
+      "price": 5699,
+      "mrp": 9498,
       "discount": 40,
       "rating": 4.0,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 39,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1758183725370-e6f8e88ba58f?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -840,6 +2179,7 @@
       "title": "H&M Slim Fit Shirt",
       "description": "A slim fit shirt from H&M, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
+      "gender": "men",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -848,11 +2188,11 @@
         "woven",
         "workwear"
       ],
-      "price": 49.99,
-      "mrp": 49.99,
+      "price": 4199,
+      "mrp": 4199,
       "discount": 0,
       "rating": 4.5,
-      "stock": 35,
+      "stock": 40,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1674851993934-0b0599418642?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -893,6 +2233,7 @@
       "title": "Vero Moda Midi Dress",
       "description": "A midi dress from Vero Moda, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "white",
       "colourLabel": "White",
@@ -901,12 +2242,12 @@
         "occasion",
         "summer"
       ],
-      "price": 56.99,
-      "mrp": 63.32,
+      "price": 4799,
+      "mrp": 5332,
       "discount": 10,
       "rating": 4.5,
-      "stock": 3,
-      "availability": "Low Stock",
+      "stock": 41,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1532675432006-329c6fed7045?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -934,6 +2275,7 @@
       "title": "Shein Wrap Dress",
       "description": "A wrap dress from Shein, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Shein",
       "colour": "white",
       "colourLabel": "White",
@@ -942,11 +2284,11 @@
         "occasion",
         "summer"
       ],
-      "price": 96.99,
-      "mrp": 121.24,
+      "price": 8199,
+      "mrp": 10249,
       "discount": 20,
       "rating": 4.3,
-      "stock": 22,
+      "stock": 12,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1613966570650-add3cf83aa83?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -981,6 +2323,7 @@
       "title": "Tommy Hilfiger Tiered Maxi Dress",
       "description": "A tiered maxi dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "yellow",
       "colourLabel": "Yellow",
@@ -989,12 +2332,12 @@
         "occasion",
         "summer"
       ],
-      "price": 31.99,
-      "mrp": 45.7,
+      "price": 2699,
+      "mrp": 3856,
       "discount": 30,
       "rating": 4.5,
-      "stock": 3,
-      "availability": "Low Stock",
+      "stock": 13,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1609695813802-3c443be34359?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1034,6 +2377,7 @@
       "title": "Zara Slip Dress",
       "description": "A slip dress from Zara, cut from fluid viscose blend. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Zara",
       "colour": "yellow",
       "colourLabel": "Yellow",
@@ -1042,12 +2386,12 @@
         "occasion",
         "summer"
       ],
-      "price": 88.99,
-      "mrp": 177.98,
+      "price": 7599,
+      "mrp": 15198,
       "discount": 50,
       "rating": 4.5,
-      "stock": 22,
-      "availability": "In Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1602303894456-398ce544d90b?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1075,6 +2419,7 @@
       "title": "Uniqlo Shirt Dress",
       "description": "A shirt dress from Uniqlo, cut from fluid viscose blend. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Uniqlo",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1083,12 +2428,12 @@
         "occasion",
         "summer"
       ],
-      "price": 48.99,
-      "mrp": 48.99,
+      "price": 4199,
+      "mrp": 4199,
       "discount": 0,
       "rating": 4.0,
-      "stock": 3,
-      "availability": "Low Stock",
+      "stock": 15,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1700064990923-b1af57cf58db?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1122,6 +2467,7 @@
       "title": "Vero Moda A-Line Dress",
       "description": "An a-line dress from Vero Moda, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "white",
       "colourLabel": "White",
@@ -1130,11 +2476,11 @@
         "occasion",
         "summer"
       ],
-      "price": 38.99,
-      "mrp": 45.87,
+      "price": 3299,
+      "mrp": 3881,
       "discount": 15,
       "rating": 4.5,
-      "stock": 22,
+      "stock": 16,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1520026582657-4daf5bb60adb?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1175,6 +2521,7 @@
       "title": "Shein Midi Dress",
       "description": "A midi dress from Shein, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Shein",
       "colour": "white",
       "colourLabel": "White",
@@ -1183,12 +2530,12 @@
         "occasion",
         "summer"
       ],
-      "price": 36.99,
-      "mrp": 49.32,
+      "price": 3099,
+      "mrp": 4132,
       "discount": 25,
       "rating": 4.5,
-      "stock": 3,
-      "availability": "Low Stock",
+      "stock": 17,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1502868354157-ec2edd2a1651?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1216,6 +2563,7 @@
       "title": "Tommy Hilfiger Wrap Dress",
       "description": "A wrap dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "white",
       "colourLabel": "White",
@@ -1224,11 +2572,11 @@
         "occasion",
         "summer"
       ],
-      "price": 50.99,
-      "mrp": 84.98,
+      "price": 4299,
+      "mrp": 7165,
       "discount": 40,
       "rating": 4.7,
-      "stock": 22,
+      "stock": 18,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1593105522065-9a6ecd21aeb2?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1263,6 +2611,7 @@
       "title": "Zara Tiered Maxi Dress",
       "description": "A tiered maxi dress from Zara, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Zara",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1271,12 +2620,12 @@
         "occasion",
         "summer"
       ],
-      "price": 85.99,
-      "mrp": 85.99,
+      "price": 7299,
+      "mrp": 7299,
       "discount": 0,
       "rating": 4.5,
-      "stock": 3,
-      "availability": "Low Stock",
+      "stock": 19,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1758207575462-c70302b4a162?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1316,6 +2665,7 @@
       "title": "Uniqlo Slip Dress",
       "description": "A slip dress from Uniqlo, cut from fluid viscose blend. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
+      "gender": "women",
       "brand": "Uniqlo",
       "colour": "red",
       "colourLabel": "Red",
@@ -1324,11 +2674,11 @@
         "occasion",
         "summer"
       ],
-      "price": 41.99,
-      "mrp": 46.66,
+      "price": 3599,
+      "mrp": 3999,
       "discount": 10,
       "rating": 4.0,
-      "stock": 22,
+      "stock": 20,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1604506272685-a999a4d122e7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1357,6 +2707,7 @@
       "title": "Vero Moda 501 Original Straight Jeans",
       "description": "A 501 original straight jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1365,11 +2716,11 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 85.99,
-      "mrp": 101.16,
+      "price": 7299,
+      "mrp": 8587,
       "discount": 15,
       "rating": 4.5,
-      "stock": 48,
+      "stock": 21,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1398,6 +2749,7 @@
       "title": "Shein High Rise Mom Jeans",
       "description": "A high rise mom jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1406,12 +2758,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 89.99,
-      "mrp": 119.99,
+      "price": 7599,
+      "mrp": 10132,
       "discount": 25,
       "rating": 4.7,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 22,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1714729382668-7bc3bb261662?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1445,6 +2797,7 @@
       "title": "Tommy Hilfiger Wide Leg Jeans",
       "description": "A wide leg jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "men",
       "brand": "Tommy Hilfiger",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1453,12 +2806,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 68.99,
-      "mrp": 114.98,
+      "price": 5899,
+      "mrp": 9832,
       "discount": 40,
       "rating": 4.5,
-      "stock": 48,
-      "availability": "In Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1637069585336-827b298fe84a?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1498,6 +2851,7 @@
       "title": "Zara Slim Tapered Jeans",
       "description": "A slim tapered jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -1506,12 +2860,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 82.99,
-      "mrp": 82.99,
+      "price": 7099,
+      "mrp": 7099,
       "discount": 0,
       "rating": 4.0,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 24,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1539,6 +2893,7 @@
       "title": "Uniqlo Bootcut Jeans",
       "description": "A bootcut jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "men",
       "brand": "Uniqlo",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1547,11 +2902,11 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 43.99,
-      "mrp": 48.88,
+      "price": 3699,
+      "mrp": 4110,
       "discount": 10,
       "rating": 4.3,
-      "stock": 48,
+      "stock": 25,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1542272604-787c3835535d?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1586,6 +2941,7 @@
       "title": "Vero Moda Baggy Jeans",
       "description": "A baggy jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1594,12 +2950,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 43.99,
-      "mrp": 54.99,
+      "price": 3699,
+      "mrp": 4624,
       "discount": 20,
       "rating": 4.2,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 26,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1639,6 +2995,7 @@
       "title": "Shein 501 Original Straight Jeans",
       "description": "A 501 original straight jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1647,11 +3004,11 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 54.99,
-      "mrp": 78.56,
+      "price": 4699,
+      "mrp": 6713,
       "discount": 30,
       "rating": 4.0,
-      "stock": 48,
+      "stock": 27,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1721637286605-ae9be19d681f?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1680,6 +3037,7 @@
       "title": "Tommy Hilfiger High Rise Mom Jeans",
       "description": "A high rise mom jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1688,12 +3046,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 92.99,
-      "mrp": 185.98,
+      "price": 7899,
+      "mrp": 15798,
       "discount": 50,
       "rating": 4.7,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 28,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1727,6 +3085,7 @@
       "title": "Zara Wide Leg Jeans",
       "description": "A wide leg jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -1735,11 +3094,11 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 72.99,
-      "mrp": 72.99,
+      "price": 6199,
+      "mrp": 6199,
       "discount": 0,
       "rating": 4.2,
-      "stock": 48,
+      "stock": 29,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1780,6 +3139,7 @@
       "title": "Uniqlo Slim Tapered Jeans",
       "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "men",
       "brand": "Uniqlo",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1788,12 +3148,12 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 63.99,
-      "mrp": 75.28,
+      "price": 5399,
+      "mrp": 6352,
       "discount": 15,
       "rating": 4.5,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 30,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1821,6 +3181,7 @@
       "title": "Vero Moda Bootcut Jeans",
       "description": "A bootcut jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1829,11 +3190,11 @@
         "bottoms",
         "five-pocket"
       ],
-      "price": 85.99,
-      "mrp": 114.65,
+      "price": 7299,
+      "mrp": 9732,
       "discount": 25,
       "rating": 4.3,
-      "stock": 48,
+      "stock": 31,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1868,6 +3229,7 @@
       "title": "Levi's Trucker Jacket",
       "description": "A trucker jacket from Levi's, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1875,12 +3237,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 117.99,
-      "mrp": 157.32,
+      "price": 9999,
+      "mrp": 13332,
       "discount": 25,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -1908,6 +3270,7 @@
       "title": "M&S Oversized Denim Jacket",
       "description": "An oversized denim jacket from M&S, cut from cotton twill with a brushed lining. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -1915,11 +3278,11 @@
         "outerwear",
         "layering"
       ],
-      "price": 97.99,
-      "mrp": 163.32,
+      "price": 8299,
+      "mrp": 13832,
       "discount": 40,
       "rating": 4.3,
-      "stock": 14,
+      "stock": 33,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -1954,6 +3317,7 @@
       "title": "Calvin Klein Belted Trench Jacket",
       "description": "A belted trench jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1961,12 +3325,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 161.99,
-      "mrp": 161.99,
+      "price": 13799,
+      "mrp": 13799,
       "discount": 0,
       "rating": 4.2,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 34,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1614699745279-2c61bd9d46b5?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2006,6 +3370,7 @@
       "title": "H&M Single-Breasted Jacket",
       "description": "A single-breasted jacket from H&M, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -2013,12 +3378,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 149.99,
-      "mrp": 166.66,
+      "price": 12699,
+      "mrp": 14110,
       "discount": 10,
       "rating": 4.5,
-      "stock": 14,
-      "availability": "In Stock",
+      "stock": 0,
+      "availability": "Out of Stock",
       "images": [
         "https://images.unsplash.com/photo-1527016021513-b09758b777bd?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2046,6 +3411,7 @@
       "title": "Mango Puffer Jacket",
       "description": "A puffer jacket from Mango, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "women",
       "brand": "Mango",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -2053,12 +3419,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 90.99,
-      "mrp": 113.74,
+      "price": 7699,
+      "mrp": 9624,
       "discount": 20,
       "rating": 4.7,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 36,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1601036572102-f8cd483c9518?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2092,6 +3458,7 @@
       "title": "Levi's Cropped Jacket",
       "description": "A cropped jacket from Levi's, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "women",
       "brand": "Levi's",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -2099,11 +3466,11 @@
         "outerwear",
         "layering"
       ],
-      "price": 133.99,
-      "mrp": 191.41,
+      "price": 11399,
+      "mrp": 16284,
       "discount": 30,
       "rating": 4.2,
-      "stock": 14,
+      "stock": 37,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1580644228275-2b826dbec5bf?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2144,6 +3511,7 @@
       "title": "M&S Trucker Jacket",
       "description": "A trucker jacket from M&S, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "M&S",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -2151,12 +3519,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 126.99,
-      "mrp": 253.98,
+      "price": 10799,
+      "mrp": 21598,
       "discount": 50,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 38,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2184,6 +3552,7 @@
       "title": "Calvin Klein Oversized Denim Jacket",
       "description": "An oversized denim jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -2191,11 +3560,11 @@
         "outerwear",
         "layering"
       ],
-      "price": 172.99,
-      "mrp": 172.99,
+      "price": 14699,
+      "mrp": 14699,
       "discount": 0,
       "rating": 4.0,
-      "stock": 14,
+      "stock": 39,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2230,6 +3599,7 @@
       "title": "H&M Belted Trench Jacket",
       "description": "A belted trench jacket from H&M, cut from cotton twill with a brushed lining. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -2237,12 +3607,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 153.99,
-      "mrp": 181.16,
+      "price": 13099,
+      "mrp": 15411,
       "discount": 15,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 40,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1633821879282-0c4e91f96232?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2282,6 +3652,7 @@
       "title": "Mango Single-Breasted Jacket",
       "description": "A single-breasted jacket from Mango, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "women",
       "brand": "Mango",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -2289,12 +3660,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 95.99,
-      "mrp": 127.99,
+      "price": 8199,
+      "mrp": 10932,
       "discount": 25,
       "rating": 4.5,
-      "stock": 14,
-      "availability": "In Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1550872199-63f4382fe925?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2322,6 +3693,7 @@
       "title": "Levi's Puffer Jacket",
       "description": "A puffer jacket from Levi's, cut from cotton twill with a brushed lining. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -2329,12 +3701,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 185.99,
-      "mrp": 309.98,
+      "price": 15799,
+      "mrp": 26332,
       "discount": 40,
       "rating": 4.3,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 12,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1680690395101-1b2a56c0ac21?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2368,6 +3740,7 @@
       "title": "M&S Cropped Jacket",
       "description": "A cropped jacket from M&S, cut from cotton twill with a brushed lining. Shown in purple, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "women",
       "brand": "M&S",
       "colour": "purple",
       "colourLabel": "Purple",
@@ -2375,11 +3748,11 @@
         "outerwear",
         "layering"
       ],
-      "price": 73.99,
-      "mrp": 73.99,
+      "price": 6299,
+      "mrp": 6299,
       "discount": 0,
       "rating": 4.5,
-      "stock": 14,
+      "stock": 13,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1621786040662-455f23dcb6ff?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2420,6 +3793,7 @@
       "title": "Calvin Klein Trucker Jacket",
       "description": "A trucker jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "red",
       "colourLabel": "Red",
@@ -2427,12 +3801,12 @@
         "outerwear",
         "layering"
       ],
-      "price": 112.99,
-      "mrp": 125.54,
+      "price": 9599,
+      "mrp": 10666,
       "discount": 10,
       "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
+      "stock": 14,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1671823468817-4dcd72952359?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2460,6 +3834,7 @@
       "title": "H&M Oversized Denim Jacket",
       "description": "An oversized denim jacket from H&M, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
+      "gender": "men",
       "brand": "H&M",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -2467,11 +3842,11 @@
         "outerwear",
         "layering"
       ],
-      "price": 156.99,
-      "mrp": 196.24,
+      "price": 13299,
+      "mrp": 16624,
       "discount": 20,
       "rating": 4.0,
-      "stock": 14,
+      "stock": 15,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1608635680046-aebf91c1a9c8?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2506,6 +3881,7 @@
       "title": "M&S Ribbed Knit Sweater",
       "description": "A ribbed knit sweater from M&S, cut from soft merino-blend yarn. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "M&S",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -2514,12 +3890,12 @@
         "wool",
         "layering"
       ],
-      "price": 37.99,
-      "mrp": 37.99,
+      "price": 3199,
+      "mrp": 3199,
       "discount": 0,
       "rating": 4.0,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 16,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2547,6 +3923,7 @@
       "title": "Calvin Klein Cable Knit Sweater",
       "description": "A cable knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -2555,11 +3932,11 @@
         "wool",
         "layering"
       ],
-      "price": 57.99,
-      "mrp": 68.22,
+      "price": 4899,
+      "mrp": 5764,
       "discount": 15,
       "rating": 4.3,
-      "stock": 35,
+      "stock": 17,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1631541909061-71e349d1f203?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2594,6 +3971,7 @@
       "title": "H&M Merino Crew Sweater",
       "description": "A merino crew sweater from H&M, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -2602,12 +3980,12 @@
         "wool",
         "layering"
       ],
-      "price": 30.99,
-      "mrp": 41.32,
+      "price": 2599,
+      "mrp": 3465,
       "discount": 25,
       "rating": 4.2,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 18,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1643015862949-5c8d15a4242e?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2647,6 +4025,7 @@
       "title": "Mango Chunky Roll Neck Sweater",
       "description": "A chunky roll neck sweater from Mango, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "women",
       "brand": "Mango",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -2655,11 +4034,11 @@
         "wool",
         "layering"
       ],
-      "price": 68.99,
-      "mrp": 114.98,
+      "price": 5899,
+      "mrp": 9832,
       "discount": 40,
       "rating": 4.0,
-      "stock": 35,
+      "stock": 19,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2688,6 +4067,7 @@
       "title": "Levi's Fine Gauge Sweater",
       "description": "A fine gauge sweater from Levi's, cut from soft merino-blend yarn. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -2696,11 +4076,11 @@
         "wool",
         "layering"
       ],
-      "price": 74.99,
-      "mrp": 74.99,
+      "price": 6399,
+      "mrp": 6399,
       "discount": 0,
       "rating": 4.7,
-      "stock": 6,
+      "stock": 4,
       "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1588271968087-4c51abe05afc?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2735,6 +4115,7 @@
       "title": "M&S Boxy Sweater",
       "description": "A boxy sweater from M&S, cut from soft merino-blend yarn. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "M&S",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -2743,11 +4124,11 @@
         "wool",
         "layering"
       ],
-      "price": 62.99,
-      "mrp": 69.99,
+      "price": 5399,
+      "mrp": 5999,
       "discount": 10,
       "rating": 4.2,
-      "stock": 35,
+      "stock": 21,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1536992266094-82847e1fd431?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2788,6 +4169,7 @@
       "title": "Calvin Klein Ribbed Knit Sweater",
       "description": "A ribbed knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
+      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -2796,12 +4178,12 @@
         "wool",
         "layering"
       ],
-      "price": 81.99,
-      "mrp": 102.49,
+      "price": 6999,
+      "mrp": 8749,
       "discount": 20,
       "rating": 4.5,
-      "stock": 6,
-      "availability": "Low Stock",
+      "stock": 22,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1580331451062-99ff652288d7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2829,6 +4211,7 @@
       "title": "Zara Heavyweight Hoodie",
       "description": "A heavyweight hoodie from Zara, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -2837,11 +4220,11 @@
         "loungewear",
         "jersey"
       ],
-      "price": 38.99,
-      "mrp": 77.98,
+      "price": 3299,
+      "mrp": 6598,
       "discount": 50,
       "rating": 4.5,
-      "stock": 48,
+      "stock": 23,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2870,6 +4253,7 @@
       "title": "Uniqlo Zip-Through Hoodie",
       "description": "A zip-through hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "men",
       "brand": "Uniqlo",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -2878,12 +4262,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 55.99,
-      "mrp": 55.99,
+      "price": 4799,
+      "mrp": 4799,
       "discount": 0,
       "rating": 4.7,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 24,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -2917,6 +4301,7 @@
       "title": "Vero Moda Oversized Hoodie",
       "description": "An oversized hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -2925,11 +4310,11 @@
         "loungewear",
         "jersey"
       ],
-      "price": 50.99,
-      "mrp": 59.99,
+      "price": 4299,
+      "mrp": 5058,
       "discount": 15,
       "rating": 4.5,
-      "stock": 48,
+      "stock": 25,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -2970,6 +4355,7 @@
       "title": "Shein Cropped Hoodie",
       "description": "A cropped hoodie from Shein, cut from brushed-back loopback cotton. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "women",
       "brand": "Shein",
       "colour": "green",
       "colourLabel": "Green",
@@ -2978,12 +4364,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 50.99,
-      "mrp": 67.99,
+      "price": 4299,
+      "mrp": 5732,
       "discount": 25,
       "rating": 4.0,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 26,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1685354218016-3899c9ef79ad?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -3011,6 +4397,7 @@
       "title": "Tommy Hilfiger Essential Hoodie",
       "description": "An essential hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "men",
       "brand": "Tommy Hilfiger",
       "colour": "black",
       "colourLabel": "Black",
@@ -3019,11 +4406,11 @@
         "loungewear",
         "jersey"
       ],
-      "price": 44.99,
-      "mrp": 74.98,
+      "price": 3799,
+      "mrp": 6332,
       "discount": 40,
       "rating": 4.3,
-      "stock": 48,
+      "stock": 27,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1579572331145-5e53b299c64e?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -3058,6 +4445,7 @@
       "title": "Zara Brushed-Back Hoodie",
       "description": "A brushed-back hoodie from Zara, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "men",
       "brand": "Zara",
       "colour": "black",
       "colourLabel": "Black",
@@ -3066,12 +4454,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 61.99,
-      "mrp": 61.99,
+      "price": 5299,
+      "mrp": 5299,
       "discount": 0,
       "rating": 4.2,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 28,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1609873814058-a8928924184a?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -3111,6 +4499,7 @@
       "title": "Uniqlo Heavyweight Hoodie",
       "description": "A heavyweight hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "men",
       "brand": "Uniqlo",
       "colour": "white",
       "colourLabel": "White",
@@ -3119,12 +4508,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 66.99,
-      "mrp": 74.43,
+      "price": 5699,
+      "mrp": 6332,
       "discount": 10,
       "rating": 4.0,
-      "stock": 48,
-      "availability": "In Stock",
+      "stock": 4,
+      "availability": "Low Stock",
       "images": [
         "https://images.unsplash.com/photo-1601063476271-a159c71ab0b3?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -3152,6 +4541,7 @@
       "title": "Vero Moda Zip-Through Hoodie",
       "description": "A zip-through hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "women",
       "brand": "Vero Moda",
       "colour": "white",
       "colourLabel": "White",
@@ -3160,12 +4550,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 45.99,
-      "mrp": 57.49,
+      "price": 3899,
+      "mrp": 4874,
       "discount": 20,
       "rating": 4.7,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 30,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -3199,6 +4589,7 @@
       "title": "Shein Oversized Hoodie",
       "description": "An oversized hoodie from Shein, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "women",
       "brand": "Shein",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -3207,11 +4598,11 @@
         "loungewear",
         "jersey"
       ],
-      "price": 53.99,
-      "mrp": 77.13,
+      "price": 4599,
+      "mrp": 6570,
       "discount": 30,
       "rating": 4.2,
-      "stock": 48,
+      "stock": 31,
       "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1611817757591-c3f345024273?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
@@ -3252,6 +4643,7 @@
       "title": "Tommy Hilfiger Cropped Hoodie",
       "description": "A cropped hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
+      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -3260,12 +4652,12 @@
         "loungewear",
         "jersey"
       ],
-      "price": 27.99,
-      "mrp": 55.98,
+      "price": 2399,
+      "mrp": 4798,
       "discount": 50,
       "rating": 4.5,
-      "stock": 9,
-      "availability": "Low Stock",
+      "stock": 32,
+      "availability": "In Stock",
       "images": [
         "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
       ],
@@ -3286,6 +4678,498 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/ikLELWYbyxk"
+    },
+    {
+      "id": 1071,
+      "slug": "zara-wrap-dress-1071",
+      "title": "Zara Wrap Dress",
+      "description": "A wrap dress from Zara, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Zara",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 2698,
+      "mrp": 2698,
+      "discount": 0,
+      "rating": 4.5,
+      "stock": 35,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1623580674393-edf6eb7090f8?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1623580674393-edf6eb7090f8?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1071",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Meera P.",
+          "date": "2026-01-19T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-02-22T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/77iyep3uIjg"
+    },
+    {
+      "id": 1072,
+      "slug": "h-m-midi-dress-1072",
+      "title": "H&M Midi Dress",
+      "description": "A midi dress from H&M, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 3498,
+      "mrp": 3887,
+      "discount": 10,
+      "rating": 4.7,
+      "stock": 36,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1072",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Priya S.",
+          "date": "2026-03-23T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-04-26T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/oEvKyQNdqQk"
+    },
+    {
+      "id": 1073,
+      "slug": "shein-tiered-maxi-dress-1073",
+      "title": "Shein Tiered Maxi Dress",
+      "description": "A tiered maxi dress from Shein, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 4198,
+      "mrp": 4939,
+      "discount": 15,
+      "rating": 4.5,
+      "stock": 37,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1656284518334-710b60cd63a0?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1656284518334-710b60cd63a0?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1073",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-03-21T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Neha R.",
+          "date": "2026-04-24T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/kEUoygxtAJI"
+    },
+    {
+      "id": 1074,
+      "slug": "m-s-slip-dress-1074",
+      "title": "M&S Slip Dress",
+      "description": "A slip dress from M&S, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "M&S",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 2998,
+      "mrp": 3748,
+      "discount": 20,
+      "rating": 4.7,
+      "stock": 4,
+      "availability": "Low Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1599662875272-64de8289f6d8?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1599662875272-64de8289f6d8?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1074",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Elena V.",
+          "date": "2026-04-22T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-05-25T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Meera P.",
+          "date": "2026-06-10T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/y-OMFTKo7UE"
+    },
+    {
+      "id": 1075,
+      "slug": "mango-shirt-dress-1075",
+      "title": "Mango Shirt Dress",
+      "description": "A shirt dress from Mango, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Mango",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 5498,
+      "mrp": 5498,
+      "discount": 0,
+      "rating": 4.5,
+      "stock": 14,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1075",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Meera P.",
+          "date": "2026-05-23T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-06-26T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/_vmoFgZc8c0"
+    },
+    {
+      "id": 1076,
+      "slug": "vero-moda-a-line-dress-1076",
+      "title": "Vero Moda A-Line Dress",
+      "description": "A a-line dress from Vero Moda, cut from fluid viscose blend. Shown in green, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Vero Moda",
+      "colour": "green",
+      "colourLabel": "Green",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 3798,
+      "mrp": 5064,
+      "discount": 25,
+      "rating": 4.3,
+      "stock": 0,
+      "availability": "Out of Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1685703203919-0c2cfc893c60?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1685703203919-0c2cfc893c60?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1076",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-06-24T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Priya S.",
+          "date": "2026-07-27T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-01-12T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/wxLEHGeZKic"
+    },
+    {
+      "id": 1077,
+      "slug": "uniqlo-bodycon-dress-1077",
+      "title": "Uniqlo Bodycon Dress",
+      "description": "A bodycon dress from Uniqlo, cut from fluid viscose blend. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Uniqlo",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 4598,
+      "mrp": 6569,
+      "discount": 30,
+      "rating": 4.5,
+      "stock": 16,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1736342182642-e2042084f47c?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1736342182642-e2042084f47c?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1077",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-07-25T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Neha R.",
+          "date": "2026-01-10T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/t6NdKWttAZ4"
+    },
+    {
+      "id": 1078,
+      "slug": "tommy-hilfiger-sundress-dress-1078",
+      "title": "Tommy Hilfiger Sundress Dress",
+      "description": "A sundress dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Tommy Hilfiger",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 3298,
+      "mrp": 3880,
+      "discount": 15,
+      "rating": 4.7,
+      "stock": 17,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1517970640957-23d07d5ed08c?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1517970640957-23d07d5ed08c?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1078",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Elena V.",
+          "date": "2026-01-26T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-02-11T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Meera P.",
+          "date": "2026-03-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/50W6uYEOSpk"
+    },
+    {
+      "id": 1079,
+      "slug": "zara-pleated-midi-dress-1079",
+      "title": "Zara Pleated Midi Dress",
+      "description": "A pleated midi dress from Zara, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Zara",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 6198,
+      "mrp": 10330,
+      "discount": 40,
+      "rating": 4.5,
+      "stock": 18,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1592924514972-71c5938462d1?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1592924514972-71c5938462d1?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1079",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Meera P.",
+          "date": "2026-02-27T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-03-12T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/lAYaL3WxyjQ"
+    },
+    {
+      "id": 1080,
+      "slug": "h-m-smocked-dress-1080",
+      "title": "H&M Smocked Dress",
+      "description": "A smocked dress from H&M, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 2898,
+      "mrp": 2898,
+      "discount": 0,
+      "rating": 4.7,
+      "stock": 19,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1617391834151-3a12f8495ca3?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1617391834151-3a12f8495ca3?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1080",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-03-10T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Priya S.",
+          "date": "2026-04-13T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-05-16T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1xMRyjrsdcw"
+    },
+    {
+      "id": 1081,
+      "slug": "shein-halter-maxi-dress-1081",
+      "title": "Shein Halter Maxi Dress",
+      "description": "A halter maxi dress from Shein, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 4998,
+      "mrp": 6248,
+      "discount": 20,
+      "rating": 5.0,
+      "stock": 4,
+      "availability": "Low Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=1200&q=80&fm=webp&fit=crop&crop=entropy"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=800&q=80&fm=webp&fit=crop&crop=entropy",
+      "sku": "KPD-DRE-1081",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-04-11T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Neha R.",
+          "date": "2026-05-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/2ZXVU3BJzN4"
     }
   ],
   "banners": [
@@ -3401,6 +5285,16 @@
       "hex": "#9ca3af"
     },
     {
+      "value": "orange",
+      "label": "Orange",
+      "hex": "#e0743a"
+    },
+    {
+      "value": "pink",
+      "label": "Pink",
+      "hex": "#ec9db8"
+    },
+    {
       "value": "purple",
       "label": "Purple",
       "hex": "#8b5cf6"
@@ -3419,6 +5313,18 @@
       "value": "yellow",
       "label": "Yellow",
       "hex": "#e8c65a"
+    }
+  ],
+  "genders": [
+    {
+      "value": "women",
+      "label": "Women",
+      "singular": "Women's"
+    },
+    {
+      "value": "men",
+      "label": "Men",
+      "singular": "Men's"
     }
   ]
 }

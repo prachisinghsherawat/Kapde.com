@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { Button, Checkbox, Rate, Slider, Switch } from 'antd';
+import { CheckOutlined } from '@ant-design/icons';
 
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
@@ -7,12 +8,13 @@ import {
   selectActiveFilterCount,
   selectAvailableFacets,
   selectFilters,
+  selectGender,
   setInStockOnly,
   setMinRating,
   setPriceMax,
   toggleFilterValue,
 } from '@/features/catalog/catalogSlice';
-import { COLOURS, RATING_OPTIONS } from '@/lib/constants';
+import { COLOURS, GENDERS, RATING_OPTIONS } from '@/lib/constants';
 import { formatPrice } from '@/lib/format';
 
 function Group({ title, children }: { title: string; children: ReactNode }) {
@@ -29,8 +31,12 @@ export default function FilterPanel() {
   const filters = useAppSelector(selectFilters);
   const activeCount = useAppSelector(selectActiveFilterCount);
   const facets = useAppSelector(selectAvailableFacets);
+  // On /g/women and /g/men the department is already the page, so the group is dropped.
+  const scopedGender = useAppSelector(selectGender);
 
   const colourMeta = (value: string) => COLOURS.find((colour) => colour.value === value);
+  const departmentLabel = (value: string) =>
+    GENDERS.find((department) => department.value === value)?.label ?? value;
 
   return (
     <div>
@@ -83,35 +89,36 @@ export default function FilterPanel() {
       </Group>
 
       <Group title="Colour">
-        <div className="grid grid-cols-2 gap-y-3">
+        <div className="flex flex-wrap gap-3">
           {facets.colours.map((colour) => {
             const meta = colourMeta(colour.value);
             const active = filters.colours.includes(colour.value);
+            const light = ['white', 'yellow'].includes(colour.value);
             return (
               <button
                 key={colour.value}
                 type="button"
+                title={`${meta?.label ?? colour.value} (${colour.count})`}
                 aria-pressed={active}
+                aria-label={meta?.label ?? colour.value}
                 onClick={() => dispatch(toggleFilterValue({ key: 'colours', value: colour.value }))}
-                className={`flex items-center gap-2.5 rounded-lg px-2 py-1.5 text-left text-[15px] transition ${
-                  active ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40' : 'text-ink hover:bg-subtle'
+                className={`grid h-7 w-7 place-items-center rounded-full transition-transform duration-200 hover:scale-110 ${
+                  active ? 'ring-2 ring-brand-600 ring-offset-2 ring-offset-surface' : ''
                 }`}
+                style={
+                  colour.value === 'multi'
+                    ? {
+                        background:
+                          'conic-gradient(#ec9db8, #e8c65a, #3f9d6a, #2f6fd0, #8b5cf6, #ec9db8)',
+                        // Inset hairline keeps white visible on a white panel.
+                        boxShadow: 'inset 0 0 0 1px rgb(0 0 0 / 0.15)',
+                      }
+                    : { backgroundColor: meta?.hex, boxShadow: 'inset 0 0 0 1px rgb(0 0 0 / 0.15)' }
+                }
               >
-                <span
-                  className={`h-5 w-5 shrink-0 rounded-full border ${
-                    active ? 'ring-2 ring-brand-600 ring-offset-1' : 'border-line'
-                  }`}
-                  style={
-                    colour.value === 'multi'
-                      ? {
-                          background:
-                            'conic-gradient(#ec9db8, #e8c65a, #3f9d6a, #2f6fd0, #8b5cf6, #ec9db8)',
-                        }
-                      : { backgroundColor: meta?.hex }
-                  }
-                  aria-hidden
-                />
-                {meta?.label ?? colour.value}
+                {active && (
+                  <CheckOutlined className={`text-[10px] ${light ? 'text-ink' : 'text-white'}`} />
+                )}
               </button>
             );
           })}
@@ -128,10 +135,10 @@ export default function FilterPanel() {
                 type="button"
                 aria-pressed={active}
                 onClick={() => dispatch(toggleFilterValue({ key: 'sizes', value: size.value }))}
-                className={`min-w-[3.25rem] rounded-lg border px-3 py-2 text-sm font-medium transition ${
+                className={`grid h-8 min-w-[2rem] place-items-center rounded-md border px-2 text-xs font-semibold transition ${
                   active
                     ? 'border-brand-600 bg-brand-600 text-white'
-                    : 'border-line bg-surface text-ink hover:border-brand-400'
+                    : 'border-line bg-surface text-ink hover:border-brand-400 hover:text-brand-600'
                 }`}
               >
                 {size.value}

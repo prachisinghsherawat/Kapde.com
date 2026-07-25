@@ -88,11 +88,12 @@ export const selectCartTotals = createSelector([selectCartLines], (lines): CartT
   const mrpTotal = lines.reduce((total, line) => total + line.mrp * line.qty, 0);
   const shipping = subtotal === 0 || subtotal >= FREE_SHIPPING_OVER ? 0 : SHIPPING_FEE;
 
+  // Every price is a whole rupee, so the totals stay integers.
   return {
-    subtotal: Number(subtotal.toFixed(2)),
-    savings: Number((mrpTotal - subtotal).toFixed(2)),
+    subtotal,
+    savings: mrpTotal - subtotal,
     shipping,
-    total: Number((subtotal + shipping).toFixed(2)),
+    total: subtotal + shipping,
     itemCount: lines.reduce((total, line) => total + line.qty, 0),
   };
 });

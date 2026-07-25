@@ -1,5 +1,5 @@
 import catalogJson from '@/data/catalog.json';
-import type { Catalog, Category, CategorySlug, SortKey } from '@/types';
+import type { Catalog, Category, CategorySlug, Department, Gender, SortKey } from '@/types';
 
 const catalog = catalogJson as Catalog;
 
@@ -7,7 +7,9 @@ export const CATEGORIES = catalog.categories;
 export const BANNERS = catalog.banners;
 export const BRANDS = catalog.brands;
 export const COLOURS = catalog.colours;
+export const GENDERS = catalog.genders;
 export const CATEGORY_SLUGS = CATEGORIES.map((category) => category.slug);
+export const GENDER_VALUES = GENDERS.map((department) => department.value);
 
 /** Jeans are sold on waist measurement; everything else takes letter sizes. */
 const LETTER_SIZES = ['XS', 'S', 'M', 'L', 'XL'];
@@ -30,11 +32,17 @@ export const SORT_OPTIONS: { value: SortKey; label: string }[] = [
 export const RATING_OPTIONS = [4.5, 4, 3.5, 3];
 
 export const PAGE_SIZE = 12;
-export const FREE_SHIPPING_OVER = 75;
-export const SHIPPING_FEE = 6.99;
+export const FREE_SHIPPING_OVER = 1999;
+export const SHIPPING_FEE = 99;
 
 export const isCategorySlug = (value: string | undefined): value is CategorySlug =>
   CATEGORY_SLUGS.includes(value as CategorySlug);
 
 export const getCategory = (slug: CategorySlug): Category | undefined =>
   CATEGORIES.find((category) => category.slug === slug);
+
+export const isGender = (value: string | undefined): value is Gender =>
+  GENDER_VALUES.includes(value as Gender);
+
+export const getDepartment = (gender: Gender): Department | undefined =>
+  GENDERS.find((department) => department.value === gender);

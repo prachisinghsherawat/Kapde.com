@@ -37,20 +37,30 @@ function ProductCard({ product }: { product: Product }) {
           <ProductImage
             src={product.thumbnail}
             alt={product.title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className={`h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 ${
+              soldOut ? 'opacity-60' : ''
+            }`}
           />
         </Link>
 
         <div className="pointer-events-none absolute left-3 top-3 flex flex-col gap-1.5">
-          {product.discount > 0 && (
-            <span className="w-fit rounded-full bg-brand-600 px-2.5 py-1 text-xs font-semibold text-white">
-              {product.discount}% OFF
+          {soldOut ? (
+            <span className="w-fit rounded-full bg-ink/80 px-2.5 py-1 text-xs font-semibold text-canvas">
+              Sold out
             </span>
-          )}
-          {product.availability === 'Low Stock' && (
-            <span className="w-fit rounded-full bg-amber-500 px-2.5 py-1 text-xs font-semibold text-white">
-              Low stock
-            </span>
+          ) : (
+            <>
+              {product.discount > 0 && (
+                <span className="w-fit rounded-full bg-brand-600 px-2.5 py-1 text-xs font-semibold text-white">
+                  {product.discount}% OFF
+                </span>
+              )}
+              {product.availability === 'Low Stock' && (
+                <span className="w-fit rounded-full bg-amber-500 px-2.5 py-1 text-xs font-semibold text-white">
+                  Low stock
+                </span>
+              )}
+            </>
           )}
         </div>
 
@@ -60,19 +70,15 @@ function ProductCard({ product }: { product: Product }) {
             onClick={() => dispatch(toggleWishlist(product))}
             aria-pressed={wishlisted}
             aria-label={wishlisted ? 'Remove from wishlist' : 'Save for later'}
-            className="absolute right-3 top-3 grid h-9 w-9 place-items-center rounded-full bg-surface/90 text-base shadow-card backdrop-blur transition hover:scale-105"
+            className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-surface/90 text-lg shadow-card backdrop-blur transition-all duration-200 hover:scale-110 active:scale-95"
           >
-            {wishlisted ? <HeartFilled className="text-brand-600" /> : <HeartOutlined />}
+            {wishlisted ? (
+              <HeartFilled className="text-brand-600" />
+            ) : (
+              <HeartOutlined className="text-ink" />
+            )}
           </button>
         </Tooltip>
-
-        {soldOut && (
-          <div className="absolute inset-0 grid place-items-center bg-surface/70 backdrop-blur-[1px]">
-            <span className="rounded-full bg-ink px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-canvas">
-              Sold out
-            </span>
-          </div>
-        )}
 
         {/* Slides up on hover for pointers; always visible on touch, where hover never fires. */}
         {!soldOut && (
