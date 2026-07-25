@@ -9,15 +9,21 @@ import {
   setPriceMax,
   toggleFilterValue,
 } from '@/features/catalog/catalogSlice';
-import { formatPrice, titleCase } from '@/lib/format';
+import { COLOURS } from '@/lib/constants';
+import { formatPrice } from '@/lib/format';
 
 const chipClass = '!m-0 !rounded-full !bg-subtle !px-3 !py-1 !text-sm !text-ink';
+
+const chipLabel = (key: 'brands' | 'colours' | 'sizes', value: string) => {
+  if (key === 'colours') return COLOURS.find((colour) => colour.value === value)?.label ?? value;
+  return key === 'sizes' ? `Size ${value}` : value;
+};
 
 export default function ActiveFilterChips() {
   const dispatch = useAppDispatch();
   const filters = useAppSelector(selectFilters);
 
-  const listChips = (['brands', 'tags'] as const).flatMap((key) =>
+  const listChips = (['brands', 'colours', 'sizes'] as const).flatMap((key) =>
     filters[key].map((value) => ({ key, value })),
   );
 
@@ -39,7 +45,7 @@ export default function ActiveFilterChips() {
           onClose={() => dispatch(toggleFilterValue({ key, value }))}
           className={chipClass}
         >
-          {titleCase(value)}
+          {chipLabel(key, value)}
         </Tag>
       ))}
 

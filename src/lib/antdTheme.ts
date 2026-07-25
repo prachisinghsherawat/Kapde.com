@@ -13,7 +13,6 @@ const shared = {
   controlHeight: 40,
 };
 
-/** Mirrors the CSS variables in index.css so antd and Tailwind surfaces never diverge. */
 export const buildAntdTheme = (mode: Theme): ThemeConfig => ({
   algorithm: mode === 'dark' ? antdTheme.darkAlgorithm : antdTheme.defaultAlgorithm,
   token:

@@ -1,14 +1,11 @@
 export type CategorySlug =
-  | 'tops'
-  | 'womens-dresses'
-  | 'mens-shirts'
-  | 'womens-shoes'
-  | 'mens-shoes'
-  | 'womens-bags'
-  | 'womens-jewellery'
-  | 'womens-watches'
-  | 'mens-watches'
-  | 'sunglasses';
+  | 'tshirts'
+  | 'shirts'
+  | 'dresses'
+  | 'jeans'
+  | 'outerwear'
+  | 'knitwear'
+  | 'hoodies';
 
 export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating' | 'newest';
 
@@ -27,7 +24,9 @@ export interface Product {
   title: string;
   description: string;
   category: CategorySlug;
-  brand: string | null;
+  brand: string;
+  colour: string;
+  colourLabel: string;
   tags: string[];
   price: number;
   mrp: number;
@@ -39,28 +38,46 @@ export interface Product {
   thumbnail: string;
   sku: string;
   reviews: Review[];
-  shippingInformation: string;
-  warrantyInformation: string;
-  returnPolicy: string;
-  minimumOrderQuantity: number;
+  /** Link back to the photographer's page on Unsplash. */
+  photoCredit: string;
 }
 
 export interface Category {
   slug: CategorySlug;
   label: string;
   singular: string;
-  group: 'Women' | 'Men' | 'Accessories';
+}
+
+export interface Banner {
+  id: string;
+  image: string;
+  alt: string;
+}
+
+export interface ColourFacet {
+  value: string;
+  label: string;
+  hex: string;
+}
+
+export interface Catalog {
+  products: Product[];
+  banners: Banner[];
+  categories: Category[];
+  brands: string[];
+  colours: ColourFacet[];
 }
 
 export interface Filters {
   brands: string[];
-  tags: string[];
+  colours: string[];
+  sizes: string[];
   priceMax: number | null;
   minRating: number | null;
   inStockOnly: boolean;
 }
 
-export type FilterListKey = 'brands' | 'tags';
+export type FilterListKey = 'brands' | 'colours' | 'sizes';
 
 export interface CartLine {
   id: string;
@@ -69,7 +86,8 @@ export interface CartLine {
   thumbnail: string;
   price: number;
   mrp: number;
-  brand: string | null;
+  brand: string;
+  colourLabel: string;
   category: CategorySlug;
   size: string;
   qty: number;

@@ -1,8 +1,8 @@
 import { createAsyncThunk, createSelector, createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 
-import { fetchFashionProducts } from './catalogApi';
-import { PAGE_SIZE } from '@/lib/constants';
+import { fetchProducts } from './catalogApi';
+import { ALL_SIZES, PAGE_SIZE, sizesFor } from '@/lib/constants';
 import type { RootState } from '@/app/store';
 import type {
   CategorySlug,
@@ -24,14 +24,9 @@ interface CatalogState {
   filters: Filters;
 }
 
-/**
- * The whole fashion catalogue is small enough to load once per session, so
- * category switching and filtering stay instant and offline-ish after first paint.
- * `condition` skips the request when we already have the data.
- */
 export const loadProducts = createAsyncThunk(
   'catalog/loadProducts',
-  (_: void, { signal }) => fetchFashionProducts(signal),
+  (_: void, { signal }) => fetchProducts(signal),
   {
     condition: (_arg, { getState }) => {
       const { status } = (getState() as RootState).catalog;
@@ -40,12 +35,10 @@ export const loadProducts = createAsyncThunk(
   },
 );
 
-// Factories, not shared constants: RTK deep-freezes initial state in development,
-// so handing the same object back from a reset would make the next filter toggle
-// throw when Immer tries to mutate a frozen array.
 const emptyFilters = (): Filters => ({
   brands: [],
-  tags: [],
+  colours: [],
+  sizes: [],
   priceMax: null,
   minRating: null,
   inStockOnly: false,
@@ -92,7 +85,6 @@ const catalogSlice = createSlice({
       state.filters = emptyFilters();
       state.page = 1;
     },
-    /** Switching listing keeps the loaded products but drops the previous view. */
     openListing(
       state,
       action: PayloadAction<{ category: CategorySlug | null; query?: string }>,
@@ -159,7 +151,7 @@ export const selectCategory = (state: RootState) => state.catalog.category;
 
 const matchesQuery = (product: Product, query: string): boolean => {
   if (!query.trim()) return true;
-  const haystack = [product.title, product.brand, product.category, ...product.tags]
+  const haystack = [product.title, product.brand, product.colourLabel, product.category, ...product.tags]
     .join(' ')
     .toLowerCase();
   return query
@@ -178,7 +170,6 @@ const comparators: Record<SortKey, (a: Product, b: Product) => number> = {
   newest: (a, b) => b.id - a.id,
 };
 
-/** Products in the current category, before any facet is applied. */
 export const selectScopedProducts = createSelector([selectCatalog], ({ items, category }) =>
   category === null ? items : items.filter((product) => product.category === category),
 );
@@ -189,10 +180,10 @@ export const selectVisibleProducts = createSelector(
     products
       .filter(
         (product) =>
-          (filters.brands.length === 0 ||
-            (product.brand !== null && filters.brands.includes(product.brand))) &&
-          (filters.tags.length === 0 ||
-            product.tags.some((tag) => filters.tags.includes(tag))) &&
+          (filters.brands.length === 0 || filters.brands.includes(product.brand)) &&
+          (filters.colours.length === 0 || filters.colours.includes(product.colour)) &&
+          (filters.sizes.length === 0 ||
+            sizesFor(product.category).some((size) => filters.sizes.includes(size))) &&
           (filters.priceMax === null || product.price <= filters.priceMax) &&
           (filters.minRating === null || product.rating >= filters.minRating) &&
           (!filters.inStockOnly || product.availability !== 'Out of Stock') &&
@@ -217,21 +208,24 @@ export const selectActiveFilterCount = createSelector(
   [selectFilters],
   (filters) =>
     filters.brands.length +
-    filters.tags.length +
+    filters.colours.length +
+    filters.sizes.length +
     (filters.priceMax === null ? 0 : 1) +
     (filters.minRating === null ? 0 : 1) +
     (filters.inStockOnly ? 1 : 0),
 );
 
-/** Facets are derived from the products actually in scope, so they never offer a
- *  brand or tag that would return nothing. */
 export const selectAvailableFacets = createSelector([selectScopedProducts], (products) => {
   const brands = new Map<string, number>();
-  const tags = new Map<string, number>();
+  const colours = new Map<string, number>();
+  const sizes = new Map<string, number>();
 
   for (const product of products) {
-    if (product.brand) brands.set(product.brand, (brands.get(product.brand) ?? 0) + 1);
-    for (const tag of product.tags) tags.set(tag, (tags.get(tag) ?? 0) + 1);
+    brands.set(product.brand, (brands.get(product.brand) ?? 0) + 1);
+    colours.set(product.colour, (colours.get(product.colour) ?? 0) + 1);
+    for (const size of sizesFor(product.category)) {
+      sizes.set(size, (sizes.get(size) ?? 0) + 1);
+    }
   }
 
   const byCountThenName = (a: [string, number], b: [string, number]) =>
@@ -239,7 +233,11 @@ export const selectAvailableFacets = createSelector([selectScopedProducts], (pro
 
   return {
     brands: [...brands.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
-    tags: [...tags.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
+    colours: [...colours.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
+    sizes: ALL_SIZES.filter((size) => sizes.has(size)).map((value) => ({
+      value,
+      count: sizes.get(value) ?? 0,
+    })),
     priceCeiling: products.length
       ? Math.ceil(Math.max(...products.map((product) => product.price)))
       : 1000,

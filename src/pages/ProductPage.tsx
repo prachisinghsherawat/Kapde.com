@@ -22,8 +22,8 @@ import PageLoader from '@/components/common/PageLoader';
 import QuantityStepper from '@/components/common/QuantityStepper';
 import ProductGrid from '@/components/product/ProductGrid';
 import ProductImage from '@/components/product/ProductImage';
-import { getCategory, sizesFor } from '@/lib/constants';
-import { formatDate, pluralize, titleCase } from '@/lib/format';
+import { FREE_SHIPPING_OVER, getCategory, sizesFor } from '@/lib/constants';
+import { formatDate, formatPrice, pluralize, titleCase } from '@/lib/format';
 import type { Product, RequestStatus } from '@/types';
 
 export default function ProductPage() {
@@ -159,7 +159,7 @@ export default function ProductPage() {
 
         <div className="lg:py-2">
           <p className="text-sm font-semibold uppercase tracking-wider text-brand-600">
-            {product.brand ?? 'Kapde Studio'}
+            {product.brand}
           </p>
 
           <h1 className="mt-2 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
@@ -242,15 +242,15 @@ export default function ProductPage() {
           <ul className="mt-8 space-y-3 text-sm text-muted">
             <li className="flex items-center gap-3">
               <TruckOutlined className="text-brand-600" />
-              {product.shippingInformation}
+              Free delivery on orders over {formatPrice(FREE_SHIPPING_OVER)}
             </li>
             <li className="flex items-center gap-3">
               <SyncOutlined className="text-brand-600" />
-              {product.returnPolicy}
+              Free 30-day returns and exchanges
             </li>
             <li className="flex items-center gap-3">
               <SafetyOutlined className="text-brand-600" />
-              {product.warrantyInformation}
+              Quality guaranteed for 12 months
             </li>
             <li className="flex items-center gap-3">
               <CheckCircleOutlined className="text-brand-600" />
@@ -270,10 +270,10 @@ export default function ProductPage() {
                 children: (
                   <dl className="grid grid-cols-2 gap-y-3 text-sm">
                     {[
-                      ['Brand', product.brand ?? 'Kapde Studio'],
+                      ['Brand', product.brand],
                       ['Category', category?.label ?? '—'],
                       ['SKU', product.sku],
-                      ['Minimum order', pluralize(product.minimumOrderQuantity, 'unit')],
+                      ['Colour', product.colourLabel],
                     ].map(([label, value]) => (
                       <div key={label}>
                         <dt className="text-muted">{label}</dt>

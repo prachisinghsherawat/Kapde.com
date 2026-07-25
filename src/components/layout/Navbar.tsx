@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { Badge, Button, Drawer, Dropdown, Input, Tooltip } from 'antd';
 import type { MenuProps } from 'antd';
 import {
@@ -25,14 +25,11 @@ const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     isActive ? 'text-brand-600 after:scale-x-100' : 'text-ink'
   }`;
 
-const CATEGORY_GROUPS = ['Women', 'Men', 'Accessories'].map(
-  (group) => [group, CATEGORIES.filter((category) => category.group === group)] as const,
-);
+
 
 export default function Navbar() {
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
-  const { pathname } = useLocation();
   const cartCount = useAppSelector(selectCartCount);
   const wishlistCount = useAppSelector(selectWishlistCount);
   const theme = useAppSelector(selectTheme);
@@ -48,10 +45,6 @@ export default function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-
-  const activeGroup = CATEGORIES.find(
-    (category) => pathname === `/c/${category.slug}`,
-  )?.group;
 
   const submitSearch = (value: string) => {
     const query = value.trim();
@@ -99,32 +92,19 @@ export default function Navbar() {
           Kapde<span className="text-brand-600">.</span>
         </Link>
 
-        {/* Ten categories is too many for a flat bar, so they hang off their group. */}
-        <nav className="ml-6 hidden items-center gap-6 lg:flex">
-          {CATEGORY_GROUPS.map(([group, categories]) => (
-            <Dropdown
-              key={group}
-              placement="bottomLeft"
-              menu={{
-                items: categories.map((category) => ({
-                  key: category.slug,
-                  label: <Link to={`/c/${category.slug}`}>{category.label}</Link>,
-                })),
-              }}
-            >
-              <span className={navLinkClass({ isActive: activeGroup === group })}>{group}</span>
-            </Dropdown>
+        <nav className="ml-6 hidden items-center gap-5 lg:flex">
+          {CATEGORIES.map((category) => (
+            <NavLink key={category.slug} to={`/c/${category.slug}`} className={navLinkClass}>
+              {category.label}
+            </NavLink>
           ))}
-          <NavLink to="/search" className={navLinkClass}>
-            All
-          </NavLink>
         </nav>
 
         <div className="ml-auto flex items-center gap-1 sm:gap-2">
           <Input
             allowClear
             value={term}
-            placeholder="Search for tops, kurtas…"
+            placeholder="Search for jeans, dresses…"
             prefix={<SearchOutlined className="text-muted" />}
             onChange={(event) => setTerm(event.target.value)}
             onPressEnter={(event) => submitSearch(event.currentTarget.value)}
@@ -172,27 +152,20 @@ export default function Navbar() {
           className="mb-6"
           allowClear
         />
-        <nav className="flex flex-col gap-6">
-          {CATEGORY_GROUPS.map(([group, categories]) => (
-            <div key={group}>
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-muted">
-                {group}
-              </p>
-              {categories.map((category) => (
-                <NavLink
-                  key={category.slug}
-                  to={`/c/${category.slug}`}
-                  onClick={() => setMenuOpen(false)}
-                  className={({ isActive }) =>
-                    `block border-b border-line py-3 text-sm font-medium transition-colors ${
-                      isActive ? 'text-brand-600' : 'text-ink hover:text-brand-600'
-                    }`
-                  }
-                >
-                  {category.label}
-                </NavLink>
-              ))}
-            </div>
+        <nav className="flex flex-col">
+          {CATEGORIES.map((category) => (
+            <NavLink
+              key={category.slug}
+              to={`/c/${category.slug}`}
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `block border-b border-line py-3 text-sm font-medium transition-colors ${
+                  isActive ? 'text-brand-600' : 'text-ink hover:text-brand-600'
+                }`
+              }
+            >
+              {category.label}
+            </NavLink>
           ))}
         </nav>
       </Drawer>

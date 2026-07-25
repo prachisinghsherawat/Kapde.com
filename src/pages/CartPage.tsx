@@ -16,7 +16,6 @@ import Price from '@/components/common/Price';
 import QuantityStepper from '@/components/common/QuantityStepper';
 import ProductImage from '@/components/product/ProductImage';
 import OrderSummary from '@/components/cart/OrderSummary';
-import { ONE_SIZE } from '@/lib/constants';
 import { pluralize } from '@/lib/format';
 
 export default function CartPage() {
@@ -86,7 +85,7 @@ export default function CartPage() {
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0">
                     <p className="text-xs font-semibold uppercase tracking-wide text-muted">
-                      {line.brand ?? 'Kapde Studio'}
+                      {line.brand}
                     </p>
                     <Link
                       to={`/product/${line.productId}`}
@@ -94,9 +93,9 @@ export default function CartPage() {
                     >
                       {line.title}
                     </Link>
-                    {line.size !== ONE_SIZE && (
-                      <p className="mt-1 text-xs text-muted">Size {line.size}</p>
-                    )}
+                    <p className="mt-1 text-xs text-muted">
+                      {line.colourLabel} · Size {line.size}
+                    </p>
                   </div>
 
                   <Button

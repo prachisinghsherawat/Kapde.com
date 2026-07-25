@@ -87,7 +87,7 @@ function ProductCard({ product }: { product: Product }) {
       <div className="flex flex-1 flex-col gap-1.5 p-4">
         <div className="flex items-start justify-between gap-2">
           <p className="line-clamp-1 text-xs font-semibold uppercase tracking-wide text-muted">
-            {product.brand ?? 'Kapde Studio'}
+            {product.brand}
           </p>
           <span className="flex shrink-0 items-center gap-1 rounded bg-subtle px-1.5 py-0.5 text-xs font-medium text-ink">
             <StarFilled className="text-[10px] text-amber-500" />

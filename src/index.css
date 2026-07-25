@@ -72,3 +72,16 @@
     scrollbar-width: none;
   }
 }
+
+@layer components {
+  /* antd's default carousel dots vanish against photography. */
+  .kapde-dots li button {
+    height: 3px !important;
+    border-radius: 999px !important;
+    background: rgb(255 255 255 / 0.55) !important;
+  }
+
+  .kapde-dots li.slick-active button {
+    background: #ffffff !important;
+  }
+}

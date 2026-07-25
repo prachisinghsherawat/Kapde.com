@@ -38,19 +38,25 @@ src/
 
 ## Data
 
-Products come from the public [DummyJSON](https://dummyjson.com) API — no key, no
-backend to run. `src/features/catalog/catalogApi.ts` is the only module that talks
-to it: it fetches the ten fashion categories in parallel and maps the raw payload
-onto the `Product` type in `src/types`, reconstructing the pre-discount price so
-components never do that arithmetic themselves.
+`src/data/catalog.json` holds 71 clothing products across 7 categories and 10
+brands, plus 6 hero banners. It is **sample data for a demo storefront** — the
+brand names are real, but the products, prices, stock levels and reviews are not;
+no public API carries real branded clothing with usable product photography.
 
-The whole fashion catalogue (49 products) is small enough to load once per session,
-so `loadProducts` short-circuits when the data is already in the store and category
-switching, filtering and sorting all happen client-side against that one copy.
+Photography is HD from [Unsplash](https://unsplash.com), served from their CDN at
+`w=1200&q=80&fm=webp`. Every image was verified to return a real file, and each
+product's `colour` is derived from its photo's own alt text, so the colour filter
+describes what is actually in the picture. Each product keeps a `photoCredit` link
+back to the photographer.
 
-Sizes are the one thing the API does not carry, so `sizesFor()` in `lib/constants.ts`
-is the store's own merchandising layer: letter sizes for apparel, UK sizes for
-footwear, one size for everything else.
+`src/features/catalog/catalogApi.ts` is the single seam to the data. Every export
+is async, so pointing it at a real backend means rewriting that one file. The
+catalogue loads once per session — `loadProducts` short-circuits when the data is
+already in the store, and category switching, filtering and sorting all run
+client-side against that copy.
+
+Sizes come from `sizesFor()` in `lib/constants.ts`: waist sizes for jeans, letter
+sizes for everything else.
 
 ## Theming
 
