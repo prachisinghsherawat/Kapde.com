@@ -6,7 +6,6 @@
       "title": "Zara Midi Dress",
       "description": "A midi dress from Zara, cut from a soft, fluid viscose blend. Shown in white, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -48,7 +47,6 @@
       "title": "Shein Floral Print Dress",
       "description": "A floral print dress from Shein, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -96,7 +94,6 @@
       "title": "H&M Printed Dress",
       "description": "A printed dress from H&M, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -138,7 +135,6 @@
       "title": "H&M Maxi Dress",
       "description": "A maxi dress from H&M, cut from a soft, fluid viscose blend. Shown in black, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "H&M",
       "colour": "black",
       "colourLabel": "Black",
@@ -180,7 +176,6 @@
       "title": "Calvin Klein Bomber Jacket",
       "description": "A bomber jacket from Calvin Klein, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -221,7 +216,6 @@
       "title": "M&S Puffer Jacket",
       "description": "A puffer jacket from M&S, cut from a weather-ready shell with a brushed lining. Shown in black, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "black",
       "colourLabel": "Black",
@@ -262,7 +256,6 @@
       "title": "H&M Varsity Jacket",
       "description": "A varsity jacket from H&M, cut from a weather-ready shell with a brushed lining. Shown in red, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "red",
       "colourLabel": "Red",
@@ -303,7 +296,6 @@
       "title": "Shein Utility Jacket",
       "description": "An utility jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in grey, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Shein",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -350,7 +342,6 @@
       "title": "Shein Cropped Jacket",
       "description": "A cropped jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in orange, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Shein",
       "colour": "orange",
       "colourLabel": "Orange",
@@ -397,7 +388,6 @@
       "title": "Zara Biker Jacket",
       "description": "A biker jacket from Zara, cut from a weather-ready shell with a brushed lining. Shown in black, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Zara",
       "colour": "black",
       "colourLabel": "Black",
@@ -444,7 +434,6 @@
       "title": "Shein Boxy Jacket",
       "description": "A boxy jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in white, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Shein",
       "colour": "white",
       "colourLabel": "White",
@@ -491,7 +480,6 @@
       "title": "Levi's Denim Trucker Jacket",
       "description": "A denim trucker jacket from Levi's, cut from a weather-ready shell with a brushed lining. Shown in blue, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Levi's",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -532,7 +520,6 @@
       "title": "H&M Suede Jacket",
       "description": "A suede jacket from H&M, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -573,7 +560,6 @@
       "title": "Uniqlo Corduroy Jacket",
       "description": "A corduroy jacket from Uniqlo, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Uniqlo",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -620,7 +606,6 @@
       "title": "Calvin Klein Field Jacket",
       "description": "A field jacket from Calvin Klein, cut from a weather-ready shell with a brushed lining. Shown in green, it layers over a knit and shrugs off a cold walk home.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -661,7 +646,6 @@
       "title": "Shein Straight Leg Jeans",
       "description": "A straight leg jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Shein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -703,7 +687,6 @@
       "title": "H&M Wide Leg Jeans",
       "description": "A wide leg jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -751,7 +734,6 @@
       "title": "H&M Slim Fit Jeans",
       "description": "A slim fit jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
       "brand": "H&M",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -799,7 +781,6 @@
       "title": "Zara Baggy Jeans",
       "description": "A baggy jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Zara",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -841,7 +822,6 @@
       "title": "Shein Straight Fit Jeans",
       "description": "A straight fit jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Shein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -883,7 +863,6 @@
       "title": "Uniqlo Slim Tapered Jeans",
       "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in black, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Uniqlo",
       "colour": "black",
       "colourLabel": "Black",
@@ -925,7 +904,6 @@
       "title": "M&S Tapered Jeans",
       "description": "A tapered jeans from M&S, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
       "brand": "M&S",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -967,7 +945,6 @@
       "title": "M&S Patterned Knit Sweater",
       "description": "A patterned knit sweater from M&S, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1009,7 +986,6 @@
       "title": "H&M Cable Knit Sweater",
       "description": "A cable knit sweater from H&M, cut from a fine merino-blend knit. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "white",
       "colourLabel": "White",
@@ -1051,7 +1027,6 @@
       "title": "Shein Knitted Sweater",
       "description": "A knitted sweater from Shein, cut from a fine merino-blend knit. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "women",
       "brand": "Shein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1099,7 +1074,6 @@
       "title": "H&M Patterned Sweater",
       "description": "A patterned sweater from H&M, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1147,7 +1121,6 @@
       "title": "Uniqlo Crew Neck Sweater",
       "description": "A crew neck sweater from Uniqlo, cut from a fine merino-blend knit. Shown in pink, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "women",
       "brand": "Uniqlo",
       "colour": "pink",
       "colourLabel": "Pink",
@@ -1189,7 +1162,6 @@
       "title": "Zara Roll Neck Sweater",
       "description": "A roll neck sweater from Zara, cut from a fine merino-blend knit. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -1237,7 +1209,6 @@
       "title": "H&M Ribbed Sweater",
       "description": "A ribbed sweater from H&M, cut from a fine merino-blend knit. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1279,7 +1250,6 @@
       "title": "Shein Colourblock Sweater",
       "description": "A colourblock sweater from Shein, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1327,7 +1297,6 @@
       "title": "H&M Poplin Midi Dress",
       "description": "A poplin midi dress from H&M, cut from a soft, fluid viscose blend. Shown in white, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "H&M",
       "colour": "white",
       "colourLabel": "White",
@@ -1375,7 +1344,6 @@
       "title": "Zara Printed Maxi Dress",
       "description": "A printed maxi dress from Zara, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -1423,7 +1391,6 @@
       "title": "Shein Bodycon Dress",
       "description": "A bodycon dress from Shein, cut from a soft, fluid viscose blend. Shown in red, it moves well and takes a day-to-night change of shoes without a fuss.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "red",
       "colourLabel": "Red",
@@ -1471,7 +1438,6 @@
       "title": "Mango Cable Knit Sweater",
       "description": "A cable knit sweater from Mango, cut from a fine merino-blend knit. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "women",
       "brand": "Mango",
       "colour": "red",
       "colourLabel": "Red",
@@ -1513,7 +1479,6 @@
       "title": "H&M Linen Blend Co-ord Set",
       "description": "A linen blend co-ord set from H&M, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
       "category": "coord-sets",
-      "gender": "women",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1561,7 +1526,6 @@
       "title": "Zara Tailored Co-ord Set",
       "description": "A tailored co-ord set from Zara, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
       "category": "coord-sets",
-      "gender": "women",
       "brand": "Zara",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1609,7 +1573,6 @@
       "title": "Shein Knitted Co-ord Set",
       "description": "A knitted co-ord set from Shein, cut from a soft cotton-blend suiting. Shown in pink, top and bottom ship together, so the whole look lands in one order.",
       "category": "coord-sets",
-      "gender": "women",
       "brand": "Shein",
       "colour": "pink",
       "colourLabel": "Pink",
@@ -1651,7 +1614,6 @@
       "title": "H&M Textured Co-ord Set",
       "description": "A textured co-ord set from H&M, cut from a soft cotton-blend suiting. Shown in red, top and bottom ship together, so the whole look lands in one order.",
       "category": "coord-sets",
-      "gender": "women",
       "brand": "H&M",
       "colour": "red",
       "colourLabel": "Red",
@@ -1693,7 +1655,6 @@
       "title": "Mango Satin Co-ord Set",
       "description": "A satin co-ord set from Mango, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
       "category": "coord-sets",
-      "gender": "women",
       "brand": "Mango",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1733,12 +1694,11 @@
       "id": 1000,
       "slug": "levi-s-relaxed-fit-t-shirt-1000",
       "title": "Levi's Relaxed Fit T-Shirt",
-      "description": "A relaxed fit t-shirt from Levi's, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A relaxed fit t-shirt from Levi's, cut from combed organic cotton jersey. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "Levi's",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1751,9 +1711,9 @@
       "stock": 22,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1000",
       "reviews": [
         {
@@ -1769,18 +1729,17 @@
           "date": "2026-01-23T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/acn5ERAeSb4"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1001,
       "slug": "m-s-slim-fit-t-shirt-1001",
       "title": "M&S Slim Fit T-Shirt",
-      "description": "A slim fit t-shirt from M&S, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A slim fit t-shirt from M&S, cut from combed organic cotton jersey. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "M&S",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1793,9 +1752,9 @@
       "stock": 23,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1001",
       "reviews": [
         {
@@ -1817,18 +1776,17 @@
           "date": "2026-03-27T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/WWesmHEgXDs"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1002,
       "slug": "calvin-klein-oversized-t-shirt-1002",
       "title": "Calvin Klein Oversized T-Shirt",
-      "description": "An oversized t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "description": "An oversized t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "Calvin Klein",
-      "colour": "black",
-      "colourLabel": "Black",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1841,9 +1799,9 @@
       "stock": 24,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1551799517-eb8f03cb5e6a?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1551799517-eb8f03cb5e6a?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1002",
       "reviews": [
         {
@@ -1871,18 +1829,17 @@
           "date": "2026-05-13T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/Wr0TpKqf26s"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1003,
       "slug": "h-m-boxy-t-shirt-1003",
       "title": "H&M Boxy T-Shirt",
-      "description": "A boxy t-shirt from H&M, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A boxy t-shirt from H&M, cut from combed organic cotton jersey. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "H&M",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1895,9 +1852,9 @@
       "stock": 25,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1651761179569-4ba2aa054997?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1599255068390-206e0d068539?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1651761179569-4ba2aa054997?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1599255068390-206e0d068539?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1003",
       "reviews": [
         {
@@ -1913,18 +1870,17 @@
           "date": "2026-04-26T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/4rUYuwJ2vGw"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1004,
       "slug": "mango-classic-crew-t-shirt-1004",
       "title": "Mango Classic Crew T-Shirt",
-      "description": "A classic crew t-shirt from Mango, cut from combed organic cotton jersey. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A classic crew t-shirt from Mango, cut from combed organic cotton jersey. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "women",
       "brand": "Mango",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "grey",
+      "colourLabel": "Grey",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1937,9 +1893,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1485218126466-34e6392ec754?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1485218126466-34e6392ec754?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1004",
       "reviews": [
         {
@@ -1961,18 +1917,17 @@
           "date": "2026-06-12T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/tWOz2_EK5EQ"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1005,
       "slug": "levi-s-longline-t-shirt-1005",
       "title": "Levi's Longline T-Shirt",
-      "description": "A longline t-shirt from Levi's, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A longline t-shirt from Levi's, cut from combed organic cotton jersey. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "Levi's",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "yellow",
+      "colourLabel": "Yellow",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1985,9 +1940,9 @@
       "stock": 27,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1532296075534-cc428d395281?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1532296075534-cc428d395281?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1005",
       "reviews": [
         {
@@ -2015,7 +1970,7 @@
           "date": "2026-01-16T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/7cERndkOyDw"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1006,
@@ -2023,7 +1978,6 @@
       "title": "M&S Relaxed Fit T-Shirt",
       "description": "A relaxed fit t-shirt from M&S, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -2039,9 +1993,9 @@
       "stock": 28,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1627225924765-552d49cf47ad?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1627225924765-552d49cf47ad?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1006",
       "reviews": [
         {
@@ -2057,18 +2011,17 @@
           "date": "2026-07-11T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/GREEBEtyR9Y"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1007,
       "slug": "calvin-klein-slim-fit-t-shirt-1007",
       "title": "Calvin Klein Slim Fit T-Shirt",
-      "description": "A slim fit t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A slim fit t-shirt from Calvin Klein, cut from combed organic cotton jersey. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "Calvin Klein",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "t-shirt",
         "jersey",
@@ -2081,9 +2034,9 @@
       "stock": 29,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1610948199252-995d1f449363?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1610948199252-995d1f449363?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1007",
       "reviews": [
         {
@@ -2105,7 +2058,7 @@
           "date": "2026-02-15T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/m1MRYp556Ew"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1008,
@@ -2113,7 +2066,6 @@
       "title": "H&M Oversized T-Shirt",
       "description": "An oversized t-shirt from H&M, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "men",
       "brand": "H&M",
       "colour": "white",
       "colourLabel": "White",
@@ -2129,9 +2081,9 @@
       "stock": 30,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1622445270936-5dcb604970e7?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1595184032401-8f09f32e143c?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1622445270936-5dcb604970e7?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1595184032401-8f09f32e143c?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1008",
       "reviews": [
         {
@@ -2159,7 +2111,7 @@
           "date": "2026-04-19T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/0UBg7jhsSxs"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1009,
@@ -2167,7 +2119,6 @@
       "title": "Mango Boxy T-Shirt",
       "description": "A boxy t-shirt from Mango, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
-      "gender": "women",
       "brand": "Mango",
       "colour": "white",
       "colourLabel": "White",
@@ -2183,9 +2134,9 @@
       "stock": 31,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1622445272461-c6580cab8755?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1682096340835-022e6647b698?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1622445272461-c6580cab8755?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1682096340835-022e6647b698?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-TSH-1009",
       "reviews": [
         {
@@ -2201,7 +2152,7 @@
           "date": "2026-03-14T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/fTDWpCxLA0k"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1010,
@@ -2209,7 +2160,6 @@
       "title": "Levi's Oversized Poplin Shirt",
       "description": "An oversized poplin shirt from Levi's, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -2225,9 +2175,9 @@
       "stock": 0,
       "availability": "Out of Stock",
       "images": [
-        "https://images.unsplash.com/photo-1740711152088-88a009e877bb?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1604182440345-4a82e1c3876b?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1740711152088-88a009e877bb?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1604182440345-4a82e1c3876b?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1010",
       "reviews": [
         {
@@ -2243,7 +2193,7 @@
           "date": "2026-04-15T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/vcTKFYNZop4"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1011,
@@ -2251,7 +2201,6 @@
       "title": "M&S Regular Fit Oxford Shirt",
       "description": "A regular fit oxford shirt from M&S, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -2267,9 +2216,9 @@
       "stock": 33,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1611235116156-0cbda6649efb?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1611235116156-0cbda6649efb?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1011",
       "reviews": [
         {
@@ -2291,18 +2240,17 @@
           "date": "2026-06-19T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/BKYeLLB1OxI"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1012,
       "slug": "calvin-klein-slim-fit-shirt-1012",
       "title": "Calvin Klein Slim Fit Shirt",
-      "description": "A slim fit shirt from Calvin Klein, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A slim fit shirt from Calvin Klein, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "Calvin Klein",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
       "tags": [
         "shirt",
         "woven",
@@ -2315,9 +2263,9 @@
       "stock": 34,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1603252109612-24fa03d145c8?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1764337593519-c51a77b4fc3d?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1603252109612-24fa03d145c8?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1764337593519-c51a77b4fc3d?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1012",
       "reviews": [
         {
@@ -2345,18 +2293,17 @@
           "date": "2026-01-23T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/GDebkNryTd4"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1013,
       "slug": "h-m-relaxed-linen-shirt-1013",
       "title": "H&M Relaxed Linen Shirt",
-      "description": "A relaxed linen shirt from H&M, cut from crisp cotton poplin. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A relaxed linen shirt from H&M, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "H&M",
-      "colour": "blue",
-      "colourLabel": "Blue",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
       "tags": [
         "shirt",
         "woven",
@@ -2369,9 +2316,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1623658580851-3b25bf83b4ea?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1766471524299-016b52512780?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1623658580851-3b25bf83b4ea?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1766471524299-016b52512780?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1013",
       "reviews": [
         {
@@ -2387,18 +2334,17 @@
           "date": "2026-07-18T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/OsvD4y41C4g"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1014,
       "slug": "mango-boxy-cropped-shirt-1014",
       "title": "Mango Boxy Cropped Shirt",
-      "description": "A boxy cropped shirt from Mango, cut from crisp cotton poplin. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A boxy cropped shirt from Mango, cut from crisp cotton poplin. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "women",
       "brand": "Mango",
-      "colour": "blue",
-      "colourLabel": "Blue",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "shirt",
         "woven",
@@ -2411,9 +2357,9 @@
       "stock": 36,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1618595426380-10f004788ee6?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1761117228880-df2425bd70da?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1618595426380-10f004788ee6?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1761117228880-df2425bd70da?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1014",
       "reviews": [
         {
@@ -2435,18 +2381,17 @@
           "date": "2026-02-22T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/8_vsMfNpnL8"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1015,
       "slug": "levi-s-classic-twill-shirt-1015",
       "title": "Levi's Classic Twill Shirt",
-      "description": "A classic twill shirt from Levi's, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A classic twill shirt from Levi's, cut from crisp cotton poplin. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "Levi's",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "blue",
+      "colourLabel": "Blue",
       "tags": [
         "shirt",
         "woven",
@@ -2459,9 +2404,9 @@
       "stock": 37,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1761426822041-c4a801baffc6?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1763029949751-a399e5c20916?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1761426822041-c4a801baffc6?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1763029949751-a399e5c20916?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1015",
       "reviews": [
         {
@@ -2489,18 +2434,17 @@
           "date": "2026-04-26T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/NBRaVN4Py_A"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1016,
       "slug": "m-s-oversized-poplin-shirt-1016",
       "title": "M&S Oversized Poplin Shirt",
-      "description": "An oversized poplin shirt from M&S, cut from crisp cotton poplin. Shown in purple, it layers easily and is built to hold its shape wash after wash.",
+      "description": "An oversized poplin shirt from M&S, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "M&S",
-      "colour": "purple",
-      "colourLabel": "Purple",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "shirt",
         "woven",
@@ -2513,9 +2457,9 @@
       "stock": 38,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1704775983658-2773a9c0cce2?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1767631338127-8cd80ee2f9df?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1704775983658-2773a9c0cce2?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1767631338127-8cd80ee2f9df?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1016",
       "reviews": [
         {
@@ -2531,18 +2475,17 @@
           "date": "2026-03-21T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/mA7yW47AIOU"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1017,
       "slug": "calvin-klein-regular-fit-oxford-shirt-1017",
       "title": "Calvin Klein Regular Fit Oxford Shirt",
-      "description": "A regular fit oxford shirt from Calvin Klein, cut from crisp cotton poplin. Shown in green, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A regular fit oxford shirt from Calvin Klein, cut from crisp cotton poplin. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "Calvin Klein",
-      "colour": "green",
-      "colourLabel": "Green",
+      "colour": "brown",
+      "colourLabel": "Brown",
       "tags": [
         "shirt",
         "woven",
@@ -2555,9 +2498,9 @@
       "stock": 39,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1758183725370-e6f8e88ba58f?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1691367279381-0bc5f1048916?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1758183725370-e6f8e88ba58f?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1691367279381-0bc5f1048916?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1017",
       "reviews": [
         {
@@ -2579,18 +2522,17 @@
           "date": "2026-05-25T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/2RwZs6Wq6ZA"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1018,
       "slug": "h-m-slim-fit-shirt-1018",
       "title": "H&M Slim Fit Shirt",
-      "description": "A slim fit shirt from H&M, cut from crisp cotton poplin. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A slim fit shirt from H&M, cut from crisp cotton poplin. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
-      "gender": "men",
       "brand": "H&M",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "shirt",
         "woven",
@@ -2603,9 +2545,9 @@
       "stock": 40,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1674851993934-0b0599418642?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1669559419417-f2ef4227afbe?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1674851993934-0b0599418642?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1669559419417-f2ef4227afbe?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-SHI-1018",
       "reviews": [
         {
@@ -2633,7 +2575,7 @@
           "date": "2026-07-11T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/q_Wo2M0TLvw"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1019,
@@ -2641,7 +2583,6 @@
       "title": "Vero Moda Midi Dress",
       "description": "A midi dress from Vero Moda, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "white",
       "colourLabel": "White",
@@ -2683,7 +2624,6 @@
       "title": "Shein Wrap Dress",
       "description": "A wrap dress from Shein, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "white",
       "colourLabel": "White",
@@ -2731,7 +2671,6 @@
       "title": "Tommy Hilfiger Tiered Maxi Dress",
       "description": "A tiered maxi dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "yellow",
       "colourLabel": "Yellow",
@@ -2785,7 +2724,6 @@
       "title": "Zara Slip Dress",
       "description": "A slip dress from Zara, cut from fluid viscose blend. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "yellow",
       "colourLabel": "Yellow",
@@ -2827,7 +2765,6 @@
       "title": "Uniqlo Shirt Dress",
       "description": "A shirt dress from Uniqlo, cut from fluid viscose blend. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Uniqlo",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -2875,7 +2812,6 @@
       "title": "Vero Moda A-Line Dress",
       "description": "An a-line dress from Vero Moda, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "white",
       "colourLabel": "White",
@@ -2929,7 +2865,6 @@
       "title": "Shein Midi Dress",
       "description": "A midi dress from Shein, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "white",
       "colourLabel": "White",
@@ -2971,7 +2906,6 @@
       "title": "Tommy Hilfiger Wrap Dress",
       "description": "A wrap dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "white",
       "colourLabel": "White",
@@ -3019,7 +2953,6 @@
       "title": "Zara Tiered Maxi Dress",
       "description": "A tiered maxi dress from Zara, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3073,7 +3006,6 @@
       "title": "Uniqlo Slip Dress",
       "description": "A slip dress from Uniqlo, cut from fluid viscose blend. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Uniqlo",
       "colour": "red",
       "colourLabel": "Red",
@@ -3115,7 +3047,6 @@
       "title": "Vero Moda 501 Original Straight Jeans",
       "description": "A 501 original straight jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3157,7 +3088,6 @@
       "title": "Shein High Rise Mom Jeans",
       "description": "A high rise mom jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3205,7 +3135,6 @@
       "title": "Tommy Hilfiger Wide Leg Jeans",
       "description": "A wide leg jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Tommy Hilfiger",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3259,7 +3188,6 @@
       "title": "Zara Slim Tapered Jeans",
       "description": "A slim tapered jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -3301,7 +3229,6 @@
       "title": "Uniqlo Bootcut Jeans",
       "description": "A bootcut jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Uniqlo",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3349,7 +3276,6 @@
       "title": "Vero Moda Baggy Jeans",
       "description": "A baggy jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3403,7 +3329,6 @@
       "title": "Shein 501 Original Straight Jeans",
       "description": "A 501 original straight jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3445,7 +3370,6 @@
       "title": "Tommy Hilfiger High Rise Mom Jeans",
       "description": "A high rise mom jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -3493,7 +3417,6 @@
       "title": "Zara Wide Leg Jeans",
       "description": "A wide leg jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -3547,7 +3470,6 @@
       "title": "Uniqlo Slim Tapered Jeans",
       "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "men",
       "brand": "Uniqlo",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3589,7 +3511,6 @@
       "title": "Vero Moda Bootcut Jeans",
       "description": "A bootcut jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3637,7 +3558,6 @@
       "title": "Levi's Trucker Jacket",
       "description": "A trucker jacket from Levi's, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Levi's",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3678,7 +3598,6 @@
       "title": "M&S Oversized Denim Jacket",
       "description": "An oversized denim jacket from M&S, cut from cotton twill with a brushed lining. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "white",
       "colourLabel": "White",
@@ -3725,7 +3644,6 @@
       "title": "Calvin Klein Belted Trench Jacket",
       "description": "A belted trench jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "grey",
       "colourLabel": "Gray",
@@ -3778,7 +3696,6 @@
       "title": "H&M Single-Breasted Jacket",
       "description": "A single-breasted jacket from H&M, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3819,7 +3736,6 @@
       "title": "Mango Puffer Jacket",
       "description": "A puffer jacket from Mango, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Mango",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3866,7 +3782,6 @@
       "title": "Levi's Cropped Jacket",
       "description": "A cropped jacket from Levi's, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Levi's",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -3919,7 +3834,6 @@
       "title": "M&S Trucker Jacket",
       "description": "A trucker jacket from M&S, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -3960,7 +3874,6 @@
       "title": "Calvin Klein Oversized Denim Jacket",
       "description": "An oversized denim jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -4007,7 +3920,6 @@
       "title": "H&M Belted Trench Jacket",
       "description": "A belted trench jacket from H&M, cut from cotton twill with a brushed lining. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "black",
       "colourLabel": "Black",
@@ -4060,7 +3972,6 @@
       "title": "Mango Single-Breasted Jacket",
       "description": "A single-breasted jacket from Mango, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "Mango",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -4101,7 +4012,6 @@
       "title": "Levi's Puffer Jacket",
       "description": "A puffer jacket from Levi's, cut from cotton twill with a brushed lining. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -4148,7 +4058,6 @@
       "title": "M&S Cropped Jacket",
       "description": "A cropped jacket from M&S, cut from cotton twill with a brushed lining. Shown in purple, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "women",
       "brand": "M&S",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -4201,7 +4110,6 @@
       "title": "Calvin Klein Trucker Jacket",
       "description": "A trucker jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "red",
       "colourLabel": "Red",
@@ -4242,7 +4150,6 @@
       "title": "H&M Oversized Denim Jacket",
       "description": "An oversized denim jacket from H&M, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "brown",
       "colourLabel": "Brown",
@@ -4289,7 +4196,6 @@
       "title": "M&S Ribbed Knit Sweater",
       "description": "A ribbed knit sweater from M&S, cut from soft merino-blend yarn. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -4331,7 +4237,6 @@
       "title": "Calvin Klein Cable Knit Sweater",
       "description": "A cable knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -4379,7 +4284,6 @@
       "title": "H&M Merino Crew Sweater",
       "description": "A merino crew sweater from H&M, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -4433,7 +4337,6 @@
       "title": "Mango Chunky Roll Neck Sweater",
       "description": "A chunky roll neck sweater from Mango, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "women",
       "brand": "Mango",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -4475,7 +4378,6 @@
       "title": "Levi's Fine Gauge Sweater",
       "description": "A fine gauge sweater from Levi's, cut from soft merino-blend yarn. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "Levi's",
       "colour": "white",
       "colourLabel": "White",
@@ -4523,7 +4425,6 @@
       "title": "M&S Boxy Sweater",
       "description": "A boxy sweater from M&S, cut from soft merino-blend yarn. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "M&S",
       "colour": "grey",
       "colourLabel": "Grey",
@@ -4577,7 +4478,6 @@
       "title": "Calvin Klein Ribbed Knit Sweater",
       "description": "A ribbed knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
-      "gender": "men",
       "brand": "Calvin Klein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -4619,7 +4519,6 @@
       "title": "Zara Heavyweight Hoodie",
       "description": "A heavyweight hoodie from Zara, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "men",
       "brand": "Zara",
       "colour": "white",
       "colourLabel": "White",
@@ -4635,9 +4534,9 @@
       "stock": 23,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1526476148966-98bd039463ea?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1526476148966-98bd039463ea?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1061",
       "reviews": [
         {
@@ -4653,18 +4552,17 @@
           "date": "2026-06-12T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/kJXGTOY1wLQ"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1062,
       "slug": "uniqlo-zip-through-hoodie-1062",
       "title": "Uniqlo Zip-Through Hoodie",
-      "description": "A zip-through hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A zip-through hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "men",
       "brand": "Uniqlo",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "fleece",
         "loungewear",
@@ -4677,9 +4575,9 @@
       "stock": 24,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1601396344868-31e008cd6e7c?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1601396344868-31e008cd6e7c?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1062",
       "reviews": [
         {
@@ -4701,18 +4599,17 @@
           "date": "2026-01-16T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/a_KC8ocB650"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1063,
       "slug": "vero-moda-oversized-hoodie-1063",
       "title": "Vero Moda Oversized Hoodie",
-      "description": "An oversized hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
+      "description": "An oversized hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in red, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "women",
       "brand": "Vero Moda",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "fleece",
         "loungewear",
@@ -4725,9 +4622,9 @@
       "stock": 25,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1577597759406-0bd867a7c07f?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1577597759406-0bd867a7c07f?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1063",
       "reviews": [
         {
@@ -4755,18 +4652,17 @@
           "date": "2026-03-20T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/ZCoqcrWp9GY"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1064,
       "slug": "shein-cropped-hoodie-1064",
       "title": "Shein Cropped Hoodie",
-      "description": "A cropped hoodie from Shein, cut from brushed-back loopback cotton. Shown in green, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A cropped hoodie from Shein, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "women",
       "brand": "Shein",
-      "colour": "green",
-      "colourLabel": "Green",
+      "colour": "grey",
+      "colourLabel": "Grey",
       "tags": [
         "fleece",
         "loungewear",
@@ -4779,9 +4675,9 @@
       "stock": 26,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1685354218016-3899c9ef79ad?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1594656375376-64d56e2f3ed1?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1685354218016-3899c9ef79ad?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1594656375376-64d56e2f3ed1?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1064",
       "reviews": [
         {
@@ -4797,18 +4693,17 @@
           "date": "2026-02-15T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/ggcJKGpx3pI"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1065,
       "slug": "tommy-hilfiger-essential-hoodie-1065",
       "title": "Tommy Hilfiger Essential Hoodie",
-      "description": "An essential hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "description": "An essential hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in pink, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "men",
       "brand": "Tommy Hilfiger",
-      "colour": "black",
-      "colourLabel": "Black",
+      "colour": "pink",
+      "colourLabel": "Pink",
       "tags": [
         "fleece",
         "loungewear",
@@ -4821,9 +4716,9 @@
       "stock": 27,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1579572331145-5e53b299c64e?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1579572331145-5e53b299c64e?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1065",
       "reviews": [
         {
@@ -4845,18 +4740,17 @@
           "date": "2026-04-19T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/REOoETloFqE"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1066,
       "slug": "zara-brushed-back-hoodie-1066",
       "title": "Zara Brushed-Back Hoodie",
-      "description": "A brushed-back hoodie from Zara, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A brushed-back hoodie from Zara, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "men",
       "brand": "Zara",
-      "colour": "black",
-      "colourLabel": "Black",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "fleece",
         "loungewear",
@@ -4869,9 +4763,9 @@
       "stock": 28,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1609873814058-a8928924184a?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1592485641225-bdbadeaa601e?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1609873814058-a8928924184a?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1592485641225-bdbadeaa601e?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1066",
       "reviews": [
         {
@@ -4899,18 +4793,17 @@
           "date": "2026-06-23T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/mWSXyWe2H9Q"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1067,
       "slug": "uniqlo-heavyweight-hoodie-1067",
       "title": "Uniqlo Heavyweight Hoodie",
-      "description": "A heavyweight hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A heavyweight hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "men",
       "brand": "Uniqlo",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "fleece",
         "loungewear",
@@ -4923,9 +4816,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1601063476271-a159c71ab0b3?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1594587002961-1a75dfaf34b8?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1601063476271-a159c71ab0b3?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1594587002961-1a75dfaf34b8?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1067",
       "reviews": [
         {
@@ -4941,18 +4834,17 @@
           "date": "2026-05-18T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/QWlXPidIgI8"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1068,
       "slug": "vero-moda-zip-through-hoodie-1068",
       "title": "Vero Moda Zip-Through Hoodie",
-      "description": "A zip-through hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A zip-through hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "women",
       "brand": "Vero Moda",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "fleece",
         "loungewear",
@@ -4965,9 +4857,9 @@
       "stock": 30,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1773984159844-35cba1600d92?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1773984159844-35cba1600d92?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1068",
       "reviews": [
         {
@@ -4989,18 +4881,17 @@
           "date": "2026-07-22T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/AGwMgxZs1L0"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1069,
       "slug": "shein-oversized-hoodie-1069",
       "title": "Shein Oversized Hoodie",
-      "description": "An oversized hoodie from Shein, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
+      "description": "An oversized hoodie from Shein, cut from brushed-back loopback cotton. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "women",
       "brand": "Shein",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "fleece",
         "loungewear",
@@ -5013,9 +4904,9 @@
       "stock": 31,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1611817757591-c3f345024273?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1685354218056-cb10c98b8c88?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1611817757591-c3f345024273?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1685354218056-cb10c98b8c88?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1069",
       "reviews": [
         {
@@ -5043,18 +4934,17 @@
           "date": "2026-02-26T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/N6BP12FB_XU"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1070,
       "slug": "tommy-hilfiger-cropped-hoodie-1070",
       "title": "Tommy Hilfiger Cropped Hoodie",
-      "description": "A cropped hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A cropped hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "hoodies",
-      "gender": "women",
       "brand": "Tommy Hilfiger",
-      "colour": "brown",
-      "colourLabel": "Brown",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
       "tags": [
         "fleece",
         "loungewear",
@@ -5067,9 +4957,9 @@
       "stock": 32,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=1200&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-HOO-1070",
       "reviews": [
         {
@@ -5085,7 +4975,7 @@
           "date": "2026-01-21T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/ikLELWYbyxk"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1071,
@@ -5093,7 +4983,6 @@
       "title": "Zara Wrap Dress",
       "description": "A wrap dress from Zara, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "black",
       "colourLabel": "Black",
@@ -5135,7 +5024,6 @@
       "title": "H&M Midi Dress",
       "description": "A midi dress from H&M, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "H&M",
       "colour": "black",
       "colourLabel": "Black",
@@ -5183,7 +5071,6 @@
       "title": "Shein Tiered Maxi Dress",
       "description": "A tiered maxi dress from Shein, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "black",
       "colourLabel": "Black",
@@ -5225,7 +5112,6 @@
       "title": "M&S Slip Dress",
       "description": "A slip dress from M&S, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "M&S",
       "colour": "black",
       "colourLabel": "Black",
@@ -5273,7 +5159,6 @@
       "title": "Mango Shirt Dress",
       "description": "A shirt dress from Mango, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Mango",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -5315,7 +5200,6 @@
       "title": "Vero Moda A-Line Dress",
       "description": "A a-line dress from Vero Moda, cut from fluid viscose blend. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Vero Moda",
       "colour": "green",
       "colourLabel": "Green",
@@ -5363,7 +5247,6 @@
       "title": "Uniqlo Bodycon Dress",
       "description": "A bodycon dress from Uniqlo, cut from fluid viscose blend. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Uniqlo",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -5405,7 +5288,6 @@
       "title": "Tommy Hilfiger Sundress Dress",
       "description": "A sundress dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Tommy Hilfiger",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -5453,7 +5335,6 @@
       "title": "Zara Pleated Midi Dress",
       "description": "A pleated midi dress from Zara, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Zara",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -5495,7 +5376,6 @@
       "title": "H&M Smocked Dress",
       "description": "A smocked dress from H&M, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "H&M",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -5543,7 +5423,6 @@
       "title": "Shein Halter Maxi Dress",
       "description": "A halter maxi dress from Shein, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
-      "gender": "women",
       "brand": "Shein",
       "colour": "multi",
       "colourLabel": "Multicolour",
@@ -5559,9 +5438,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1671848633245-79cc98b0dbe8?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1671848633245-79cc98b0dbe8?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-DRE-1081",
       "reviews": [
         {
@@ -5582,34 +5461,34 @@
   ],
   "banners": [
     {
-      "id": "Kaqi_fX8LfE",
-      "image": "https://images.unsplash.com/photo-1776000680544-ebf0989a71df?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "Clothing racks filled with colorful garments in a store"
+      "id": "photo-1657373307141-349a3393d4d9",
+      "image": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "Model in a printed maxi dress from the new-season womenswear edit"
     },
     {
-      "id": "a-_PeeYVfQk",
-      "image": "https://images.unsplash.com/photo-1768758533474-5cd148638a98?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "Clothing store interior with racks of apparel"
+      "id": "premium_photo-1765207887844-afa42b0d3c4f",
+      "image": "https://plus.unsplash.com/premium_photo-1765207887844-afa42b0d3c4f?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "Cropped jacket layered over a womenswear look, marked down in the sale"
     },
     {
-      "id": "5RzI_EwVzcc",
-      "image": "https://images.unsplash.com/photo-1766934587163-186d20bf3d40?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "Interior of a clothing store with racks of garments"
+      "id": "photo-1762154057377-cc9d3dd6900c",
+      "image": "https://images.unsplash.com/photo-1762154057377-cc9d3dd6900c?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "White midi dress photographed against a plain wall"
     },
     {
-      "id": "4V3KOBCs0iM",
-      "image": "https://images.unsplash.com/photo-1767334010488-83cdb8539273?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "Mannequins display clothing in a dimly lit store"
+      "id": "photo-1767687700430-d1b2997ae598",
+      "image": "https://images.unsplash.com/photo-1767687700430-d1b2997ae598?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "Knitted co-ord set \u2014 matching top and bottom in pink"
     },
     {
-      "id": "3bHFkhXQtZY",
-      "image": "https://images.unsplash.com/photo-1770012117468-9b1ee7aba977?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "Vintage clothing displayed in a retail store"
+      "id": "photo-1598554747436-c9293d6a588f",
+      "image": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "Straight leg jeans styled with a simple top"
     },
     {
-      "id": "mwa_nzFpnJw",
-      "image": "https://images.unsplash.com/photo-1603400521630-9f2de124b33b?w=2000&q=80&fm=webp&fit=crop",
-      "alt": "clothing racks with neutral toned garments"
+      "id": "premium_photo-1669850858872-7ed947bac5e3",
+      "image": "https://plus.unsplash.com/premium_photo-1669850858872-7ed947bac5e3?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
+      "alt": "Colourblock knit sweater for layering in cold weather"
     }
   ],
   "categories": [
@@ -5726,18 +5605,6 @@
       "value": "yellow",
       "label": "Yellow",
       "hex": "#e8c65a"
-    }
-  ],
-  "genders": [
-    {
-      "value": "women",
-      "label": "Women",
-      "singular": "Women's"
-    },
-    {
-      "value": "men",
-      "label": "Men",
-      "singular": "Men's"
     }
   ]
 }

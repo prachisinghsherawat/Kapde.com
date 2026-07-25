@@ -8,7 +8,6 @@ import type {
   CategorySlug,
   FilterListKey,
   Filters,
-  Gender,
   Product,
   RequestStatus,
   SortKey,
@@ -19,8 +18,6 @@ interface CatalogState {
   status: RequestStatus;
   error: string | null;
   category: CategorySlug | null;
-  /** Department the listing is scoped to, set by the /g/:gender routes. */
-  gender: Gender | null;
   query: string;
   sort: SortKey;
   page: number;
@@ -52,7 +49,6 @@ const initialState: CatalogState = {
   status: 'idle',
   error: null,
   category: null,
-  gender: null,
   query: '',
   sort: 'featured',
   page: 1,
@@ -91,14 +87,9 @@ const catalogSlice = createSlice({
     },
     openListing(
       state,
-      action: PayloadAction<{
-        category: CategorySlug | null;
-        gender?: Gender | null;
-        query?: string;
-      }>,
+      action: PayloadAction<{ category: CategorySlug | null; query?: string }>,
     ) {
       state.category = action.payload.category;
-      state.gender = action.payload.gender ?? null;
       state.query = action.payload.query ?? '';
       state.filters = emptyFilters();
       state.sort = 'featured';
@@ -157,7 +148,6 @@ export const selectQuery = (state: RootState) => state.catalog.query;
 export const selectSort = (state: RootState) => state.catalog.sort;
 export const selectPage = (state: RootState) => state.catalog.page;
 export const selectCategory = (state: RootState) => state.catalog.category;
-export const selectGender = (state: RootState) => state.catalog.gender;
 
 const matchesQuery = (product: Product, query: string): boolean => {
   if (!query.trim()) return true;
@@ -180,14 +170,10 @@ const comparators: Record<SortKey, (a: Product, b: Product) => number> = {
   newest: (a, b) => b.id - a.id,
 };
 
-// The department and category scopes come from the route, so they sit outside the
-// filter panel: narrowing them is a different page, not a filter you can clear.
-export const selectScopedProducts = createSelector([selectCatalog], ({ items, category, gender }) =>
-  items.filter(
-    (product) =>
-      (category === null || product.category === category) &&
-      (gender === null || product.gender === gender),
-  ),
+// The category scope comes from the route, so it sits outside the filter panel:
+// narrowing it is a different page, not a filter you can clear.
+export const selectScopedProducts = createSelector([selectCatalog], ({ items, category }) =>
+  category === null ? items : items.filter((product) => product.category === category),
 );
 
 export const selectVisibleProducts = createSelector(

@@ -104,9 +104,11 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
         <ActiveFilterChips />
       </div>
 
-      <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
-        <aside className="hidden w-72 shrink-0 xl:w-80 lg:block">
-          <div className="sticky top-24 surface-card p-6">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-stretch">
+        {/* The column stretches to the height of the grid beside it, and a filter list
+            longer than that scrolls inside the card rather than stretching the page. */}
+        <aside className="hidden w-80 shrink-0 lg:block xl:w-96 2xl:w-[26rem]">
+          <div className="surface-card h-full overflow-y-auto p-7">
             <FilterPanel />
           </div>
         </aside>

@@ -9,26 +9,38 @@ import { BANNERS } from '@/lib/constants';
 const SLIDES = [
   {
     eyebrow: 'New season',
-    title: 'Everyday pieces,\nbuilt to last.',
-    body: 'Denim, knitwear and tailoring from Levi’s, Zara, H&M and more.',
+    title: 'Womenswear,\nbuilt to last.',
+    body: 'Dresses, co-ords and knitwear from Zara, Mango, H&M and more.',
     cta: { label: 'Shop new in', to: '/search' },
   },
   {
     eyebrow: 'Up to 50% off',
     title: 'Mid-season\nmarkdowns.',
-    body: 'The biggest reductions across dresses, jackets and jeans.',
+    body: 'The biggest reductions across dresses, co-ords and outerwear.',
     cta: { label: 'Shop the sale', to: '/search?sort=discount' },
+  },
+  {
+    eyebrow: 'The dress shop',
+    title: 'A dress for\nevery plan.',
+    body: 'Midi, maxi, wrap and slip — occasion or otherwise.',
+    cta: { label: 'Shop dresses', to: '/c/dresses' },
+  },
+  {
+    eyebrow: 'Matching sets',
+    title: 'Two pieces,\none decision.',
+    body: 'Co-ord sets that do the styling for you, top and bottom together.',
+    cta: { label: 'Shop co-ords', to: '/c/coord-sets' },
   },
   {
     eyebrow: 'Denim edit',
     title: 'Jeans that\nactually fit.',
-    body: 'Straight, wide leg, mom and slim — sized 26 to 36.',
+    body: 'High rise, mom, wide leg and straight — sized 26 to 36.',
     cta: { label: 'Shop denim', to: '/c/jeans' },
   },
   {
     eyebrow: 'Layer up',
-    title: 'Coats and\njackets.',
-    body: 'Trenches, truckers and puffers for the turn in the weather.',
+    title: 'Coats, knits\nand jackets.',
+    body: 'Trenches, puffers and merino for the turn in the weather.',
     cta: { label: 'Shop outerwear', to: '/c/outerwear' },
   },
 ];

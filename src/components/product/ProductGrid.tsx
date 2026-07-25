@@ -10,7 +10,8 @@ interface ProductGridProps {
   columns?: string;
 }
 
-const DEFAULT_COLUMNS = 'grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5';
+// Four across from lg up, so a page of 8 always lands as two even rows of four.
+const DEFAULT_COLUMNS = 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4';
 
 export default function ProductGrid({
   products,
