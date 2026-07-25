@@ -7,6 +7,7 @@ import RequireAuth from '@/routes/RequireAuth';
 
 const HomePage = lazy(() => import('@/pages/HomePage'));
 const CategoryPage = lazy(() => import('@/pages/CategoryPage'));
+const DepartmentPage = lazy(() => import('@/pages/DepartmentPage'));
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
 const ProductPage = lazy(() => import('@/pages/ProductPage'));
 const CartPage = lazy(() => import('@/pages/CartPage'));
@@ -25,6 +26,7 @@ export default function AppRoutes() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/c/:category" element={<CategoryPage />} />
+          <Route path="/g/:gender" element={<DepartmentPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<CartPage />} />

@@ -841,7 +841,7 @@
       "title": "Shein Straight Fit Jeans",
       "description": "A straight fit jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
-      "gender": "men",
+      "gender": "women",
       "brand": "Shein",
       "colour": "blue",
       "colourLabel": "Blue",
@@ -1317,6 +1317,414 @@
           "comment": "Good value. Stitching is neat throughout.",
           "reviewerName": "Marcus T.",
           "date": "2026-02-27T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 930,
+      "slug": "h-m-poplin-midi-dress-930",
+      "title": "H&M Poplin Midi Dress",
+      "description": "A poplin midi dress from H&M, cut from a soft, fluid viscose blend. Shown in white, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 6999,
+      "mrp": 6999,
+      "discount": 0,
+      "rating": 4.2,
+      "stock": 32,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1753192104240-209f3fb568ef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1753192104240-209f3fb568ef?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-930",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Priya S.",
+          "date": "2026-02-06T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-04-28T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-01-04T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 931,
+      "slug": "zara-printed-maxi-dress-931",
+      "title": "Zara Printed Maxi Dress",
+      "description": "A printed maxi dress from Zara, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Zara",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 4339,
+      "mrp": 6199,
+      "discount": 30,
+      "rating": 4.5,
+      "stock": 37,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-931",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-05-11T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-03-13T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-06-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 932,
+      "slug": "shein-bodycon-dress-932",
+      "title": "Shein Bodycon Dress",
+      "description": "A bodycon dress from Shein, cut from a soft, fluid viscose blend. Shown in red, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "dresses",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "red",
+      "colourLabel": "Red",
+      "tags": [
+        "dress",
+        "occasion",
+        "summer"
+      ],
+      "price": 6899,
+      "mrp": 6899,
+      "discount": 0,
+      "rating": 4.5,
+      "stock": 34,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1774516971744-0e38e4dcbe3c?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1774516971744-0e38e4dcbe3c?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-DRE-932",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-01-05T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-07-07T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Elena V.",
+          "date": "2026-03-08T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 933,
+      "slug": "mango-cable-knit-sweater-933",
+      "title": "Mango Cable Knit Sweater",
+      "description": "A cable knit sweater from Mango, cut from a fine merino-blend knit. Shown in red, it layers easily and is built to hold its shape wash after wash.",
+      "category": "knitwear",
+      "gender": "women",
+      "brand": "Mango",
+      "colour": "red",
+      "colourLabel": "Red",
+      "tags": [
+        "knit",
+        "wool",
+        "layering"
+      ],
+      "price": 6209,
+      "mrp": 6899,
+      "discount": 10,
+      "rating": 4.4,
+      "stock": 37,
+      "availability": "In Stock",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1708110921257-45d53d9d3b6d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1708110921257-45d53d9d3b6d?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-KNI-933",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Meera P.",
+          "date": "2026-01-22T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-06-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 934,
+      "slug": "h-m-linen-blend-co-ord-set-934",
+      "title": "H&M Linen Blend Co-ord Set",
+      "description": "A linen blend co-ord set from H&M, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 5779,
+      "mrp": 6799,
+      "discount": 15,
+      "rating": 4.0,
+      "stock": 0,
+      "availability": "Out of Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-934",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Meera P.",
+          "date": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Tom B.",
+          "date": "2026-03-21T09:00:00.000Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-06-23T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 935,
+      "slug": "zara-tailored-co-ord-set-935",
+      "title": "Zara Tailored Co-ord Set",
+      "description": "A tailored co-ord set from Zara, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "gender": "women",
+      "brand": "Zara",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 4689,
+      "mrp": 6699,
+      "discount": 30,
+      "rating": 4.3,
+      "stock": 5,
+      "availability": "Low Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1767687717463-1c9a555c76c1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1767687717463-1c9a555c76c1?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-935",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Neha R.",
+          "date": "2026-05-27T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Priya S.",
+          "date": "2026-02-25T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Elena V.",
+          "date": "2026-06-08T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 936,
+      "slug": "shein-knitted-co-ord-set-936",
+      "title": "Shein Knitted Co-ord Set",
+      "description": "A knitted co-ord set from Shein, cut from a soft cotton-blend suiting. Shown in pink, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "gender": "women",
+      "brand": "Shein",
+      "colour": "pink",
+      "colourLabel": "Pink",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 3009,
+      "mrp": 4299,
+      "discount": 30,
+      "rating": 4.0,
+      "stock": 13,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1767687700430-d1b2997ae598?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1767687700430-d1b2997ae598?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-936",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Elena V.",
+          "date": "2026-07-13T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Neha R.",
+          "date": "2026-06-12T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 937,
+      "slug": "h-m-textured-co-ord-set-937",
+      "title": "H&M Textured Co-ord Set",
+      "description": "A textured co-ord set from H&M, cut from a soft cotton-blend suiting. Shown in red, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "gender": "women",
+      "brand": "H&M",
+      "colour": "red",
+      "colourLabel": "Red",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 6659,
+      "mrp": 7399,
+      "discount": 10,
+      "rating": 4.5,
+      "stock": 7,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1765529374948-1180fd9375a6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1765529374948-1180fd9375a6?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-937",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-03-16T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Tom B.",
+          "date": "2026-01-22T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 938,
+      "slug": "mango-satin-co-ord-set-938",
+      "title": "Mango Satin Co-ord Set",
+      "description": "A satin co-ord set from Mango, cut from a soft cotton-blend suiting. Shown in blue, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "gender": "women",
+      "brand": "Mango",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 4019,
+      "mrp": 6699,
+      "discount": 40,
+      "rating": 4.7,
+      "stock": 25,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1763294632421-84383bbb9dda?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1763294632421-84383bbb9dda?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-938",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-01-18T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Meera P.",
+          "date": "2026-06-11T09:00:00.000Z"
         }
       ],
       "photoCredit": "https://unsplash.com"
@@ -5219,6 +5627,11 @@
       "slug": "dresses",
       "label": "Dresses",
       "singular": "Dress"
+    },
+    {
+      "slug": "coord-sets",
+      "label": "Co-ord Sets",
+      "singular": "Co-ord Set"
     },
     {
       "slug": "jeans",

@@ -8,13 +8,12 @@ import {
   selectActiveFilterCount,
   selectAvailableFacets,
   selectFilters,
-  selectGender,
   setInStockOnly,
   setMinRating,
   setPriceMax,
   toggleFilterValue,
 } from '@/features/catalog/catalogSlice';
-import { COLOURS, GENDERS, RATING_OPTIONS } from '@/lib/constants';
+import { COLOURS, RATING_OPTIONS } from '@/lib/constants';
 import { formatPrice } from '@/lib/format';
 
 function Group({ title, children }: { title: string; children: ReactNode }) {
@@ -31,12 +30,8 @@ export default function FilterPanel() {
   const filters = useAppSelector(selectFilters);
   const activeCount = useAppSelector(selectActiveFilterCount);
   const facets = useAppSelector(selectAvailableFacets);
-  // On /g/women and /g/men the department is already the page, so the group is dropped.
-  const scopedGender = useAppSelector(selectGender);
 
   const colourMeta = (value: string) => COLOURS.find((colour) => colour.value === value);
-  const departmentLabel = (value: string) =>
-    GENDERS.find((department) => department.value === value)?.label ?? value;
 
   return (
     <div>

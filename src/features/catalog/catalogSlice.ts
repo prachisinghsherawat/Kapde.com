@@ -2,7 +2,7 @@ import { createAsyncThunk, createSelector, createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit';
 
 import { fetchProducts } from './catalogApi';
-import { ALL_SIZES, GENDER_VALUES, PAGE_SIZE, sizesFor } from '@/lib/constants';
+import { ALL_SIZES, PAGE_SIZE, sizesFor } from '@/lib/constants';
 import type { RootState } from '@/app/store';
 import type {
   CategorySlug,
@@ -39,7 +39,6 @@ export const loadProducts = createAsyncThunk(
 );
 
 const emptyFilters = (): Filters => ({
-  genders: [],
   brands: [],
   colours: [],
   sizes: [],
@@ -197,7 +196,6 @@ export const selectVisibleProducts = createSelector(
     products
       .filter(
         (product) =>
-          (filters.genders.length === 0 || filters.genders.includes(product.gender)) &&
           (filters.brands.length === 0 || filters.brands.includes(product.brand)) &&
           (filters.colours.length === 0 || filters.colours.includes(product.colour)) &&
           (filters.sizes.length === 0 ||
@@ -225,7 +223,6 @@ export const selectPagedProducts = createSelector(
 export const selectActiveFilterCount = createSelector(
   [selectFilters],
   (filters) =>
-    filters.genders.length +
     filters.brands.length +
     filters.colours.length +
     filters.sizes.length +
@@ -235,13 +232,11 @@ export const selectActiveFilterCount = createSelector(
 );
 
 export const selectAvailableFacets = createSelector([selectScopedProducts], (products) => {
-  const genders = new Map<string, number>();
   const brands = new Map<string, number>();
   const colours = new Map<string, number>();
   const sizes = new Map<string, number>();
 
   for (const product of products) {
-    genders.set(product.gender, (genders.get(product.gender) ?? 0) + 1);
     brands.set(product.brand, (brands.get(product.brand) ?? 0) + 1);
     colours.set(product.colour, (colours.get(product.colour) ?? 0) + 1);
     for (const size of sizesFor(product.category)) {
@@ -253,10 +248,6 @@ export const selectAvailableFacets = createSelector([selectScopedProducts], (pro
     b[1] - a[1] || a[0].localeCompare(b[0]);
 
   return {
-    genders: GENDER_VALUES.filter((gender) => genders.has(gender)).map((value) => ({
-      value,
-      count: genders.get(value) ?? 0,
-    })),
     brands: [...brands.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
     colours: [...colours.entries()].sort(byCountThenName).map(([value, count]) => ({ value, count })),
     sizes: ALL_SIZES.filter((size) => sizes.has(size)).map((value) => ({

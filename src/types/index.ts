@@ -2,6 +2,7 @@ export type CategorySlug =
   | 'tshirts'
   | 'shirts'
   | 'dresses'
+  | 'coord-sets'
   | 'jeans'
   | 'outerwear'
   | 'knitwear'
@@ -80,7 +81,6 @@ export interface Catalog {
 }
 
 export interface Filters {
-  genders: string[];
   brands: string[];
   colours: string[];
   sizes: string[];
@@ -89,7 +89,7 @@ export interface Filters {
   inStockOnly: boolean;
 }
 
-export type FilterListKey = 'genders' | 'brands' | 'colours' | 'sizes';
+export type FilterListKey = 'brands' | 'colours' | 'sizes';
 
 export interface CartLine {
   id: string;

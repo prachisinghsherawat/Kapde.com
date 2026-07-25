@@ -106,7 +106,7 @@ export default function Navbar() {
           Kapde<span className="text-brand-600">.</span>
         </Link>
 
-        <nav className="ml-6 hidden items-center gap-5 lg:flex">
+        <nav className="ml-6 hidden items-center gap-4 lg:flex xl:gap-5">
           {CATEGORIES.map((category) => (
             <NavLink key={category.slug} to={`/c/${category.slug}`} className={navLinkClass}>
               {category.label}

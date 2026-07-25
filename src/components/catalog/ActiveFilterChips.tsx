@@ -11,10 +11,11 @@ import {
 } from '@/features/catalog/catalogSlice';
 import { COLOURS } from '@/lib/constants';
 import { formatPrice } from '@/lib/format';
+import type { FilterListKey } from '@/types';
 
 const chipClass = '!m-0 !rounded-full !bg-subtle !px-3 !py-1 !text-sm !text-ink';
 
-const chipLabel = (key: 'brands' | 'colours' | 'sizes', value: string) => {
+const chipLabel = (key: FilterListKey, value: string) => {
   if (key === 'colours') return COLOURS.find((colour) => colour.value === value)?.label ?? value;
   return key === 'sizes' ? `Size ${value}` : value;
 };
