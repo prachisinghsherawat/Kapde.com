@@ -109,9 +109,9 @@
       "stock": 32,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1768803968298-e31d64afee56?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1768803968298-e31d64afee56?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-DRE-902",
       "reviews": [
         {
@@ -128,47 +128,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/1768803968298-e31d64afee56"
-    },
-    {
-      "id": 903,
-      "slug": "h-m-maxi-dress-903",
-      "title": "H&M Maxi Dress",
-      "description": "A maxi dress from H&M, cut from a soft, fluid viscose blend. Shown in black, it moves well and takes a day-to-night change of shoes without a fuss.",
-      "category": "dresses",
-      "brand": "H&M",
-      "colour": "black",
-      "colourLabel": "Black",
-      "tags": [
-        "dress",
-        "occasion",
-        "summer"
-      ],
-      "price": 2999,
-      "mrp": 2999,
-      "discount": 0,
-      "rating": 4.4,
-      "stock": 20,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1764238385987-2ffa021755a1?q=80&w=687&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1764238385987-2ffa021755a1?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-DRE-903",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Aisha K.",
-          "date": "2026-05-08T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Priya S.",
-          "date": "2026-06-12T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/1764238385987-2ffa021755a1"
     },
     {
       "id": 904,
@@ -1359,9 +1318,9 @@
       "stock": 37,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=735&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1744930648853-940732dde46f?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1744930648853-940732dde46f?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-DRE-931",
       "reviews": [
         {
@@ -2199,11 +2158,11 @@
       "id": 1011,
       "slug": "m-s-regular-fit-oxford-shirt-1011",
       "title": "M&S Regular Fit Oxford Shirt",
-      "description": "A regular fit oxford shirt from M&S, cut from crisp cotton poplin. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A regular fit oxford shirt from M&S, cut from crisp cotton poplin. Shown in emerald green, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
       "brand": "M&S",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "shirt",
         "woven",
@@ -2216,9 +2175,9 @@
       "stock": 33,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1611235116156-0cbda6649efb?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1663630189635-083fe1a9718d?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1611235116156-0cbda6649efb?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1663630189635-083fe1a9718d?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-SHI-1011",
       "reviews": [
         {
@@ -2727,9 +2686,9 @@
       "stock": 5,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1760551600052-fff2c651b20c?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1760551601753-9bc58cecdb4f?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1760551600052-fff2c651b20c?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1760551601753-9bc58cecdb4f?w=500&auto=format&fit=crop",
       "sku": "KPD-SHI-1085",
       "reviews": [
         {
@@ -2809,9 +2768,9 @@
       "stock": 41,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1532675432006-329c6fed7045?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1633330399104-bd06f9341bf7?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1532675432006-329c6fed7045?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1633330399104-bd06f9341bf7?w=500&auto=format&fit=crop",
       "sku": "KPD-DRE-1019",
       "reviews": [
         {
@@ -3091,9 +3050,9 @@
       "stock": 17,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1502868354157-ec2edd2a1651?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1753192104240-209f3fb568ef?q=80&w=687&auto=format&fit=crop%3D"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1502868354157-ec2edd2a1651?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1753192104240-209f3fb568ef?q=80&w=687&auto=format&fit=crop%3D",
       "sku": "KPD-DRE-1025",
       "reviews": [
         {
@@ -3165,8 +3124,8 @@
       "description": "A tiered maxi dress from Zara, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "Zara",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "pink",
+      "colourLabel": "Pink",
       "tags": [
         "dress",
         "occasion",
@@ -3179,9 +3138,9 @@
       "stock": 19,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1758207575462-c70302b4a162?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1728487237980-197c8904811b?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1758207575462-c70302b4a162?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1728487237980-197c8904811b?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-DRE-1027",
       "reviews": [
         {
@@ -5236,8 +5195,8 @@
       "description": "A midi dress from H&M, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "H&M",
-      "colour": "black",
-      "colourLabel": "Black",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "dress",
         "occasion",
@@ -5250,9 +5209,9 @@
       "stock": 36,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1659688309333-5bc160f7e0c1?q=80&w=688&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1623609163841-5e69d8c62cc7?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1659688309333-5bc160f7e0c1?q=80&w=688&auto=format&fit=crop",
       "sku": "KPD-DRE-1072",
       "reviews": [
         {
@@ -5324,8 +5283,8 @@
       "description": "A slip dress from M&S, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "M&S",
-      "colour": "black",
-      "colourLabel": "Black",
+      "colour": "brown",
+      "colourLabel": "Brown",
       "tags": [
         "dress",
         "occasion",
@@ -5338,9 +5297,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1599662875272-64de8289f6d8?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1545911825-38f5c9f1d8c9?q=80&w=682&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1599662875272-64de8289f6d8?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1545911825-38f5c9f1d8c9?q=80&w=682&auto=format&fit=crop",
       "sku": "KPD-DRE-1074",
       "reviews": [
         {
@@ -5473,9 +5432,9 @@
       "stock": 16,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1736342182642-e2042084f47c?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1753192108400-7e73fb581d69?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1736342182642-e2042084f47c?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1753192108400-7e73fb581d69?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-DRE-1077",
       "reviews": [
         {
@@ -5500,8 +5459,8 @@
       "description": "A sundress dress from Tommy Hilfiger, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "Tommy Hilfiger",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "dress",
         "occasion",
@@ -5514,9 +5473,9 @@
       "stock": 17,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1517970640957-23d07d5ed08c?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1628899677165-cc18950ed12e?q=80&w=765&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1517970640957-23d07d5ed08c?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1628899677165-cc18950ed12e?q=80&w=765&auto=format&fit=crop",
       "sku": "KPD-DRE-1078",
       "reviews": [
         {
@@ -5602,9 +5561,9 @@
       "stock": 19,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1617391834151-3a12f8495ca3?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1655562135785-f7c36ed03a67?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1617391834151-3a12f8495ca3?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1655562135785-f7c36ed03a67?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-DRE-1080",
       "reviews": [
         {
