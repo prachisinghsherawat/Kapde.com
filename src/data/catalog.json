@@ -89,47 +89,6 @@
       "photoCredit": "https://unsplash.com/photos/1616313253719-c46514cddee1"
     },
     {
-      "id": 902,
-      "slug": "h-m-printed-dress-902",
-      "title": "H&M Printed Dress",
-      "description": "A printed dress from H&M, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
-      "category": "dresses",
-      "brand": "H&M",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
-      "tags": [
-        "dress",
-        "occasion",
-        "summer"
-      ],
-      "price": 3429,
-      "mrp": 4899,
-      "discount": 30,
-      "rating": 4.1,
-      "stock": 32,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-DRE-902",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-03-25T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Sofia L.",
-          "date": "2026-05-22T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/1768803968298-e31d64afee56"
-    },
-    {
       "id": 904,
       "slug": "calvin-klein-bomber-jacket-904",
       "title": "Calvin Klein Bomber Jacket",
@@ -1081,8 +1040,8 @@
       "description": "A crew neck sweater from Uniqlo, cut from a fine merino-blend knit. Shown in pink, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Uniqlo",
-      "colour": "pink",
-      "colourLabel": "Pink",
+      "colour": "brown",
+      "colourLabel": "Brown",
       "tags": [
         "knit",
         "wool",
@@ -1095,9 +1054,9 @@
       "stock": 25,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1706520001443-e099ad30b807?q=80&w=687&auto=format&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1763120206775-2d6ece46fe49?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1706520001443-e099ad30b807?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1763120206775-2d6ece46fe49?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-926",
       "reviews": [
         {
@@ -1122,8 +1081,8 @@
       "description": "A roll neck sweater from Zara, cut from a fine merino-blend knit. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Zara",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "knit",
         "wool",
@@ -1136,9 +1095,9 @@
       "stock": 8,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1669688174622-0393f5c6baa2?q=80&w=764&auto=format&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1731966052809-3923b6ab88be?q=80&w=688&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1669688174622-0393f5c6baa2?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1731966052809-3923b6ab88be?q=80&w=688&auto=format&fit=crop",
       "sku": "KPD-KNI-927",
       "reviews": [
         {
@@ -1183,9 +1142,9 @@
       "stock": 36,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1610901157620-340856d0a50f?q=80&w=765&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1687742457942-759365c46ccc?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1610901157620-340856d0a50f?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1687742457942-759365c46ccc?w=500&auto=format&fit=crop",
       "sku": "KPD-KNI-928",
       "reviews": [
         {
@@ -1207,11 +1166,11 @@
       "id": 929,
       "slug": "shein-colourblock-sweater-929",
       "title": "Shein Colourblock Sweater",
-      "description": "A colourblock sweater from Shein, cut from a fine merino-blend knit. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A Green sweater from Shein, cut from a fine merino-blend knit. it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Shein",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "knit",
         "wool",
@@ -1224,9 +1183,9 @@
       "stock": 6,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1669850858872-7ed947bac5e3?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1635756194784-d7361802f847?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1669850858872-7ed947bac5e3?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1635756194784-d7361802f847?w=500&auto=format&fit=crop",
       "sku": "KPD-KNI-929",
       "reviews": [
         {
@@ -1648,6 +1607,47 @@
         }
       ],
       "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 902,
+      "slug": "h-m-printed-co-ord-set-902",
+      "title": "H&M Printed Co-ord Set",
+      "description": "A printed co-ord set from H&M, cut from a soft, fluid viscose blend. Shown in multicolour, it moves well and takes a day-to-night change of shoes without a fuss.",
+      "category": "coord-sets",
+      "brand": "H&M",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 3429,
+      "mrp": 4899,
+      "discount": 30,
+      "rating": 4.1,
+      "stock": 32,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-902",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-03-25T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I'd size up if you're between sizes.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-05-22T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com/photos/1768803968298-e31d64afee56"
     },
     {
       "id": 1000,
@@ -4364,11 +4364,11 @@
       "id": 1054,
       "slug": "m-s-ribbed-knit-sweater-1054",
       "title": "M&S Ribbed Knit Sweater",
-      "description": "A ribbed knit sweater from M&S, cut from soft merino-blend yarn. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A ribbed knit sweater from M&S, cut from soft merino-blend yarn. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "M&S",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "knit",
         "wool",
@@ -4381,9 +4381,9 @@
       "stock": 16,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1662695091222-2117842e4ca8?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1662695091222-2117842e4ca8?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1054",
       "reviews": [
         {
@@ -4405,11 +4405,11 @@
       "id": 1055,
       "slug": "calvin-klein-cable-knit-sweater-1055",
       "title": "Calvin Klein Cable Knit Sweater",
-      "description": "A cable knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A cable knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in yellow color, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Calvin Klein",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "yellow",
+      "colourLabel": "Yellow",
       "tags": [
         "knit",
         "wool",
@@ -4422,9 +4422,9 @@
       "stock": 17,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1631541909061-71e349d1f203?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1761416242523-5e1552f14f54?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1631541909061-71e349d1f203?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1761416242523-5e1552f14f54?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1055",
       "reviews": [
         {
@@ -4452,11 +4452,11 @@
       "id": 1056,
       "slug": "h-m-merino-crew-sweater-1056",
       "title": "H&M Merino Crew Sweater",
-      "description": "A merino crew sweater from H&M, cut from soft merino-blend yarn. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A merino crew sweater from H&M, cut from soft merino-blend yarn. Shown in purple color, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "H&M",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "purple",
+      "colourLabel": "Purple",
       "tags": [
         "knit",
         "wool",
@@ -4469,9 +4469,9 @@
       "stock": 18,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1643015862949-5c8d15a4242e?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1687275169445-6b4410d08f75?q=80&w=764&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1643015862949-5c8d15a4242e?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1687275169445-6b4410d08f75?q=80&w=764&auto=format&fit=crop",
       "sku": "KPD-KNI-1056",
       "reviews": [
         {
@@ -4509,7 +4509,7 @@
       "category": "knitwear",
       "brand": "Mango",
       "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colourLabel": "Multicolor",
       "tags": [
         "knit",
         "wool",
@@ -4522,9 +4522,9 @@
       "stock": 19,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1577011389076-9e44f8d1c1da?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1577011389076-9e44f8d1c1da?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1057",
       "reviews": [
         {
@@ -4563,9 +4563,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1588271968087-4c51abe05afc?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1588271968087-4c51abe05afc?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1058",
       "reviews": [
         {
@@ -4610,9 +4610,9 @@
       "stock": 21,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1536992266094-82847e1fd431?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1536992266094-82847e1fd431?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1059",
       "reviews": [
         {
@@ -4649,8 +4649,8 @@
       "description": "A ribbed knit sweater from Calvin Klein, cut from soft merino-blend yarn. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Calvin Klein",
-      "colour": "blue",
-      "colourLabel": "Blue",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "knit",
         "wool",
@@ -4682,470 +4682,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/mcdao5RP4hI"
-    },
-    {
-      "id": 1061,
-      "slug": "zara-heavyweight-hoodie-1061",
-      "title": "Zara Heavyweight Hoodie",
-      "description": "A heavyweight hoodie from Zara, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Zara",
-      "colour": "white",
-      "colourLabel": "White",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 3299,
-      "mrp": 6598,
-      "discount": 50,
-      "rating": 4.5,
-      "stock": 23,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1526476148966-98bd039463ea?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1526476148966-98bd039463ea?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1061",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-05-27T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-06-12T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1062,
-      "slug": "uniqlo-zip-through-hoodie-1062",
-      "title": "Uniqlo Zip-Through Hoodie",
-      "description": "A zip-through hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Uniqlo",
-      "colour": "white",
-      "colourLabel": "White",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 4799,
-      "mrp": 4799,
-      "discount": 0,
-      "rating": 4.7,
-      "stock": 24,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1601396344868-31e008cd6e7c?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1601396344868-31e008cd6e7c?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1062",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-06-10T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Elena V.",
-          "date": "2026-07-13T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-01-16T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1063,
-      "slug": "vero-moda-oversized-hoodie-1063",
-      "title": "Vero Moda Oversized Hoodie",
-      "description": "An oversized hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in red, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Vero Moda",
-      "colour": "red",
-      "colourLabel": "Red",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 4299,
-      "mrp": 5058,
-      "discount": 15,
-      "rating": 4.5,
-      "stock": 25,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1577597759406-0bd867a7c07f?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1577597759406-0bd867a7c07f?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1063",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-07-11T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-01-14T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-02-17T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Elena V.",
-          "date": "2026-03-20T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1064,
-      "slug": "shein-cropped-hoodie-1064",
-      "title": "Shein Cropped Hoodie",
-      "description": "A cropped hoodie from Shein, cut from brushed-back loopback cotton. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Shein",
-      "colour": "grey",
-      "colourLabel": "Grey",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 4299,
-      "mrp": 5732,
-      "discount": 25,
-      "rating": 4.0,
-      "stock": 26,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1594656375376-64d56e2f3ed1?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1594656375376-64d56e2f3ed1?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1064",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Elena V.",
-          "date": "2026-01-12T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-02-15T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1065,
-      "slug": "tommy-hilfiger-essential-hoodie-1065",
-      "title": "Tommy Hilfiger Essential Hoodie",
-      "description": "An essential hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in pink, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Tommy Hilfiger",
-      "colour": "pink",
-      "colourLabel": "Pink",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 3799,
-      "mrp": 6332,
-      "discount": 40,
-      "rating": 4.3,
-      "stock": 27,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1065",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-02-13T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-03-16T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Elena V.",
-          "date": "2026-04-19T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1066,
-      "slug": "zara-brushed-back-hoodie-1066",
-      "title": "Zara Brushed-Back Hoodie",
-      "description": "A brushed-back hoodie from Zara, cut from brushed-back loopback cotton. Shown in white, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Zara",
-      "colour": "white",
-      "colourLabel": "White",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 5299,
-      "mrp": 5299,
-      "discount": 0,
-      "rating": 4.2,
-      "stock": 28,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1592485641225-bdbadeaa601e?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1592485641225-bdbadeaa601e?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1066",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-03-14T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-04-17T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-05-20T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-06-23T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1067,
-      "slug": "uniqlo-heavyweight-hoodie-1067",
-      "title": "Uniqlo Heavyweight Hoodie",
-      "description": "A heavyweight hoodie from Uniqlo, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Uniqlo",
-      "colour": "black",
-      "colourLabel": "Black",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 5699,
-      "mrp": 6332,
-      "discount": 10,
-      "rating": 4.0,
-      "stock": 4,
-      "availability": "Low Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1594587002961-1a75dfaf34b8?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1594587002961-1a75dfaf34b8?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1067",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-04-15T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Elena V.",
-          "date": "2026-05-18T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1068,
-      "slug": "vero-moda-zip-through-hoodie-1068",
-      "title": "Vero Moda Zip-Through Hoodie",
-      "description": "A zip-through hoodie from Vero Moda, cut from brushed-back loopback cotton. Shown in black, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Vero Moda",
-      "colour": "black",
-      "colourLabel": "Black",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 3899,
-      "mrp": 4874,
-      "discount": 20,
-      "rating": 4.7,
-      "stock": 30,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1773984159844-35cba1600d92?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1773984159844-35cba1600d92?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1068",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-05-16T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-06-19T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-07-22T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1069,
-      "slug": "shein-oversized-hoodie-1069",
-      "title": "Shein Oversized Hoodie",
-      "description": "An oversized hoodie from Shein, cut from brushed-back loopback cotton. Shown in green, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Shein",
-      "colour": "green",
-      "colourLabel": "Green",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 4599,
-      "mrp": 6570,
-      "discount": 30,
-      "rating": 4.2,
-      "stock": 31,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1685354218056-cb10c98b8c88?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1685354218056-cb10c98b8c88?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1069",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Elena V.",
-          "date": "2026-06-17T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-07-20T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-01-23T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-02-26T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 1070,
-      "slug": "tommy-hilfiger-cropped-hoodie-1070",
-      "title": "Tommy Hilfiger Cropped Hoodie",
-      "description": "A cropped hoodie from Tommy Hilfiger, cut from brushed-back loopback cotton. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
-      "category": "hoodies",
-      "brand": "Tommy Hilfiger",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
-      "tags": [
-        "fleece",
-        "loungewear",
-        "jersey"
-      ],
-      "price": 2399,
-      "mrp": 4798,
-      "discount": 50,
-      "rating": 4.5,
-      "stock": 32,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=1200&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1553728437-e15abbe95e6b?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-HOO-1070",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-07-18T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-01-21T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1071,
@@ -5694,13 +5230,13 @@
     },
     {
       "slug": "knitwear",
-      "label": "Knitwear",
+      "label": "Knitwear & Sweaters",
       "singular": "Sweater"
     },
     {
-      "slug": "hoodies",
-      "label": "Hoodies & Sweats",
-      "singular": "Hoodie"
+      "slug": "tops",
+      "label": "Tops",
+      "singular": "Top"
     }
   ],
   "brands": [

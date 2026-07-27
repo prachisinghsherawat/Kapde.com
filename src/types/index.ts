@@ -6,7 +6,7 @@ export type CategorySlug =
   | 'jeans'
   | 'outerwear'
   | 'knitwear'
-  | 'hoodies';
+  | 'tops';
 
 export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating' | 'newest';
 
