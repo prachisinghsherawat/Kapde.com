@@ -5,8 +5,7 @@ export type CategorySlug =
   | 'coord-sets'
   | 'jeans'
   | 'outerwear'
-  | 'knitwear'
-  | 'tops';
+  | 'knitwear';
 
 export type SortKey = 'featured' | 'price-asc' | 'price-desc' | 'discount' | 'rating' | 'newest';
 

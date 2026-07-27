@@ -5232,11 +5232,6 @@
       "slug": "knitwear",
       "label": "Knitwear & Sweaters",
       "singular": "Sweater"
-    },
-    {
-      "slug": "tops",
-      "label": "Tops",
-      "singular": "Top"
     }
   ],
   "brands": [
