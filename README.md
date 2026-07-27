@@ -4,6 +4,7 @@ A fashion storefront built with React, TypeScript, Redux Toolkit, Ant Design and
 
 ## Getting started
 
+
 ```bash
 npm install
 npm run dev      # http://localhost:3000
