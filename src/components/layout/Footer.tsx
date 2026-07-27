@@ -1,14 +1,8 @@
 import { Link } from 'react-router-dom';
 import { App, Button, Input } from 'antd';
-import {
-  FacebookFilled,
-  InstagramFilled,
-  MailOutlined,
-  PhoneOutlined,
-  TwitterOutlined,
-} from '@ant-design/icons';
 import { useState } from 'react';
 
+import Icon from '@/lib/icons';
 import { CATEGORIES } from '@/lib/constants';
 import appleBadge from '@/assets/apple.png';
 import googleBadge from '@/assets/google.png';
@@ -29,10 +23,10 @@ const COLUMNS = [
 ];
 
 const SOCIALS = [
-  { label: 'Instagram', icon: <InstagramFilled /> },
-  { label: 'Twitter', icon: <TwitterOutlined /> },
-  { label: 'Facebook', icon: <FacebookFilled /> },
-];
+  { label: 'Instagram', icon: 'instagram' },
+  { label: 'X', icon: 'x' },
+  { label: 'Facebook', icon: 'facebook' },
+] as const;
 
 export default function Footer() {
   const { message } = App.useApp();
@@ -84,7 +78,7 @@ export default function Footer() {
                   aria-label={social.label}
                   className="grid h-9 w-9 place-items-center rounded-full border border-line text-muted transition hover:border-brand-600 hover:text-brand-600"
                 >
-                  {social.icon}
+                  <Icon name={social.icon} size="md" />
                 </button>
               ))}
             </div>
@@ -125,10 +119,10 @@ export default function Footer() {
         <div className="mt-12 flex flex-col gap-6 border-t border-line pt-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-6 text-sm text-muted">
             <span className="flex items-center gap-2">
-              <PhoneOutlined /> 1800 123 1555
+              <Icon name="phone" size="sm" /> 1800 123 1555
             </span>
             <span className="flex items-center gap-2">
-              <MailOutlined /> help@kapde.com
+              <Icon name="mail" size="sm" /> help@kapde.com
             </span>
           </div>
 

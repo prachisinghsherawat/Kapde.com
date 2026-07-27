@@ -1,6 +1,6 @@
 import { Form, Input, Radio } from 'antd';
-import { CreditCardOutlined, LockOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { formatCardNumber, formatCvv, formatExpiry } from '@/lib/checkout';
 import { formatPrice } from '@/lib/format';
 
@@ -12,7 +12,7 @@ export default function PaymentFields({ method, total }: { method: 'card' | 'cod
       <Form.Item name="method">
         <Radio.Group className="flex w-full flex-col gap-3 sm:flex-row">
           <Radio.Button value="card" className="flex-1 !h-auto !py-3 text-center">
-            <CreditCardOutlined className="mr-2" />
+            <Icon name="card" size="md" className="mr-2" />
             Card
           </Radio.Button>
           <Radio.Button value="cod" className="flex-1 !h-auto !py-3 text-center">
@@ -68,7 +68,7 @@ export default function PaymentFields({ method, total }: { method: 'card' | 'cod
       )}
 
       <p className="mt-2 flex items-center gap-2 text-xs text-muted">
-        <LockOutlined />
+        <Icon name="lock" size="sm" />
         This is a demo storefront — no card is charged and no details leave your browser.
       </p>
     </section>

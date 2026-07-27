@@ -2,17 +2,8 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { Badge, Drawer, Dropdown, Input, Tooltip } from 'antd';
 import type { MenuProps } from 'antd';
-import {
-  HeartOutlined,
-  LogoutOutlined,
-  MenuOutlined,
-  MoonOutlined,
-  SearchOutlined,
-  ShoppingOutlined,
-  SunOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { logout, selectUser } from '@/features/auth/authSlice';
 import { selectCartCount } from '@/features/cart/cartSlice';
@@ -20,9 +11,10 @@ import { selectWishlistCount } from '@/features/wishlist/wishlistSlice';
 import { selectTheme, toggleTheme } from '@/features/ui/uiSlice';
 import { CATEGORIES } from '@/lib/constants';
 
-/** Shared shape for the header action icons: large tap target, hover lift, brand tint. */
+/** Shared shape for the header action icons: the tap target stays a full 40px for
+ *  touch, but nothing is painted around the glyph — hover is a brand tint only. */
 const iconButtonClass =
-  'group/icon grid h-11 w-11 place-items-center rounded-full text-ink transition-all duration-200 hover:-translate-y-0.5 hover:bg-subtle active:translate-y-0';
+  'group/icon grid h-10 w-10 place-items-center text-muted transition-colors duration-200 hover:text-brand-600';
 
 /** First letters of the first two words, e.g. "Priya Sharma" → "PS". */
 const initials = (name: string): string =>
@@ -76,7 +68,7 @@ export default function Navbar() {
         {
           key: 'logout',
           danger: true,
-          icon: <LogoutOutlined />,
+          icon: <Icon name="logout" />,
           label: 'Log out',
           onClick: () => dispatch(logout()),
         },
@@ -99,7 +91,7 @@ export default function Navbar() {
           onClick={() => setMenuOpen(true)}
           className={`${iconButtonClass} lg:hidden`}
         >
-          <MenuOutlined className="text-[22px] text-ink" />
+          <Icon name="menu" size="xl" />
         </button>
 
         <Link to="/" className="font-display text-2xl font-bold tracking-tight text-ink">
@@ -119,7 +111,7 @@ export default function Navbar() {
             allowClear
             value={term}
             placeholder="Search for jeans, dresses…"
-            prefix={<SearchOutlined className="text-muted" />}
+            prefix={<Icon name="search" className="text-muted" />}
             onChange={(event) => setTerm(event.target.value)}
             onPressEnter={(event) => submitSearch(event.currentTarget.value)}
             className="hidden w-56 md:flex xl:w-72"
@@ -133,16 +125,14 @@ export default function Navbar() {
               onClick={() => dispatch(toggleTheme())}
               className={iconButtonClass}
             >
-              <span className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600">
-                {theme === 'dark' ? <SunOutlined /> : <MoonOutlined />}
-              </span>
+              <Icon name={theme === 'dark' ? 'themeLight' : 'themeDark'} size="xl" />
             </button>
           </Tooltip>
 
           <Tooltip title="Wishlist">
             <Link to="/wishlist" aria-label="Wishlist" className={iconButtonClass}>
               <Badge count={wishlistCount} size="small" offset={[-2, 2]}>
-                <HeartOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+                <Icon name="wishlist" size="xl" />
               </Badge>
             </Link>
           </Tooltip>
@@ -150,7 +140,7 @@ export default function Navbar() {
           <Tooltip title="Shopping bag">
             <Link to="/cart" aria-label="Shopping bag" className={iconButtonClass}>
               <Badge count={cartCount} size="small" offset={[-2, 2]}>
-                <ShoppingOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+                <Icon name="bag" size="xl" />
               </Badge>
             </Link>
           </Tooltip>
@@ -158,11 +148,9 @@ export default function Navbar() {
           <Dropdown menu={{ items: accountMenu }} placement="bottomRight" trigger={['click']}>
             <button type="button" aria-label="Account" className={iconButtonClass}>
               {user ? (
-                <span className="grid h-8 w-8 place-items-center rounded-full bg-brand-600 text-xs font-semibold text-white transition-transform group-hover/icon:scale-105">
-                  {initials(user.name)}
-                </span>
+                <span className="text-sm font-semibold text-brand-600">{initials(user.name)}</span>
               ) : (
-                <UserOutlined className="text-[22px] text-ink transition-colors group-hover/icon:text-brand-600" />
+                <Icon name="account" size="xl" />
               )}
             </button>
           </Dropdown>

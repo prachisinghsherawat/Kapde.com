@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { App, Button, Popconfirm } from 'antd';
-import { DeleteOutlined, ShoppingOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   MAX_QTY,
@@ -28,7 +28,7 @@ export default function CartPage() {
   if (lines.length === 0) {
     return (
       <EmptyState
-        icon={<ShoppingOutlined />}
+        icon={<Icon name="bag" />}
         title="Your bag is empty"
         description="Once you add something you like, it will show up here."
         action={
@@ -60,7 +60,7 @@ export default function CartPage() {
             message.success('Bag emptied');
           }}
         >
-          <Button type="text" danger icon={<DeleteOutlined />}>
+          <Button type="text" danger icon={<Icon name="remove" />}>
             Empty bag
           </Button>
         </Popconfirm>
@@ -101,7 +101,7 @@ export default function CartPage() {
                   <Button
                     type="text"
                     danger
-                    icon={<DeleteOutlined />}
+                    icon={<Icon name="remove" />}
                     aria-label={`Remove ${line.title}`}
                     onClick={() => dispatch(removeFromCart(line.id))}
                   />

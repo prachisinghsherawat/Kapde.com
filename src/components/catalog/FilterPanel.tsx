@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import { Button, Checkbox, Rate, Slider, Switch } from 'antd';
-import { CheckOutlined } from '@ant-design/icons';
 
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
@@ -13,6 +12,7 @@ import {
   setPriceMax,
   toggleFilterValue,
 } from '@/features/catalog/catalogSlice';
+import Icon from '@/lib/icons';
 import { COLOURS, RATING_OPTIONS } from '@/lib/constants';
 import { formatPrice } from '@/lib/format';
 
@@ -97,22 +97,20 @@ export default function FilterPanel() {
                 aria-pressed={active}
                 aria-label={meta?.label ?? colour.value}
                 onClick={() => dispatch(toggleFilterValue({ key: 'colours', value: colour.value }))}
-                className={`grid h-7 w-7 place-items-center rounded-full transition-transform duration-200 hover:scale-110 ${
-                  active ? 'ring-2 ring-brand-600 ring-offset-2 ring-offset-surface' : ''
+                className={`grid h-8 w-8 place-items-center rounded-full border border-line transition duration-200 hover:scale-105 ${
+                  active ? 'ring-1 ring-brand-400 ring-offset-2 ring-offset-surface' : ''
                 }`}
                 style={
                   colour.value === 'multi'
                     ? {
                         background:
                           'conic-gradient(#ec9db8, #e8c65a, #3f9d6a, #2f6fd0, #8b5cf6, #ec9db8)',
-                        // Inset hairline keeps white visible on a white panel.
-                        boxShadow: 'inset 0 0 0 1px rgb(0 0 0 / 0.15)',
                       }
-                    : { backgroundColor: meta?.hex, boxShadow: 'inset 0 0 0 1px rgb(0 0 0 / 0.15)' }
+                    : { backgroundColor: meta?.hex }
                 }
               >
                 {active && (
-                  <CheckOutlined className={`text-[10px] ${light ? 'text-ink' : 'text-white'}`} />
+                  <Icon name="selected" size="xs" className={light ? 'text-ink' : 'text-white'} />
                 )}
               </button>
             );
@@ -130,10 +128,10 @@ export default function FilterPanel() {
                 type="button"
                 aria-pressed={active}
                 onClick={() => dispatch(toggleFilterValue({ key: 'sizes', value: size.value }))}
-                className={`grid h-8 min-w-[2rem] place-items-center rounded-md border px-2 text-xs font-semibold transition ${
+                className={`grid h-9 min-w-[2.25rem] place-items-center rounded-lg border px-2.5 text-xs font-medium transition ${
                   active
-                    ? 'border-brand-600 bg-brand-600 text-white'
-                    : 'border-line bg-surface text-ink hover:border-brand-400 hover:text-brand-600'
+                    ? 'border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-800 dark:bg-brand-900/30 dark:text-brand-200'
+                    : 'border-line bg-surface text-muted hover:border-brand-200 hover:text-brand-600'
                 }`}
               >
                 {size.value}

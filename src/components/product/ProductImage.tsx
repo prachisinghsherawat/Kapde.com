@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { PictureOutlined } from '@ant-design/icons';
+
+import Icon from '@/lib/icons';
 
 interface ProductImageProps {
   src: string;
@@ -20,7 +21,7 @@ export default function ProductImage({ src, alt, className, eager = false }: Pro
   if (!src || failed) {
     return (
       <div className={`grid place-items-center bg-subtle text-2xl text-muted ${className ?? ''}`}>
-        <PictureOutlined />
+        <Icon name="imageFallback" size="2xl" />
       </div>
     );
   }

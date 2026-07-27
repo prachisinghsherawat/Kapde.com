@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { App, Button, Tooltip } from 'antd';
-import { HeartFilled, HeartOutlined, ShoppingOutlined, StarFilled } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { addToCart } from '@/features/cart/cartSlice';
 import { selectWishlistIds, toggleWishlist } from '@/features/wishlist/wishlistSlice';
@@ -70,12 +70,16 @@ function ProductCard({ product }: { product: Product }) {
             onClick={() => dispatch(toggleWishlist(product))}
             aria-pressed={wishlisted}
             aria-label={wishlisted ? 'Remove from wishlist' : 'Save for later'}
-            className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-surface/90 text-lg shadow-card backdrop-blur transition-all duration-200 hover:scale-110 active:scale-95"
+            className="absolute right-3 top-3 grid h-9 w-9 place-items-center rounded-full bg-surface/70 backdrop-blur-sm transition-colors duration-200 hover:bg-surface/90"
           >
             {wishlisted ? (
-              <HeartFilled className="text-brand-600" />
+              <Icon name="wishlistOn" size="lg" className="text-brand-500" />
             ) : (
-              <HeartOutlined className="text-ink" />
+              <Icon
+                name="wishlist"
+                size="lg"
+                className="text-muted transition-colors group-hover:text-ink"
+              />
             )}
           </button>
         </Tooltip>
@@ -83,7 +87,7 @@ function ProductCard({ product }: { product: Product }) {
         {/* Slides up on hover for pointers; always visible on touch, where hover never fires. */}
         {!soldOut && (
           <div className="absolute inset-x-3 bottom-3 translate-y-2 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100 max-lg:translate-y-0 max-lg:opacity-100">
-            <Button block type="primary" icon={<ShoppingOutlined />} onClick={handleAdd}>
+            <Button block type="primary" icon={<Icon name="bag" />} onClick={handleAdd}>
               {sizes.length > 1 ? 'Select size' : 'Add to bag'}
             </Button>
           </div>
@@ -96,7 +100,7 @@ function ProductCard({ product }: { product: Product }) {
             {product.brand}
           </p>
           <span className="flex shrink-0 items-center gap-1 rounded bg-subtle px-1.5 py-0.5 text-xs font-medium text-ink">
-            <StarFilled className="text-[10px] text-amber-500" />
+            <Icon name="rating" size="xs" className="text-amber-500" />
             {product.rating.toFixed(1)}
           </span>
         </div>

@@ -1,7 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import { Alert, Button, Checkbox, Form, Input } from 'antd';
-import { LockOutlined, MailOutlined, UserOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   selectAuthError,
@@ -56,7 +56,7 @@ export default function SignupPage() {
             rules={[{ required: true, message: 'Please enter your first name' }]}
           >
             <Input
-              prefix={<UserOutlined className="text-muted" />}
+              prefix={<Icon name="account" className="text-muted" />}
               placeholder="Priya"
               autoComplete="given-name"
             />
@@ -80,7 +80,7 @@ export default function SignupPage() {
           ]}
         >
           <Input
-            prefix={<MailOutlined className="text-muted" />}
+            prefix={<Icon name="mail" className="text-muted" />}
             placeholder="you@example.com"
             autoComplete="email"
           />
@@ -95,7 +95,7 @@ export default function SignupPage() {
           ]}
         >
           <Input.Password
-            prefix={<LockOutlined className="text-muted" />}
+            prefix={<Icon name="lock" className="text-muted" />}
             placeholder="••••••••"
             autoComplete="new-password"
           />

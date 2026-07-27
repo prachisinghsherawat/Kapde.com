@@ -1,7 +1,7 @@
 import { Navigate, useLocation } from 'react-router-dom';
 import { Alert, Button, Checkbox, Form, Input } from 'antd';
-import { LockOutlined, MailOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   login,
@@ -50,7 +50,7 @@ export default function LoginPage() {
           ]}
         >
           <Input
-            prefix={<MailOutlined className="text-muted" />}
+            prefix={<Icon name="mail" className="text-muted" />}
             placeholder="you@example.com"
             autoComplete="email"
           />
@@ -65,7 +65,7 @@ export default function LoginPage() {
           ]}
         >
           <Input.Password
-            prefix={<LockOutlined className="text-muted" />}
+            prefix={<Icon name="lock" className="text-muted" />}
             placeholder="••••••••"
             autoComplete="current-password"
           />

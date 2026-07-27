@@ -1,17 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { App, Button, Collapse, Rate, Result, Tag } from 'antd';
-import {
-  CheckCircleOutlined,
-  HeartFilled,
-  HeartOutlined,
-  RightOutlined,
-  SafetyOutlined,
-  ShoppingOutlined,
-  SyncOutlined,
-  TruckOutlined,
-} from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { MAX_QTY, addToCart } from '@/features/cart/cartSlice';
 import { selectWishlistIds, toggleWishlist } from '@/features/wishlist/wishlistSlice';
@@ -116,11 +107,11 @@ export default function ProductPage() {
         <Link to="/" className="hover:text-brand-600">
           Home
         </Link>
-        <RightOutlined className="text-[10px]" />
+        <Icon name="chevronRight" size="xs" />
         <Link to={`/c/${product.category}`} className="hover:text-brand-600">
           {category?.label}
         </Link>
-        <RightOutlined className="text-[10px]" />
+        <Icon name="chevronRight" size="xs" />
         <span className="truncate text-ink">{product.title}</span>
       </nav>
 
@@ -222,7 +213,7 @@ export default function ProductPage() {
               type="primary"
               size="large"
               disabled={soldOut}
-              icon={<ShoppingOutlined />}
+              icon={<Icon name="bag" />}
               onClick={() => handleAdd()}
               className="min-w-[12rem] flex-1"
             >
@@ -234,26 +225,32 @@ export default function ProductPage() {
             <Button
               size="large"
               aria-label={wishlisted ? 'Remove from wishlist' : 'Save for later'}
-              icon={wishlisted ? <HeartFilled className="text-brand-600" /> : <HeartOutlined />}
+              icon={
+                wishlisted ? (
+                  <Icon name="wishlistOn" className="text-brand-600" />
+                ) : (
+                  <Icon name="wishlist" />
+                )
+              }
               onClick={() => dispatch(toggleWishlist(product))}
             />
           </div>
 
           <ul className="mt-8 space-y-3 text-sm text-muted">
             <li className="flex items-center gap-3">
-              <TruckOutlined className="text-brand-600" />
+              <Icon name="shipping" size="md" className="text-brand-600" />
               Free delivery on orders over {formatPrice(FREE_SHIPPING_OVER)}
             </li>
             <li className="flex items-center gap-3">
-              <SyncOutlined className="text-brand-600" />
+              <Icon name="returns" size="md" className="text-brand-600" />
               Free 30-day returns and exchanges
             </li>
             <li className="flex items-center gap-3">
-              <SafetyOutlined className="text-brand-600" />
+              <Icon name="guarantee" size="md" className="text-brand-600" />
               Quality guaranteed for 12 months
             </li>
             <li className="flex items-center gap-3">
-              <CheckCircleOutlined className="text-brand-600" />
+              <Icon name="inStock" size="md" className="text-brand-600" />
               {product.availability}
               {!soldOut && ` — ${product.stock} in stock`}
             </li>

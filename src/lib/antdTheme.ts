@@ -40,5 +40,17 @@ export const buildAntdTheme = (mode: Theme): ThemeConfig => ({
   components: {
     Button: { fontWeight: 500, primaryShadow: 'none', defaultShadow: 'none' },
     Segmented: { itemSelectedBg: '#c81e5a', itemSelectedColor: '#ffffff' },
+    // The small filter controls take the lighter brand-500/400 so a panel full of
+    // them stays quiet; only the primary buttons keep the deep brand-600.
+    Checkbox: { colorPrimary: '#f43f7e', colorPrimaryHover: '#fb6f9c' },
+    Switch: { colorPrimary: '#f43f7e', colorPrimaryHover: '#fb6f9c' },
+    Slider: {
+      trackBg: '#fb6f9c',
+      trackHoverBg: '#f43f7e',
+      handleColor: '#fb6f9c',
+      handleActiveColor: '#f43f7e',
+      dotActiveBorderColor: '#fb6f9c',
+    },
+    Rate: { starSize: 14 },
   },
 });

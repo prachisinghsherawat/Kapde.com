@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
-import { HeartOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { clearWishlist, selectWishlistItems } from '@/features/wishlist/wishlistSlice';
 import EmptyState from '@/components/common/EmptyState';
@@ -15,7 +15,7 @@ export default function WishlistPage() {
   if (items.length === 0) {
     return (
       <EmptyState
-        icon={<HeartOutlined />}
+        icon={<Icon name="wishlist" />}
         title="No saved pieces yet"
         description="Tap the heart on anything you like and it will wait for you here."
         action={

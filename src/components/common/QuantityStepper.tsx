@@ -1,5 +1,6 @@
-import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
+
+import Icon from '@/lib/icons';
 
 interface QuantityStepperProps {
   value: number;
@@ -19,7 +20,7 @@ export default function QuantityStepper({
       <Button
         type="text"
         size="small"
-        icon={<MinusOutlined />}
+        icon={<Icon name="decrement" />}
         disabled={value <= min}
         aria-label="Decrease quantity"
         onClick={() => onChange(value - 1)}
@@ -28,7 +29,7 @@ export default function QuantityStepper({
       <Button
         type="text"
         size="small"
-        icon={<PlusOutlined />}
+        icon={<Icon name="increment" />}
         disabled={value >= max}
         aria-label="Increase quantity"
         onClick={() => onChange(value + 1)}

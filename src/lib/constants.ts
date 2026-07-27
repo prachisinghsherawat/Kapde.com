@@ -9,14 +9,13 @@ export const BRANDS = catalog.brands;
 export const COLOURS = catalog.colours;
 export const CATEGORY_SLUGS = CATEGORIES.map((category) => category.slug);
 
-/** Jeans are sold on waist measurement; everything else takes letter sizes. */
-const LETTER_SIZES = ['XS', 'S', 'M', 'L', 'XL'];
-const WAIST_SIZES = ['26', '28', '30', '32', '34', '36'];
+/** One letter scale across the whole store — no numeric waist sizes to decode. */
+const LETTER_SIZES = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
 
-export const sizesFor = (category: CategorySlug): string[] =>
-  category === 'jeans' ? WAIST_SIZES : LETTER_SIZES;
+/** Takes the category so a per-category scale stays easy to reintroduce. */
+export const sizesFor = (_category: CategorySlug): string[] => LETTER_SIZES;
 
-export const ALL_SIZES = [...new Set([...LETTER_SIZES, ...WAIST_SIZES])];
+export const ALL_SIZES = LETTER_SIZES;
 
 export const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: 'featured', label: 'Featured' },

@@ -1,12 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import {
-  ArrowRightOutlined,
-  CreditCardOutlined,
-  SyncOutlined,
-  TruckOutlined,
-} from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   loadProducts,
@@ -22,21 +17,21 @@ import { formatPrice } from '@/lib/format';
 
 const PERKS = [
   {
-    icon: <TruckOutlined />,
+    icon: 'shipping',
     title: 'Free shipping',
     body: `On every order above ${formatPrice(FREE_SHIPPING_OVER)}.`,
   },
   {
-    icon: <SyncOutlined />,
+    icon: 'returns',
     title: '30-day returns',
     body: 'Changed your mind? Send it back, no questions.',
   },
   {
-    icon: <CreditCardOutlined />,
+    icon: 'secure',
     title: 'Secure checkout',
     body: 'Every payment encrypted end to end.',
   },
-];
+] as const;
 
 export default function HomePage() {
   const dispatch = useAppDispatch();
@@ -97,7 +92,7 @@ export default function HomePage() {
                   <p className="text-sm font-semibold drop-shadow">{category.label}</p>
                   <p className="text-xs text-white/80">{tile ? `${tile.count} styles` : '—'}</p>
                   <span className="mt-1 inline-flex translate-y-1 items-center gap-1 text-xs font-semibold text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                    Shop now <ArrowRightOutlined className="text-[10px]" />
+                    Shop now <Icon name="arrowRight" size="xs" />
                   </span>
                 </div>
               </Link>
@@ -129,8 +124,8 @@ export default function HomePage() {
               key={perk.title}
               className="group flex items-start gap-4 rounded-2xl p-3 transition-colors hover:bg-subtle"
             >
-              <div className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-brand-50 text-2xl text-brand-600 transition-transform duration-300 group-hover:scale-110 dark:bg-brand-900/40">
-                {perk.icon}
+              <div className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-brand-50 text-brand-600 transition-transform duration-300 group-hover:scale-110 dark:bg-brand-900/40">
+                <Icon name={perk.icon} size="2xl" />
               </div>
               <div>
                 <h3 className="text-base font-semibold text-ink">{perk.title}</h3>

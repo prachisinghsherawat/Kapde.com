@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Badge, Button, Drawer, Pagination, Result, Select } from 'antd';
-import { FilterOutlined, InboxOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import {
   clearFilters,
@@ -82,7 +82,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
         <div className="flex items-center gap-2">
           <div className="lg:hidden">
             <Badge count={activeFilterCount} size="small" offset={[-2, 2]}>
-              <Button icon={<FilterOutlined />} onClick={() => dispatch(setFilterDrawer(true))}>
+              <Button icon={<Icon name="filter" />} onClick={() => dispatch(setFilterDrawer(true))}>
                 Filters
               </Button>
             </Badge>
@@ -116,7 +116,7 @@ export default function ProductListing({ title, subtitle }: ProductListingProps)
         <div ref={gridTopRef} className="min-w-0 flex-1 scroll-mt-24">
           {!loading && total === 0 ? (
             <EmptyState
-              icon={<InboxOutlined />}
+              icon={<Icon name="noResults" />}
               title="Nothing matches those filters"
               description="Try removing a filter or two — there is plenty more in the collection."
               action={

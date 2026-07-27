@@ -2,8 +2,8 @@ import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Carousel } from 'antd';
 import type { CarouselRef } from 'antd/es/carousel';
-import { ArrowRightOutlined, LeftOutlined, RightOutlined } from '@ant-design/icons';
 
+import Icon from '@/lib/icons';
 import { BANNERS } from '@/lib/constants';
 
 const SLIDES = [
@@ -99,7 +99,7 @@ export default function HeroCarousel() {
                       <Button
                         type="primary"
                         size="large"
-                        icon={<ArrowRightOutlined />}
+                        icon={<Icon name="arrowRight" />}
                         iconPosition="end"
                         className="!h-12 !px-7 !text-base"
                       >
@@ -121,7 +121,7 @@ export default function HeroCarousel() {
         onClick={() => carouselRef.current?.prev()}
         className="absolute left-4 top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/15 text-lg text-white opacity-0 backdrop-blur transition hover:bg-white/30 group-hover:opacity-100"
       >
-        <LeftOutlined />
+        <Icon name="chevronLeft" size="xl" />
       </button>
       <button
         type="button"
@@ -129,7 +129,7 @@ export default function HeroCarousel() {
         onClick={() => carouselRef.current?.next()}
         className="absolute right-4 top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/15 text-lg text-white opacity-0 backdrop-blur transition hover:bg-white/30 group-hover:opacity-100"
       >
-        <RightOutlined />
+        <Icon name="chevronRight" size="xl" />
       </button>
     </section>
   );
