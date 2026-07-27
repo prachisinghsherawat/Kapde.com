@@ -11,12 +11,9 @@ import { selectWishlistCount } from '@/features/wishlist/wishlistSlice';
 import { selectTheme, toggleTheme } from '@/features/ui/uiSlice';
 import { CATEGORIES } from '@/lib/constants';
 
-/** Shared shape for the header action icons: the tap target stays a full 40px for
- *  touch, but nothing is painted around the glyph — hover is a brand tint only. */
 const iconButtonClass =
-  'group/icon grid h-10 w-10 place-items-center text-muted transition-colors duration-200 hover:text-brand-600';
+  'group/icon grid h-10 w-10 cursor-pointer appearance-none place-items-center border-0 bg-transparent p-0 text-muted transition-colors duration-200 hover:text-brand-600';
 
-/** First letters of the first two words, e.g. "Priya Sharma" → "PS". */
 const initials = (name: string): string =>
   name
     .split(/\s+/)
@@ -29,8 +26,6 @@ const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   `relative cursor-pointer py-1 text-sm font-medium transition-colors after:absolute after:inset-x-0 after:-bottom-0.5 after:h-0.5 after:origin-left after:scale-x-0 after:bg-brand-600 after:transition-transform hover:text-brand-600 hover:after:scale-x-100 ${
     isActive ? 'text-brand-600 after:scale-x-100' : 'text-ink'
   }`;
-
-
 
 export default function Navbar() {
   const dispatch = useAppDispatch();

@@ -1697,8 +1697,8 @@
       "description": "A relaxed fit t-shirt from Levi's, cut from combed organic cotton jersey. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
       "brand": "Levi's",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "brown",
+      "colourLabel": "Brown",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1711,9 +1711,9 @@
       "stock": 22,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1628344880773-797b1f8ba1d1?q=80&w=1471&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1628344880773-797b1f8ba1d1?q=80&w=1471&auto=format&fit=crop",
       "sku": "KPD-TSH-1000",
       "reviews": [
         {
@@ -1752,9 +1752,9 @@
       "stock": 23,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1589340848402-c5ec1ca47d7f?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1589340848402-c5ec1ca47d7f?w=500&auto=format&fit=crop",
       "sku": "KPD-TSH-1001",
       "reviews": [
         {
@@ -1799,9 +1799,9 @@
       "stock": 24,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1551799517-eb8f03cb5e6a?q=80&w=1200&auto=format&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1763734616802-54979bfe3f86?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1551799517-eb8f03cb5e6a?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1763734616802-54979bfe3f86?w=500&auto=format&fit=crop",
       "sku": "KPD-TSH-1002",
       "reviews": [
         {
@@ -1879,8 +1879,8 @@
       "description": "A classic crew t-shirt from Mango, cut from combed organic cotton jersey. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
       "brand": "Mango",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "white",
+      "colourLabel": "White",
       "tags": [
         "t-shirt",
         "jersey",
@@ -1893,9 +1893,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1485218126466-34e6392ec754?q=80&w=1200&auto=format&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1690406382707-16d9cc7a83d5?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1485218126466-34e6392ec754?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1690406382707-16d9cc7a83d5?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-TSH-1004",
       "reviews": [
         {
@@ -1993,9 +1993,9 @@
       "stock": 28,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1581936994138-29392157cf29?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1581936994138-29392157cf29?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-TSH-1006",
       "reviews": [
         {
@@ -2034,9 +2034,9 @@
       "stock": 29,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1610948199252-995d1f449363?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1626537903753-a0d82c8fad34?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1610948199252-995d1f449363?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1626537903753-a0d82c8fad34?w=500&auto=format&fit=crop",
       "sku": "KPD-TSH-1007",
       "reviews": [
         {
@@ -2067,8 +2067,8 @@
       "description": "An oversized t-shirt from H&M, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
       "brand": "H&M",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "red",
+      "colourLabel": "Red",
       "tags": [
         "t-shirt",
         "jersey",
@@ -2081,9 +2081,9 @@
       "stock": 30,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1595184032401-8f09f32e143c?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1622132259745-02d6379d1294?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1595184032401-8f09f32e143c?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1622132259745-02d6379d1294?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-TSH-1008",
       "reviews": [
         {
@@ -2120,8 +2120,8 @@
       "description": "A boxy t-shirt from Mango, cut from combed organic cotton jersey. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "tshirts",
       "brand": "Mango",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "yellow",
+      "colourLabel": "Yellow",
       "tags": [
         "t-shirt",
         "jersey",
@@ -2134,9 +2134,9 @@
       "stock": 31,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1682096340835-022e6647b698?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1613397872442-bf126656ca86?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1682096340835-022e6647b698?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1613397872442-bf126656ca86?w=500&auto=format&fit=crop",
       "sku": "KPD-TSH-1009",
       "reviews": [
         {
