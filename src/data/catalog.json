@@ -2175,9 +2175,9 @@
       "stock": 0,
       "availability": "Out of Stock",
       "images": [
-        "https://images.unsplash.com/photo-1604182440345-4a82e1c3876b?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1738052950965-5336c6abb1cb?q=80&w=764&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1604182440345-4a82e1c3876b?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1738052950965-5336c6abb1cb?q=80&w=764&auto=format&fit=crop",
       "sku": "KPD-SHI-1010",
       "reviews": [
         {
@@ -2263,9 +2263,9 @@
       "stock": 34,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1764337593519-c51a77b4fc3d?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1729522343573-3ef6b4eaea0c?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1764337593519-c51a77b4fc3d?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1729522343573-3ef6b4eaea0c?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-SHI-1012",
       "reviews": [
         {
@@ -2316,9 +2316,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1766471524299-016b52512780?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1695469956732-642c7f6f5ecc?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1766471524299-016b52512780?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1695469956732-642c7f6f5ecc?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-SHI-1013",
       "reviews": [
         {
@@ -2357,9 +2357,9 @@
       "stock": 36,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1761117228880-df2425bd70da?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1670422182634-e30ee8361860?q=80&w=765&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1761117228880-df2425bd70da?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1670422182634-e30ee8361860?q=80&w=765&auto=format&fit=crop",
       "sku": "KPD-SHI-1014",
       "reviews": [
         {
@@ -2457,9 +2457,9 @@
       "stock": 38,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1767631338127-8cd80ee2f9df?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1760552070057-db7adfeddc39?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1767631338127-8cd80ee2f9df?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1760552070057-db7adfeddc39?w=500&auto=format&fit=crop",
       "sku": "KPD-SHI-1016",
       "reviews": [
         {
@@ -2531,8 +2531,8 @@
       "description": "A slim fit shirt from H&M, cut from crisp cotton poplin. Shown in green, it layers easily and is built to hold its shape wash after wash.",
       "category": "shirts",
       "brand": "H&M",
-      "colour": "green",
-      "colourLabel": "Green",
+      "colour": "orange",
+      "colourLabel": "Orange",
       "tags": [
         "shirt",
         "woven",
@@ -2545,9 +2545,9 @@
       "stock": 40,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1669559419417-f2ef4227afbe?q=80&w=1200&auto=format&fit=crop"
+        ""
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1669559419417-f2ef4227afbe?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1669951867055-02d679129190?q=80&w=765&auto=format&fit=crop",
       "sku": "KPD-SHI-1018",
       "reviews": [
         {
@@ -2573,6 +2573,217 @@
           "comment": "Good value. Stitching is neat throughout.",
           "reviewerName": "Tom B.",
           "date": "2026-07-11T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1082,
+      "slug": "mango-belted-longline-shirt-1082",
+      "title": "Mango Belted Longline Shirt",
+      "description": "A belted longline shirt from Mango, cut from a light, drapey viscose blend. Shown in ivory, it ties at the waist and works open over a slip or buttoned on its own.",
+      "category": "shirts",
+      "brand": "Mango",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "shirt",
+        "woven",
+        "workwear"
+      ],
+      "price": 3299,
+      "mrp": 4124,
+      "discount": 20,
+      "rating": 4.6,
+      "stock": 22,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-SHI-1082",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Priya S.",
+          "date": "2026-03-08T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Elena V.",
+          "date": "2026-05-02T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1083,
+      "slug": "tommy-hilfiger-striped-oversized-shirt-1083",
+      "title": "Tommy Hilfiger Striped Oversized Shirt",
+      "description": "An oversized striped shirt from Tommy Hilfiger, cut from cool cotton with a fine woven stripe. Shown in blue, it has room in the shoulder and sleeves made for rolling back.",
+      "category": "shirts",
+      "brand": "Tommy Hilfiger",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "shirt",
+        "woven",
+        "workwear"
+      ],
+      "price": 4499,
+      "mrp": 5999,
+      "discount": 25,
+      "rating": 4.4,
+      "stock": 15,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1745150297597-afe633681d40?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1745150297597-afe633681d40?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-SHI-1083",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Neha R.",
+          "date": "2026-02-21T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-04-30T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-06-11T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1084,
+      "slug": "uniqlo-relaxed-poplin-shirt-1084",
+      "title": "Uniqlo Relaxed Poplin Shirt",
+      "description": "A relaxed poplin shirt from Uniqlo, cut from crisp cotton with a soft collar stand. Shown in pale blue, it tucks in cleanly and presses back to sharp with very little effort.",
+      "category": "shirts",
+      "brand": "Uniqlo",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "shirt",
+        "woven",
+        "workwear"
+      ],
+      "price": 2299,
+      "mrp": 2299,
+      "discount": 0,
+      "rating": 4.7,
+      "stock": 41,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1748785826604-a7dcda2ccc7c?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1748785826604-a7dcda2ccc7c?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-SHI-1084",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Meera P.",
+          "date": "2026-01-19T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Tom B.",
+          "date": "2026-05-24T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1085,
+      "slug": "zara-boxy-short-sleeve-shirt-1085",
+      "title": "Zara Boxy Short Sleeve Shirt",
+      "description": "A boxy short sleeve shirt from Zara, cut from a smooth cotton twill with a chest pocket. Shown in chocolate brown, it sits wide through the body and holds a clean line untucked.",
+      "category": "shirts",
+      "brand": "Zara",
+      "colour": "brown",
+      "colourLabel": "Brown",
+      "tags": [
+        "shirt",
+        "woven",
+        "workwear"
+      ],
+      "price": 2799,
+      "mrp": 3999,
+      "discount": 30,
+      "rating": 4.3,
+      "stock": 5,
+      "availability": "Low Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1760551600052-fff2c651b20c?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1760551600052-fff2c651b20c?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-SHI-1085",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great cut, though I\u2019d size up if you\u2019re between sizes.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-03-27T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-06-02T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1086,
+      "slug": "vero-moda-cropped-cotton-shirt-1086",
+      "title": "Vero Moda Cropped Cotton Shirt",
+      "description": "A cropped cotton shirt from Vero Moda, cut short through the body with a soft, lived-in finish. Shown in white, it layers open over a vest or buttons up for a neater line.",
+      "category": "shirts",
+      "brand": "Vero Moda",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "shirt",
+        "woven",
+        "workwear"
+      ],
+      "price": 1999,
+      "mrp": 2352,
+      "discount": 15,
+      "rating": 4.2,
+      "stock": 18,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1753395298779-456c0db8d15f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1753395298779-456c0db8d15f?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-SHI-1086",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-02-05T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-04-22T09:00:00.000Z"
         }
       ],
       "photoCredit": "https://unsplash.com"
