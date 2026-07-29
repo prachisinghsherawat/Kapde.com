@@ -37,6 +37,17 @@
   ::selection {
     @apply bg-brand-600 text-white;
   }
+
+  /* Preflight is off, and antd's reset normalises a button's font and margin but
+     leaves the browser's default border, background and padding in place — which
+     paints a grey box around every icon-only button. antd's own components are
+     class-styled (.ant-btn), so they out-specify this and keep their look. */
+  button {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
 }
 
 @layer components {

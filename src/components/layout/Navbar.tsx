@@ -11,8 +11,10 @@ import { selectWishlistCount } from '@/features/wishlist/wishlistSlice';
 import { selectTheme, toggleTheme } from '@/features/ui/uiSlice';
 import { CATEGORIES } from '@/lib/constants';
 
+/** Shared shape for the header action icons: the tap target stays a full 40px for
+ *  touch, but nothing is painted around the glyph — hover is a brand tint only. */
 const iconButtonClass =
-  'group/icon grid h-10 w-10 cursor-pointer appearance-none place-items-center border-0 bg-transparent p-0 text-muted transition-colors duration-200 hover:text-brand-600';
+  'group/icon grid h-10 w-10 place-items-center text-muted transition-colors duration-200 hover:text-brand-600';
 
 const initials = (name: string): string =>
   name

@@ -258,18 +258,35 @@ export const selectRelatedProducts = (product: Product | null, limit = 4) =>
           .slice(0, limit),
   );
 
+const inStock = (product: Product): boolean => product.availability !== 'Out of Stock';
+
+// The home page never fronts something a shopper cannot buy: sold-out pieces are
+// left to the category listings, where the in-stock filter is theirs to control.
 export const selectFeaturedProducts = createSelector([selectAllProducts], (products) =>
-  [...products].sort((a, b) => b.discount - a.discount).slice(0, 8),
+  products
+    .filter(inStock)
+    .sort((a, b) => b.discount - a.discount)
+    .slice(0, 8),
 );
 
 export const selectCategoryTiles = createSelector([selectAllProducts], (products) => {
-  const tiles = new Map<string, { image: string; count: number }>();
+  const tiles = new Map<string, { image: string; count: number; buyable: boolean }>();
   for (const product of products) {
     const existing = tiles.get(product.category);
-    if (existing) {
-      existing.count += 1;
-    } else {
-      tiles.set(product.category, { image: product.thumbnail, count: 1 });
+    if (!existing) {
+      tiles.set(product.category, {
+        image: product.thumbnail,
+        count: 1,
+        buyable: inStock(product),
+      });
+      continue;
+    }
+    // The count stays the whole category, so it matches what the listing shows —
+    // only the photo is held to being in stock.
+    existing.count += 1;
+    if (!existing.buyable && inStock(product)) {
+      existing.image = product.thumbnail;
+      existing.buyable = true;
     }
   }
   return tiles;

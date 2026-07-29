@@ -1240,9 +1240,9 @@
       "stock": 0,
       "availability": "Out of Stock",
       "images": [
-        "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=687&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1765269303522-38c062381f6c?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1765269303522-38c062381f6c?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-COO-934",
       "reviews": [
         {
@@ -1457,9 +1457,9 @@
       "stock": 32,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1769063382633-ef27742cf2a1?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1769063382633-ef27742cf2a1?w=500&auto=format&fit=crop",
       "sku": "KPD-COO-902",
       "reviews": [
         {
@@ -1476,6 +1476,340 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/1768803968298-e31d64afee56"
+    },
+    {
+      "id": 1087,
+      "slug": "mango-paisley-print-co-ord-set-1087",
+      "title": "Mango Paisley Print Co-ord Set",
+      "description": "A paisley print co-ord set from Mango, cut from a soft, fluid viscose blend. Shown in navy, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Mango",
+      "colour": "blue",
+      "colourLabel": "Blue",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 4299,
+      "mrp": 5732,
+      "discount": 25,
+      "rating": 4.5,
+      "stock": 19,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1765529375039-13dabeab0684?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1087",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Meera P.",
+          "date": "2026-03-14T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-05-09T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1088,
+      "slug": "zara-printed-kurta-co-ord-set-1088",
+      "title": "Zara Printed Kurta Co-ord Set",
+      "description": "A printed kurta co-ord set from Zara, cut from a smooth rayon blend. Shown in red with a placed botanical print, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Zara",
+      "colour": "red",
+      "colourLabel": "Red",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 5199,
+      "mrp": 6499,
+      "discount": 20,
+      "rating": 4.6,
+      "stock": 12,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1762777777691-700b12386c31?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1762777777691-700b12386c31?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1088",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Priya S.",
+          "date": "2026-02-27T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Neha R.",
+          "date": "2026-04-18T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Elena V.",
+          "date": "2026-06-21T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1089,
+      "slug": "shein-floral-kurta-co-ord-set-1089",
+      "title": "Shein Floral Kurta Co-ord Set",
+      "description": "A floral kurta co-ord set from Shein, cut from a light cotton blend. Shown in ivory with a hand-drawn print, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Shein",
+      "colour": "white",
+      "colourLabel": "White",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 2899,
+      "mrp": 4460,
+      "discount": 35,
+      "rating": 4.2,
+      "stock": 27,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1731911656286-92bf1ebc87f3?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1731911656286-92bf1ebc87f3?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1089",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-01-30T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Tom B.",
+          "date": "2026-05-16T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1090,
+      "slug": "h-m-monochrome-floral-co-ord-set-1090",
+      "title": "H&M Monochrome Floral Co-ord Set",
+      "description": "A large-scale floral co-ord set from H&M, cut from a soft, fluid viscose blend. Shown in black and cream, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "H&M",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 4699,
+      "mrp": 6713,
+      "discount": 30,
+      "rating": 4.4,
+      "stock": 8,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1764845181515-de3b72a9be84?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1764845181515-de3b72a9be84?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1090",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Marcus T.",
+          "date": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Great cut, though I\u2019d size up if you\u2019re between sizes.",
+          "reviewerName": "Aisha K.",
+          "date": "2026-06-05T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1091,
+      "slug": "vero-moda-paisley-co-ord-set-1091",
+      "title": "Vero Moda Paisley Co-ord Set",
+      "description": "A paisley co-ord set from Vero Moda, cut from a fine cotton blend. Shown in fuchsia, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Vero Moda",
+      "colour": "pink",
+      "colourLabel": "Pink",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 3599,
+      "mrp": 4234,
+      "discount": 15,
+      "rating": 4.3,
+      "stock": 21,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1762504007479-d7316ab10de3?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1762504007479-d7316ab10de3?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1091",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Fits true to size and holds its shape.",
+          "reviewerName": "Rohan M.",
+          "date": "2026-04-08T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Daniel O.",
+          "date": "2026-06-27T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1092,
+      "slug": "mango-tropical-floral-co-ord-set-1092",
+      "title": "Mango Tropical Floral Co-ord Set",
+      "description": "A painterly floral co-ord set from Mango, cut from a textured cotton blend. Shown in multicolour, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Mango",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 6299,
+      "mrp": 6999,
+      "discount": 10,
+      "rating": 4.7,
+      "stock": 6,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1763558958792-85731d9b60f4?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1763558958792-85731d9b60f4?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1092",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Exactly as pictured and the fabric feels substantial.",
+          "reviewerName": "Elena V.",
+          "date": "2026-02-11T09:00:00.000Z"
+        },
+        {
+          "rating": 5,
+          "comment": "Good value. Stitching is neat throughout.",
+          "reviewerName": "Meera P.",
+          "date": "2026-05-30T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1093,
+      "slug": "zara-abstract-floral-co-ord-set-1093",
+      "title": "Zara Abstract Floral Co-ord Set",
+      "description": "An abstract floral co-ord set from Zara, cut from a fluid satin-touch weave. Shown in pink on navy, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "Zara",
+      "colour": "pink",
+      "colourLabel": "Pink",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 5499,
+      "mrp": 6874,
+      "discount": 20,
+      "rating": 4.5,
+      "stock": 14,
+      "availability": "In Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1764161148397-022af6e6917e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1764161148397-022af6e6917e?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1093",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lovely colour, slightly shorter than I expected.",
+          "reviewerName": "Aditi J.",
+          "date": "2026-03-19T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Comfortable enough to wear all day.",
+          "reviewerName": "Priya S.",
+          "date": "2026-07-01T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
+    },
+    {
+      "id": 1094,
+      "slug": "h-m-ornate-print-co-ord-set-1094",
+      "title": "H&M Ornate Print Co-ord Set",
+      "description": "An ornate print co-ord set from H&M, cut from a light viscose blend. Shown in black, top and bottom ship together, so the whole look lands in one order.",
+      "category": "coord-sets",
+      "brand": "H&M",
+      "colour": "black",
+      "colourLabel": "Black",
+      "tags": [
+        "co-ord",
+        "matching set",
+        "occasion"
+      ],
+      "price": 3899,
+      "mrp": 5199,
+      "discount": 25,
+      "rating": 4.1,
+      "stock": 4,
+      "availability": "Low Stock",
+      "images": [
+        "https://images.unsplash.com/photo-1768221677512-896e1d816eaa?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1768221677512-896e1d816eaa?q=80&w=800&auto=format&fit=crop",
+      "sku": "KPD-COO-1094",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Washed well with no shrinkage after a few cycles.",
+          "reviewerName": "Tom B.",
+          "date": "2026-04-25T09:00:00.000Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice piece, delivery took a little longer than promised.",
+          "reviewerName": "Sofia L.",
+          "date": "2026-06-14T09:00:00.000Z"
+        }
+      ],
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1000,
@@ -2723,8 +3057,8 @@
       "description": "A slip dress from Zara, cut from fluid viscose blend. Shown in yellow, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "Zara",
-      "colour": "yellow",
-      "colourLabel": "Yellow",
+      "colour": "multi",
+      "colourLabel": "Multicolour",
       "tags": [
         "dress",
         "occasion",
@@ -2737,9 +3071,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        ""
+        "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop"
       ],
-      "thumbnail": "",
+      "thumbnail": "https://images.unsplash.com/photo-1657373307141-349a3393d4d9?q=80&w=800&auto=format&fit=crop",
       "sku": "KPD-DRE-1022",
       "reviews": [
         {
@@ -3713,9 +4047,9 @@
       "stock": 37,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1580644228275-2b826dbec5bf?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1612784557555-48b002acb88f?q=80&w=627&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1580644228275-2b826dbec5bf?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1612784557555-48b002acb88f?q=80&w=627&auto=format&fit=crop",
       "sku": "KPD-OUT-1045",
       "reviews": [
         {
@@ -4060,52 +4394,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/p-P2t9D1yzY"
-    },
-    {
-      "id": 1053,
-      "slug": "h-m-oversized-denim-jacket-1053",
-      "title": "H&M Oversized Denim Jacket",
-      "description": "An oversized denim jacket from H&M, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
-      "category": "outerwear",
-      "brand": "H&M",
-      "colour": "brown",
-      "colourLabel": "Brown",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 13299,
-      "mrp": 16624,
-      "discount": 20,
-      "rating": 4.0,
-      "stock": 15,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1608635680046-aebf91c1a9c8?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1608635680046-aebf91c1a9c8?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-OUT-1053",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Neha R.",
-          "date": "2026-04-19T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Aisha K.",
-          "date": "2026-05-22T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Sofia L.",
-          "date": "2026-06-25T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/IfYu591uS8A"
     },
     {
       "id": 1054,
