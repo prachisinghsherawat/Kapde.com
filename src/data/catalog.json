@@ -301,178 +301,6 @@
       "photoCredit": "https://unsplash.com"
     },
     {
-      "id": 909,
-      "slug": "zara-biker-jacket-909",
-      "title": "Zara Biker Jacket",
-      "description": "A biker jacket from Zara, cut from a weather-ready shell with a brushed lining. Shown in black, it layers over a knit and shrugs off a cold walk home.",
-      "category": "outerwear",
-      "brand": "Zara",
-      "colour": "black",
-      "colourLabel": "Black",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 6789,
-      "mrp": 9699,
-      "discount": 30,
-      "rating": 4.2,
-      "stock": 15,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1743539462935-aa8b9e2040db?q=80&w=687&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1743539462935-aa8b9e2040db?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-OUT-909",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Priya S.",
-          "date": "2026-02-15T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Neha R.",
-          "date": "2026-07-24T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Aisha K.",
-          "date": "2026-06-20T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 910,
-      "slug": "shein-boxy-jacket-910",
-      "title": "Shein Boxy Jacket",
-      "description": "A boxy jacket from Shein, cut from a weather-ready shell with a brushed lining. Shown in white, it layers over a knit and shrugs off a cold walk home.",
-      "category": "outerwear",
-      "brand": "Shein",
-      "colour": "white",
-      "colourLabel": "White",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 13699,
-      "mrp": 13699,
-      "discount": 0,
-      "rating": 4.2,
-      "stock": 19,
-      "availability": "In Stock",
-      "images": [
-        "https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?q=80&w=687&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-OUT-910",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Elena V.",
-          "date": "2026-05-22T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Tom B.",
-          "date": "2026-07-11T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Priya S.",
-          "date": "2026-03-03T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 911,
-      "slug": "levi-s-denim-trucker-jacket-911",
-      "title": "Levi's Denim Trucker Jacket",
-      "description": "A denim trucker jacket from Levi's, cut from a weather-ready shell with a brushed lining. Shown in blue, it layers over a knit and shrugs off a cold walk home.",
-      "category": "outerwear",
-      "brand": "Levi's",
-      "colour": "blue",
-      "colourLabel": "Blue",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 9659,
-      "mrp": 13799,
-      "discount": 30,
-      "rating": 4.1,
-      "stock": 27,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1555583743-991174c11425?q=80&w=687&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1555583743-991174c11425?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-OUT-911",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Tom B.",
-          "date": "2026-02-03T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Neha R.",
-          "date": "2026-02-23T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
-      "id": 912,
-      "slug": "h-m-suede-jacket-912",
-      "title": "H&M Suede Jacket",
-      "description": "A suede jacket from H&M, cut from a weather-ready shell with a brushed lining. Shown in brown, it layers over a knit and shrugs off a cold walk home.",
-      "category": "outerwear",
-      "brand": "H&M",
-      "colour": "brown",
-      "colourLabel": "Brown",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 11919,
-      "mrp": 14899,
-      "discount": 20,
-      "rating": 4.4,
-      "stock": 14,
-      "availability": "In Stock",
-      "images": [
-        "https://plus.unsplash.com/premium_photo-1687914904404-b683856ae25c?q=80&w=687&auto=format&fit=crop"
-      ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1687914904404-b683856ae25c?q=80&w=800&auto=format&fit=crop",
-      "sku": "KPD-OUT-912",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-06-06T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-05-16T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com"
-    },
-    {
       "id": 913,
       "slug": "uniqlo-corduroy-jacket-913",
       "title": "Uniqlo Corduroy Jacket",
@@ -2754,8 +2582,8 @@
       "description": "A midi dress from Vero Moda, cut from fluid viscose blend. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "Vero Moda",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "dress",
         "occasion",
@@ -2909,9 +2737,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1602303894456-398ce544d90b?w=1200&q=80&fm=webp&fit=crop"
+        ""
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1602303894456-398ce544d90b?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "",
       "sku": "KPD-DRE-1022",
       "reviews": [
         {
@@ -3169,47 +2997,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/XCqphoAZMNg"
-    },
-    {
-      "id": 1028,
-      "slug": "uniqlo-slip-dress-1028",
-      "title": "Uniqlo Slip Dress",
-      "description": "A slip dress from Uniqlo, cut from fluid viscose blend. Shown in red, it layers easily and is built to hold its shape wash after wash.",
-      "category": "dresses",
-      "brand": "Uniqlo",
-      "colour": "red",
-      "colourLabel": "Red",
-      "tags": [
-        "dress",
-        "occasion",
-        "summer"
-      ],
-      "price": 3599,
-      "mrp": 3999,
-      "discount": 10,
-      "rating": 4.0,
-      "stock": 20,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1604506272685-a999a4d122e7?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1604506272685-a999a4d122e7?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-DRE-1028",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Elena V.",
-          "date": "2026-07-12T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-01-15T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/fC4_Obwh0Ew"
     },
     {
       "id": 1029,
@@ -3782,9 +3569,9 @@
       "stock": 33,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1602742053833-070848f80c62?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1602742053833-070848f80c62?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-OUT-1041",
       "reviews": [
         {
@@ -3859,46 +3646,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/sN9BqTtWJIE"
-    },
-    {
-      "id": 1043,
-      "slug": "h-m-single-breasted-jacket-1043",
-      "title": "H&M Single-Breasted Jacket",
-      "description": "A single-breasted jacket from H&M, cut from cotton twill with a brushed lining. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
-      "category": "outerwear",
-      "brand": "H&M",
-      "colour": "blue",
-      "colourLabel": "Blue",
-      "tags": [
-        "outerwear",
-        "layering"
-      ],
-      "price": 12699,
-      "mrp": 14110,
-      "discount": 10,
-      "rating": 4.5,
-      "stock": 0,
-      "availability": "Out of Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1527016021513-b09758b777bd?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1527016021513-b09758b777bd?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-OUT-1043",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Neha R.",
-          "date": "2026-01-27T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Aisha K.",
-          "date": "2026-02-12T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/XovTIAjyx2E"
     },
     {
       "id": 1044,
@@ -4018,9 +3765,9 @@
       "stock": 38,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1716004358936-35508fbfcf98?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1716004358936-35508fbfcf98?w=500&auto=format&fit=crop",
       "sku": "KPD-OUT-1046",
       "reviews": [
         {
@@ -4040,9 +3787,9 @@
     },
     {
       "id": 1047,
-      "slug": "calvin-klein-oversized-denim-jacket-1047",
-      "title": "Calvin Klein Oversized Denim Jacket",
-      "description": "An oversized denim jacket from Calvin Klein, cut from cotton twill with a brushed lining. Shown in brown, it layers easily and is built to hold its shape wash after wash.",
+      "slug": "calvin-klein-oversized-coat-1047",
+      "title": "Calvin Klein Oversized Coat",
+      "description": "An oversized coat from Calvin Klein, cut from twill with a brushed lining. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
       "brand": "Calvin Klein",
       "colour": "brown",
@@ -4058,9 +3805,9 @@
       "stock": 39,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1673287635678-8d812deb4fc2?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1673287635678-8d812deb4fc2?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-OUT-1047",
       "reviews": [
         {
@@ -4156,9 +3903,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1550872199-63f4382fe925?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1709145255324-481ceb7cdf42?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1550872199-63f4382fe925?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1709145255324-481ceb7cdf42?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-OUT-1049",
       "reviews": [
         {
@@ -4183,8 +3930,8 @@
       "description": "A puffer jacket from Levi's, cut from cotton twill with a brushed lining. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "outerwear",
       "brand": "Levi's",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "outerwear",
         "layering"
@@ -4196,9 +3943,9 @@
       "stock": 12,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1680690395101-1b2a56c0ac21?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1741952606204-e403923fbd05?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1680690395101-1b2a56c0ac21?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1741952606204-e403923fbd05?w=500&auto=format&fit=crop",
       "sku": "KPD-OUT-1050",
       "reviews": [
         {
@@ -4549,8 +4296,8 @@
       "description": "A fine gauge sweater from Levi's, cut from soft merino-blend yarn. Shown in white, it layers easily and is built to hold its shape wash after wash.",
       "category": "knitwear",
       "brand": "Levi's",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "brown",
+      "colourLabel": "Brown",
       "tags": [
         "knit",
         "wool",
@@ -4610,9 +4357,9 @@
       "stock": 21,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1717198105126-d1d68b714733?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1663834221517-cf78904dea4e?q=80&w=687&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1717198105126-d1d68b714733?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-KNI-1059",
       "reviews": [
         {
@@ -4682,47 +4429,6 @@
         }
       ],
       "photoCredit": "https://unsplash.com/photos/mcdao5RP4hI"
-    },
-    {
-      "id": 1071,
-      "slug": "zara-wrap-dress-1071",
-      "title": "Zara Wrap Dress",
-      "description": "A wrap dress from Zara, cut from fluid viscose blend. Shown in black, it layers easily and is built to hold its shape wash after wash.",
-      "category": "dresses",
-      "brand": "Zara",
-      "colour": "black",
-      "colourLabel": "Black",
-      "tags": [
-        "dress",
-        "occasion",
-        "summer"
-      ],
-      "price": 2698,
-      "mrp": 2698,
-      "discount": 0,
-      "rating": 4.5,
-      "stock": 35,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1623580674393-edf6eb7090f8?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1623580674393-edf6eb7090f8?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-DRE-1071",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Meera P.",
-          "date": "2026-01-19T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Aisha K.",
-          "date": "2026-02-22T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/77iyep3uIjg"
     },
     {
       "id": 1072,
@@ -4866,8 +4572,8 @@
       "description": "A shirt dress from Mango, cut from fluid viscose blend. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
       "category": "dresses",
       "brand": "Mango",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "green",
+      "colourLabel": "Green",
       "tags": [
         "dress",
         "occasion",
