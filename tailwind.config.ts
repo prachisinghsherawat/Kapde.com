@@ -64,6 +64,11 @@ export default {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-50%)' },
         },
+        // Hero autoplay timer; the call site overrides the duration to match it.
+        progress: {
+          from: { transform: 'scaleX(0)' },
+          to: { transform: 'scaleX(1)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both',
@@ -72,6 +77,7 @@ export default {
         'slide-in': 'slide-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
         float: 'float 3s ease-in-out infinite',
         marquee: 'marquee 26s linear infinite',
+        progress: 'progress 5s linear both',
       },
     },
   },

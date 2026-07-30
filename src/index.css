@@ -84,15 +84,15 @@
   }
 }
 
-@layer components {
-  /* antd's default carousel dots vanish against photography. */
-  .kapde-dots li button {
-    height: 3px !important;
-    border-radius: 999px !important;
-    background: rgb(255 255 255 / 0.55) !important;
-  }
-
-  .kapde-dots li.slick-active button {
-    background: #ffffff !important;
+/* The hero pans, floats and counts down on a timer. None of that carries meaning,
+   so drop it for anyone who asked the OS for less movement. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-kenburns,
+  .animate-float,
+  .animate-marquee,
+  .animate-progress,
+  .animate-slide-in,
+  .animate-fade-up {
+    animation: none !important;
   }
 }

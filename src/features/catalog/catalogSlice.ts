@@ -269,6 +269,29 @@ export const selectFeaturedProducts = createSelector([selectAllProducts], (produ
     .slice(0, 8),
 );
 
+/**
+ * Photos the hero borrows from the catalogue: per category, the in-stock pieces
+ * with the deepest cut, plus an `all` bucket for slides that sell the whole store
+ * rather than one category. Keyed by string so `all` can share the map.
+ */
+export const HERO_PICKS_ALL = 'all';
+
+export const selectHeroPicks = createSelector([selectAllProducts], (products) => {
+  const byDiscount = products.filter(inStock).sort((a, b) => b.discount - a.discount);
+  const picks = new Map<string, Product[]>([[HERO_PICKS_ALL, byDiscount.slice(0, 3)]]);
+
+  for (const product of byDiscount) {
+    const existing = picks.get(product.category);
+    if (!existing) {
+      picks.set(product.category, [product]);
+    } else if (existing.length < 3) {
+      existing.push(product);
+    }
+  }
+
+  return picks;
+});
+
 export const selectCategoryTiles = createSelector([selectAllProducts], (products) => {
   const tiles = new Map<string, { image: string; count: number; buyable: boolean }>();
   for (const product of products) {
