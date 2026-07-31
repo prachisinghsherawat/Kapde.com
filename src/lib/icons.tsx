@@ -3,6 +3,7 @@ import {
   ArrowRightOutlined,
   CheckCircleOutlined,
   CheckOutlined,
+  CloseOutlined,
   CreditCardOutlined,
   DeleteOutlined,
   FacebookOutlined,
@@ -10,6 +11,7 @@ import {
   FilterOutlined,
   HeartFilled,
   HeartOutlined,
+  HistoryOutlined,
   InstagramOutlined,
   LeftOutlined,
   LockOutlined,
@@ -26,9 +28,12 @@ import {
   SafetyCertificateOutlined,
   SafetyOutlined,
   SearchOutlined,
+  SendOutlined,
   ShoppingOutlined,
   StarFilled,
+  StarOutlined,
   SunOutlined,
+  TagOutlined,
   TruckOutlined,
   UserOutlined,
   XOutlined,
@@ -65,12 +70,15 @@ export const ICONS = {
   logout: LogoutOutlined,
   themeDark: MoonOutlined,
   themeLight: SunOutlined,
+  dismiss: CloseOutlined,
 
   // Commerce
   bag: ShoppingOutlined,
   wishlist: HeartOutlined,
   wishlistOn: HeartFilled,
   rating: StarFilled,
+  topRated: StarOutlined,
+  offer: TagOutlined,
   remove: DeleteOutlined,
   increment: PlusOutlined,
   decrement: MinusOutlined,
@@ -80,6 +88,7 @@ export const ICONS = {
   selected: CheckOutlined,
   noResults: FileSearchOutlined,
   imageFallback: PictureOutlined,
+  recentlyViewed: HistoryOutlined,
 
   // Direction
   arrowRight: ArrowRightOutlined,
@@ -96,6 +105,7 @@ export const ICONS = {
   lock: LockOutlined,
 
   // Contact & social
+  subscribe: SendOutlined,
   mail: MailOutlined,
   phone: PhoneOutlined,
   instagram: InstagramOutlined,

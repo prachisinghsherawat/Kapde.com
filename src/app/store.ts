@@ -15,6 +15,7 @@ import storage from 'redux-persist/lib/storage';
 import authReducer from '@/features/auth/authSlice';
 import cartReducer from '@/features/cart/cartSlice';
 import catalogReducer from '@/features/catalog/catalogSlice';
+import recentlyViewedReducer from '@/features/recentlyViewed/recentlyViewedSlice';
 import uiReducer from '@/features/ui/uiSlice';
 import wishlistReducer from '@/features/wishlist/wishlistSlice';
 
@@ -22,6 +23,7 @@ const rootReducer = combineReducers({
   auth: authReducer,
   cart: cartReducer,
   catalog: catalogReducer,
+  recentlyViewed: recentlyViewedReducer,
   ui: uiReducer,
   wishlist: wishlistReducer,
 });
@@ -42,7 +44,14 @@ const isCurrentShape = (state: Record<string, unknown> | undefined): boolean => 
   if (state === undefined) return false;
   const auth = state.auth;
   const authIsObject = auth === undefined || (typeof auth === 'object' && auth !== null);
-  return hasArrayAt(state.cart, 'lines') && hasArrayAt(state.wishlist, 'items') && authIsObject;
+  return (
+    hasArrayAt(state.cart, 'lines') &&
+    hasArrayAt(state.wishlist, 'items') &&
+    // Absent on blobs written before the rail existed; `hasArrayAt` waves those
+    // through so an older visitor keeps their bag instead of having it dropped.
+    hasArrayAt(state.recentlyViewed, 'items') &&
+    authIsObject
+  );
 };
 
 const persistConfig = {
@@ -51,7 +60,7 @@ const persistConfig = {
   storage,
   // Only what a shopper expects to survive a reload. `catalog` is refetched on
   // mount and `ui` owns its own storage key (see uiSlice).
-  whitelist: ['cart', 'wishlist', 'auth'],
+  whitelist: ['cart', 'wishlist', 'auth', 'recentlyViewed'],
   migrate: async (state: PersistedState) =>
     isCurrentShape(state as Record<string, unknown> | undefined) ? state : undefined,
 };

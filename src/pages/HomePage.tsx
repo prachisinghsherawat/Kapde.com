@@ -8,8 +8,11 @@ import {
   selectCatalogStatus,
   selectCategoryTiles,
   selectFeaturedProducts,
+  selectTopRated,
 } from '@/features/catalog/catalogSlice';
 import HeroCarousel from '@/components/home/HeroCarousel';
+import Newsletter from '@/components/home/Newsletter';
+import RecentlyViewed from '@/components/home/RecentlyViewed';
 import ProductGrid from '@/components/product/ProductGrid';
 import ProductImage from '@/components/product/ProductImage';
 import { BRANDS, CATEGORIES, FREE_SHIPPING_OVER } from '@/lib/constants';
@@ -37,6 +40,7 @@ export default function HomePage() {
   const dispatch = useAppDispatch();
   const status = useAppSelector(selectCatalogStatus);
   const featured = useAppSelector(selectFeaturedProducts);
+  const topRated = useAppSelector(selectTopRated);
   const tiles = useAppSelector(selectCategoryTiles);
 
   useEffect(() => {
@@ -116,6 +120,31 @@ export default function HomePage() {
         </div>
         <ProductGrid products={featured} loading={loading} skeletonCount={8} />
       </section>
+
+      <section className="container pb-14">
+        <div className="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <h2 className="section-title flex items-center gap-2.5">
+              <Icon name="topRated" className="text-brand-600" />
+              Top rated
+            </h2>
+            <p className="mt-1 text-sm text-muted">
+              The pieces shoppers keep coming back to score highest.
+            </p>
+          </div>
+          <Link
+            to="/search?sort=rating"
+            className="hidden shrink-0 text-sm font-medium text-brand-600 hover:underline sm:block"
+          >
+            View all
+          </Link>
+        </div>
+        <ProductGrid products={topRated} loading={loading} skeletonCount={4} />
+      </section>
+
+      <RecentlyViewed />
+
+      <Newsletter />
 
       <section className="border-y border-line bg-surface">
         <div className="container grid gap-8 py-12 sm:grid-cols-3">

@@ -269,6 +269,15 @@ export const selectFeaturedProducts = createSelector([selectAllProducts], (produ
     .slice(0, 8),
 );
 
+// A second lens on the same catalogue: what other shoppers rated highest, with
+// review volume breaking ties so one five-star review cannot top the list.
+export const selectTopRated = createSelector([selectAllProducts], (products) =>
+  products
+    .filter(inStock)
+    .sort((a, b) => b.rating - a.rating || b.reviews.length - a.reviews.length)
+    .slice(0, 4),
+);
+
 /**
  * Photos the hero borrows from the catalogue: per category, the in-stock pieces
  * with the deepest cut, plus an `all` bucket for slides that sell the whole store

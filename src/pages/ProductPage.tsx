@@ -7,6 +7,7 @@ import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { MAX_QTY, addToCart } from '@/features/cart/cartSlice';
 import { selectWishlistIds, toggleWishlist } from '@/features/wishlist/wishlistSlice';
 import { loadProducts, selectAllProducts } from '@/features/catalog/catalogSlice';
+import { recordView } from '@/features/recentlyViewed/recentlyViewedSlice';
 import { fetchProductById } from '@/features/catalog/catalogApi';
 import Price from '@/components/common/Price';
 import PageLoader from '@/components/common/PageLoader';
@@ -55,13 +56,15 @@ export default function ProductPage() {
         const sizes = sizesFor(result.category);
         setSize(sizes.length === 1 ? sizes[0] : null);
         setStatus('succeeded');
+        // Recorded on a successful fetch, not on mount: a dead link is not a visit.
+        dispatch(recordView(result));
       })
       .catch((cause: unknown) => {
         if ((cause as Error).name !== 'AbortError') setStatus('failed');
       });
 
     return () => controller.abort();
-  }, [productId]);
+  }, [dispatch, productId]);
 
   if (status === 'loading') return <PageLoader />;
 

@@ -6,14 +6,14 @@ import type { CarouselRef } from 'antd/es/carousel';
 import Icon from '@/lib/icons';
 import { useAppSelector } from '@/app/hooks';
 import { HERO_PICKS_ALL, selectHeroPicks } from '@/features/catalog/catalogSlice';
+import Price from '@/components/common/Price';
 import ProductImage from '@/components/product/ProductImage';
 import { BANNERS } from '@/lib/constants';
-import { formatPrice } from '@/lib/format';
 import type { CategorySlug } from '@/types';
 
 const AUTOPLAY_MS = 5500;
 
-/** `pick` names the catalogue bucket each slide pulls its shop-the-look photos from. */
+/** `pick` names the catalogue bucket each slide borrows its two photos from. */
 const SLIDES: {
   eyebrow: string;
   title: string;
@@ -80,7 +80,7 @@ export default function HeroCarousel() {
   const slides = SLIDES.slice(0, BANNERS.length).map((slide, index) => ({
     ...slide,
     banner: BANNERS[index],
-    // Two is enough to read as a styled pair without crowding the headline.
+    // Two is enough to read as a pair without crowding the headline.
     products: (picks.get(slide.pick) ?? []).slice(0, 2),
   }));
 
@@ -107,7 +107,7 @@ export default function HeroCarousel() {
       >
         {slides.map((slide, index) => (
           <div key={slide.banner.id}>
-            <div className="relative h-[480px] w-full overflow-hidden sm:h-[560px] lg:h-[640px]">
+            <div className="relative h-[460px] w-full overflow-hidden sm:h-[540px] lg:h-[620px]">
               <img
                 src={slide.banner.image}
                 alt={slide.banner.alt}
@@ -118,89 +118,82 @@ export default function HeroCarousel() {
                 }`}
               />
               {/* Only as much scrim as the copy needs: a wash across the left, and a
-                  short fade at the foot for the control bar. The photograph carries
-                  the rest. */}
+                  short fade at the foot for the controls. The photograph carries the rest. */}
               <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/35 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black/70 to-transparent" />
 
-              <div className="container relative flex h-full items-center gap-10 pb-24">
+              <div className="container relative flex h-full items-center gap-10 pb-20">
                 {index === current && (
                   <>
                     <div className="w-full min-w-0 max-w-xl text-white">
-                      <span className="inline-flex animate-slide-in items-center gap-2 rounded-full border border-white/35 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider backdrop-blur [animation-delay:80ms]">
-                        <span className="h-1.5 w-1.5 rounded-full bg-brand-400" />
+                      <p className="animate-slide-in text-xs font-semibold uppercase tracking-[0.2em] text-white/80 [animation-delay:80ms]">
                         {slide.eyebrow}
-                      </span>
-                      <h2 className="mt-5 animate-slide-in whitespace-pre-line font-display text-4xl font-bold leading-[1.05] tracking-tight drop-shadow sm:text-5xl lg:text-6xl [animation-delay:160ms]">
+                      </p>
+                      <h2 className="mt-4 animate-slide-in whitespace-pre-line font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl [animation-delay:160ms]">
                         {slide.title}
                       </h2>
-                      <p className="mt-4 max-w-md animate-slide-in text-base text-white/85 [animation-delay:240ms] sm:text-lg">
+                      <p className="mt-4 max-w-md animate-slide-in text-base text-white/80 [animation-delay:240ms] sm:text-lg">
                         {slide.body}
                       </p>
-                      <div className="mt-8 flex animate-slide-in flex-wrap items-center gap-3 [animation-delay:320ms]">
-                        <Link to={slide.cta.to}>
-                          <Button
-                            type="primary"
-                            size="large"
-                            icon={<Icon name="arrowRight" />}
-                            iconPosition="end"
-                            className="!h-12 !px-7 !text-base"
-                          >
-                            {slide.cta.label}
-                          </Button>
-                        </Link>
-                        <Link
-                          to="/search?sort=newest"
-                          className="inline-flex h-12 items-center rounded-lg border border-white/40 px-6 text-base font-medium text-white backdrop-blur transition-colors hover:border-white hover:bg-white/15"
+                      <Link
+                        to={slide.cta.to}
+                        className="mt-8 inline-block animate-slide-in [animation-delay:320ms]"
+                      >
+                        <Button
+                          type="primary"
+                          size="large"
+                          icon={<Icon name="arrowRight" />}
+                          iconPosition="end"
+                          className="!h-12 !px-7 !text-base"
                         >
-                          Browse everything
-                        </Link>
-                      </div>
+                          {slide.cta.label}
+                        </Button>
+                      </Link>
                     </div>
 
                     {/* The same catalogue photos the grids below use, so the hero
                         promises stock that actually exists. Solid cards, not glass:
                         translucent panels over photography turn to mud. */}
                     {slide.products.length > 0 && (
-                      <div className="ml-auto hidden shrink-0 flex-col items-end gap-3 lg:flex">
-                        <p className="animate-slide-in text-[11px] font-semibold uppercase tracking-[0.2em] text-white/75 [animation-delay:400ms]">
-                          In this edit
-                        </p>
-                        <div className="flex gap-4">
-                          {slide.products.map((product, productIndex) => (
-                            <Link
-                              key={product.id}
-                              to={`/product/${product.id}`}
-                              style={{ animationDelay: `${460 + productIndex * 110}ms` }}
-                              className="group/pick w-40 animate-slide-in overflow-hidden rounded-2xl bg-surface shadow-lift transition-transform duration-300 hover:-translate-y-1.5"
-                            >
-                              <div className="relative aspect-[3/4] overflow-hidden bg-subtle">
-                                <ProductImage
-                                  src={product.thumbnail}
-                                  alt={product.title}
-                                  eager
-                                  className="h-full w-full object-cover transition-transform duration-500 group-hover/pick:scale-105"
+                      <div className="ml-auto hidden shrink-0 gap-4 lg:flex">
+                        {slide.products.map((product, productIndex) => (
+                          <Link
+                            key={product.id}
+                            to={`/product/${product.id}`}
+                            style={{ animationDelay: `${400 + productIndex * 110}ms` }}
+                            className="group/pick w-40 animate-slide-in overflow-hidden rounded-2xl bg-surface shadow-lift transition-transform duration-300 hover:-translate-y-1.5"
+                          >
+                            <div className="relative aspect-[3/4] overflow-hidden bg-subtle">
+                              <ProductImage
+                                src={product.thumbnail}
+                                alt={product.title}
+                                eager
+                                className="h-full w-full object-cover transition-transform duration-500 group-hover/pick:scale-105"
+                              />
+                              {product.discount > 0 && (
+                                <span className="absolute left-2 top-2 rounded-full bg-brand-600 px-2 py-0.5 text-[11px] font-semibold text-white">
+                                  {product.discount}% off
+                                </span>
+                              )}
+                            </div>
+                            <div className="p-3">
+                              <p className="truncate text-[11px] font-semibold uppercase tracking-wide text-muted">
+                                {product.brand}
+                              </p>
+                              <p className="line-clamp-1 text-sm font-medium text-ink">
+                                {product.title}
+                              </p>
+                              <div className="mt-1">
+                                <Price
+                                  price={product.price}
+                                  mrp={product.mrp}
+                                  size="sm"
+                                  showBadge={false}
                                 />
-                                {product.discount > 0 && (
-                                  <span className="absolute left-2 top-2 rounded-full bg-brand-600 px-2 py-0.5 text-[11px] font-semibold text-white">
-                                    {product.discount}% off
-                                  </span>
-                                )}
                               </div>
-                              <div className="p-3">
-                                <p className="truncate text-[11px] font-semibold uppercase tracking-wide text-muted">
-                                  {product.brand}
-                                </p>
-                                <p className="line-clamp-1 text-sm font-medium text-ink">
-                                  {product.title}
-                                </p>
-                                <div className="mt-1">
-                                  <Price price={product.price} mrp={product.mrp} size="sm" showBadge={false} />
-                                </div>
-                              </div>
-                            </Link>
-                          ))}
-                        </div>
+                            </div>
+                          </Link>
+                        ))}
                       </div>
                     )}
                   </>
@@ -211,15 +204,17 @@ export default function HeroCarousel() {
         ))}
       </Carousel>
 
-      {/* Control bar: counter, and the banner photos themselves as slide pickers. */}
+      {/* Controls: where you are, and the banner photos themselves as the picker. */}
       <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 pb-6">
-        <div className="container flex items-end justify-between gap-6">
-          <p className="pointer-events-auto font-display text-sm text-white/80">
-            <span className="text-lg font-semibold text-white">
+        <div className="container flex items-center justify-between gap-6">
+          <p className="pointer-events-auto flex shrink-0 items-baseline gap-2 text-white/70">
+            <span className="font-display text-lg font-semibold text-white">
               {String(current + 1).padStart(2, '0')}
             </span>
-            <span className="mx-1.5">/</span>
-            {String(slides.length).padStart(2, '0')}
+            <span className="text-sm">/ {String(slides.length).padStart(2, '0')}</span>
+            <span className="ml-1 hidden text-sm font-medium text-white sm:inline">
+              {slides[current]?.label}
+            </span>
           </p>
 
           {/* min-w-0 so the rail scrolls on narrow screens instead of widening the page. */}
@@ -231,10 +226,10 @@ export default function HeroCarousel() {
                 onClick={() => carouselRef.current?.goTo(index)}
                 aria-label={`Go to slide ${index + 1}: ${slide.label}`}
                 aria-current={index === current}
-                className={`relative h-14 w-20 shrink-0 overflow-hidden rounded-lg border transition-all duration-300 ${
+                className={`h-11 w-16 shrink-0 overflow-hidden rounded-md transition duration-300 ${
                   index === current
-                    ? 'border-white opacity-100 ring-2 ring-white/60'
-                    : 'border-white/30 opacity-60 hover:opacity-100'
+                    ? 'opacity-100 ring-2 ring-white'
+                    : 'opacity-55 grayscale hover:opacity-100 hover:grayscale-0'
                 }`}
               >
                 <img
@@ -243,10 +238,6 @@ export default function HeroCarousel() {
                   loading="lazy"
                   className="h-full w-full object-cover"
                 />
-                <span className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
-                <span className="absolute inset-x-0 bottom-0 truncate px-1.5 pb-1 text-[11px] font-semibold text-white">
-                  {slide.label}
-                </span>
               </button>
             ))}
           </div>
@@ -255,7 +246,7 @@ export default function HeroCarousel() {
 
       {/* Autoplay timer. Keyed on the index so it restarts with each slide, and
           paused on hover to match the carousel's own pauseOnHover. */}
-      <div className="absolute inset-x-0 bottom-0 z-10 h-[3px] bg-white/20">
+      <div className="absolute inset-x-0 bottom-0 z-10 h-0.5 bg-white/20">
         <div
           key={current}
           style={{ animationDuration: `${AUTOPLAY_MS}ms` }}
@@ -269,17 +260,17 @@ export default function HeroCarousel() {
         type="button"
         aria-label="Previous slide"
         onClick={() => carouselRef.current?.prev()}
-        className="absolute left-4 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/15 text-lg text-white opacity-0 backdrop-blur transition hover:bg-white/30 focus-visible:opacity-100 group-hover:opacity-100 lg:grid"
+        className="absolute left-4 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 place-items-center rounded-full bg-black/30 text-white opacity-0 transition hover:bg-black/50 focus-visible:opacity-100 group-hover:opacity-100 lg:grid"
       >
-        <Icon name="chevronLeft" size="xl" />
+        <Icon name="chevronLeft" size="lg" />
       </button>
       <button
         type="button"
         aria-label="Next slide"
         onClick={() => carouselRef.current?.next()}
-        className="absolute right-4 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/15 text-lg text-white opacity-0 backdrop-blur transition hover:bg-white/30 focus-visible:opacity-100 group-hover:opacity-100 lg:grid"
+        className="absolute right-4 top-1/2 z-10 hidden h-11 w-11 -translate-y-1/2 place-items-center rounded-full bg-black/30 text-white opacity-0 transition hover:bg-black/50 focus-visible:opacity-100 group-hover:opacity-100 lg:grid"
       >
-        <Icon name="chevronRight" size="xl" />
+        <Icon name="chevronRight" size="lg" />
       </button>
     </section>
   );
