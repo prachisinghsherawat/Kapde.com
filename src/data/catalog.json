@@ -407,9 +407,9 @@
       "stock": 22,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1629643495006-d82cb9ba72c3?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1629643495006-d82cb9ba72c3?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-915",
       "reviews": [
         {
@@ -448,9 +448,9 @@
       "stock": 8,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1723985409990-aeb6e48ee415?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1723985409990-aeb6e48ee415?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-JEA-916",
       "reviews": [
         {
@@ -476,13 +476,13 @@
     },
     {
       "id": 917,
-      "slug": "h-m-slim-fit-jeans-917",
-      "title": "H&M Slim Fit Jeans",
-      "description": "A slim fit jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
+      "slug": "h-m-straight-fit-jeans-917",
+      "title": "H&M Straight Fit Jeans",
+      "description": "A straight fit jeans from H&M, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
       "brand": "H&M",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "blue",
+      "colourLabel": "Blue",
       "tags": [
         "denim",
         "bottoms",
@@ -495,9 +495,9 @@
       "stock": 7,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1578693082747-50c396cacd81?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1578693082747-50c396cacd81?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-JEA-917",
       "reviews": [
         {
@@ -542,9 +542,9 @@
       "stock": 11,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1661978955233-817f19f44d82?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1738618806128-1e313827cd54?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1661978955233-817f19f44d82?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1738618806128-1e313827cd54?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-918",
       "reviews": [
         {
@@ -564,9 +564,9 @@
     },
     {
       "id": 919,
-      "slug": "shein-straight-fit-jeans-919",
-      "title": "Shein Straight Fit Jeans",
-      "description": "A straight fit jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
+      "slug": "shein-ripped-baggy-jeans-919",
+      "title": "Shein Ripped Baggy Jeans",
+      "description": "A ripped baggy jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it sits true on the waist and softens with every wear.",
       "category": "jeans",
       "brand": "Shein",
       "colour": "blue",
@@ -583,9 +583,9 @@
       "stock": 17,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=686&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1637768049751-1e495d8eb003?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1688497831384-e40b2e5615cd?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1637768049751-1e495d8eb003?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-JEA-919",
       "reviews": [
         {
@@ -605,9 +605,9 @@
     },
     {
       "id": 920,
-      "slug": "uniqlo-slim-tapered-jeans-920",
-      "title": "Uniqlo Slim Tapered Jeans",
-      "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in black, it sits true on the waist and softens with every wear.",
+      "slug": "uniqlo-wide-leg-jeans-920",
+      "title": "Uniqlo Wide Leg Jeans",
+      "description": "A wide leg jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in black, it sits true on the waist and softens with every wear.",
       "category": "jeans",
       "brand": "Uniqlo",
       "colour": "black",
@@ -624,9 +624,9 @@
       "stock": 11,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1709920680220-8ee257262056?q=80&w=687&auto=format&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1673287635614-15e7553f830d?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1709920680220-8ee257262056?q=80&w=800&auto=format&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1673287635614-15e7553f830d?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-920",
       "reviews": [
         {
@@ -646,13 +646,13 @@
     },
     {
       "id": 921,
-      "slug": "m-s-tapered-jeans-921",
-      "title": "M&S Tapered Jeans",
-      "description": "A tapered jeans from M&S, cut from rigid cotton denim with a touch of stretch. Shown in grey, it sits true on the waist and softens with every wear.",
+      "slug": "m-s-wide-leg-jeans-921",
+      "title": "M&S Wide Leg Jeans",
+      "description": "A wide leg jeans from M&S, cut from rigid cotton denim with a touch of stretch. Shown in black, it sits true on the waist and softens with every wear.",
       "category": "jeans",
       "brand": "M&S",
-      "colour": "grey",
-      "colourLabel": "Grey",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "denim",
         "bottoms",
@@ -665,9 +665,9 @@
       "stock": 27,
       "availability": "In Stock",
       "images": [
-        "https://plus.unsplash.com/premium_photo-1700152005138-39bd409f2c80?w=500&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1715541448446-3369e1cc0ee9?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1700152005138-39bd409f2c80?w=800&auto=format&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1715541448446-3369e1cc0ee9?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-921",
       "reviews": [
         {
@@ -1640,7 +1640,7 @@
         },
         {
           "rating": 4,
-          "comment": "Great cut, though I\u2019d size up if you\u2019re between sizes.",
+          "comment": "Great cut, though I’d size up if you’re between sizes.",
           "reviewerName": "Aisha K.",
           "date": "2026-06-05T09:00:00.000Z"
         }
@@ -2855,7 +2855,7 @@
       "reviews": [
         {
           "rating": 4,
-          "comment": "Great cut, though I\u2019d size up if you\u2019re between sizes.",
+          "comment": "Great cut, though I’d size up if you’re between sizes.",
           "reviewerName": "Aditi J.",
           "date": "2026-03-27T09:00:00.000Z"
         },
@@ -3334,9 +3334,9 @@
     },
     {
       "id": 1029,
-      "slug": "vero-moda-501-original-straight-jeans-1029",
-      "title": "Vero Moda 501 Original Straight Jeans",
-      "description": "A 501 original straight jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "slug": "vero-moda-wide-leg-jeans-1029",
+      "title": "Vero Moda Wide Leg Jeans",
+      "description": "A wide leg jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
       "brand": "Vero Moda",
       "colour": "blue",
@@ -3353,9 +3353,9 @@
       "stock": 21,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-JEA-1029",
       "reviews": [
         {
@@ -3377,11 +3377,11 @@
       "id": 1030,
       "slug": "shein-high-rise-mom-jeans-1030",
       "title": "Shein High Rise Mom Jeans",
-      "description": "A high rise mom jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A high rise mom jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
       "brand": "Shein",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "blue",
+      "colourLabel": "Blue",
       "tags": [
         "denim",
         "bottoms",
@@ -3394,9 +3394,9 @@
       "stock": 22,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1714729382668-7bc3bb261662?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1683126257977-5142e52acc7e?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1714729382668-7bc3bb261662?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1683126257977-5142e52acc7e?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-1030",
       "reviews": [
         {
@@ -3424,11 +3424,11 @@
       "id": 1031,
       "slug": "tommy-hilfiger-wide-leg-jeans-1031",
       "title": "Tommy Hilfiger Wide Leg Jeans",
-      "description": "A wide leg jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "description": "A wide leg jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
       "brand": "Tommy Hilfiger",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "blue",
+      "colourLabel": "Blue",
       "tags": [
         "denim",
         "bottoms",
@@ -3441,9 +3441,9 @@
       "stock": 4,
       "availability": "Low Stock",
       "images": [
-        "https://images.unsplash.com/photo-1637069585336-827b298fe84a?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1718431588207-0cdbb78c48fd?w=500&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1637069585336-827b298fe84a?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1718431588207-0cdbb78c48fd?w=500&auto=format&fit=crop",
       "sku": "KPD-JEA-1031",
       "reviews": [
         {
@@ -3475,13 +3475,13 @@
     },
     {
       "id": 1032,
-      "slug": "zara-slim-tapered-jeans-1032",
-      "title": "Zara Slim Tapered Jeans",
-      "description": "A slim tapered jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
+      "slug": "zara-cargo-jeans-1032",
+      "title": "Zara Cargo Jeans",
+      "description": "A cargo jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
       "brand": "Zara",
-      "colour": "white",
-      "colourLabel": "White",
+      "colour": "blue",
+      "colourLabel": "Blue",
       "tags": [
         "denim",
         "bottoms",
@@ -3494,9 +3494,9 @@
       "stock": 24,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1742472471415-d07eb913371d?q=80&w=766&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1742472471415-d07eb913371d?q=80&w=766&auto=format&fit=crop",
       "sku": "KPD-JEA-1032",
       "reviews": [
         {
@@ -3516,13 +3516,13 @@
     },
     {
       "id": 1033,
-      "slug": "uniqlo-bootcut-jeans-1033",
-      "title": "Uniqlo Bootcut Jeans",
-      "description": "A bootcut jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
+      "slug": "uniqlo-high-rise-mom-jeans-1033",
+      "title": "Uniqlo High Rise Mom Jeans",
+      "description": "A high rise mom jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in black, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
       "brand": "Uniqlo",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
+      "colour": "black",
+      "colourLabel": "Black",
       "tags": [
         "denim",
         "bottoms",
@@ -3535,9 +3535,9 @@
       "stock": 25,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=1200&q=80&fm=webp&fit=crop"
+        "https://images.unsplash.com/photo-1673841855926-9c9f2abe79bf?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80&fm=webp&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1673841855926-9c9f2abe79bf?q=80&w=687&auto=format&fit=crop",
       "sku": "KPD-JEA-1033",
       "reviews": [
         {
@@ -3562,286 +3562,45 @@
       "photoCredit": "https://unsplash.com/photos/m1m2EZOZVwA"
     },
     {
-      "id": 1034,
-      "slug": "vero-moda-baggy-jeans-1034",
-      "title": "Vero Moda Baggy Jeans",
-      "description": "A baggy jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
+      "id": 1095,
+      "slug": "levi-s-loose-fit-jeans-1095",
+      "title": "Levi's Loose Fit Jeans",
+      "description": "A loose fit jeans from Levi's, cut from rigid cotton denim with a touch of stretch. Shown in grey, it layers easily and is built to hold its shape wash after wash.",
       "category": "jeans",
-      "brand": "Vero Moda",
-      "colour": "blue",
-      "colourLabel": "Blue",
+      "brand": "Levi's",
+      "colour": "grey",
+      "colourLabel": "Grey",
       "tags": [
         "denim",
         "bottoms",
         "five-pocket"
       ],
-      "price": 3699,
-      "mrp": 4624,
+      "price": 4599,
+      "mrp": 5749,
       "discount": 20,
-      "rating": 4.2,
-      "stock": 26,
+      "rating": 4.5,
+      "stock": 18,
       "availability": "In Stock",
       "images": [
-        "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=1200&q=80&fm=webp&fit=crop"
+        "https://plus.unsplash.com/premium_photo-1782198466162-56c2b064462f?q=80&w=687&auto=format&fit=crop"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1034",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-06-18T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-07-21T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Elena V.",
-          "date": "2026-01-24T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-02-27T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/Zy6oNZRdcjc"
-    },
-    {
-      "id": 1035,
-      "slug": "shein-501-original-straight-jeans-1035",
-      "title": "Shein 501 Original Straight Jeans",
-      "description": "A 501 original straight jeans from Shein, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
-      "category": "jeans",
-      "brand": "Shein",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
-      "tags": [
-        "denim",
-        "bottoms",
-        "five-pocket"
-      ],
-      "price": 4699,
-      "mrp": 6713,
-      "discount": 30,
-      "rating": 4.0,
-      "stock": 27,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1721637286605-ae9be19d681f?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1721637286605-ae9be19d681f?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1035",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-07-19T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-01-22T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/XdXk39Bj3B0"
-    },
-    {
-      "id": 1036,
-      "slug": "tommy-hilfiger-high-rise-mom-jeans-1036",
-      "title": "Tommy Hilfiger High Rise Mom Jeans",
-      "description": "A high rise mom jeans from Tommy Hilfiger, cut from rigid cotton denim with a touch of stretch. Shown in multicolour, it layers easily and is built to hold its shape wash after wash.",
-      "category": "jeans",
-      "brand": "Tommy Hilfiger",
-      "colour": "multi",
-      "colourLabel": "Multicolour",
-      "tags": [
-        "denim",
-        "bottoms",
-        "five-pocket"
-      ],
-      "price": 7899,
-      "mrp": 15798,
-      "discount": 50,
-      "rating": 4.7,
-      "stock": 28,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1036",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1782198466162-56c2b064462f?q=80&w=687&auto=format&fit=crop",
+      "sku": "KPD-JEA-1095",
       "reviews": [
         {
           "rating": 5,
           "comment": "Washed well with no shrinkage after a few cycles.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-01-20T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Elena V.",
-          "date": "2026-02-23T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-03-26T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/DmD8HVOjy4c"
-    },
-    {
-      "id": 1037,
-      "slug": "zara-wide-leg-jeans-1037",
-      "title": "Zara Wide Leg Jeans",
-      "description": "A wide leg jeans from Zara, cut from rigid cotton denim with a touch of stretch. Shown in white, it layers easily and is built to hold its shape wash after wash.",
-      "category": "jeans",
-      "brand": "Zara",
-      "colour": "white",
-      "colourLabel": "White",
-      "tags": [
-        "denim",
-        "bottoms",
-        "five-pocket"
-      ],
-      "price": 6199,
-      "mrp": 6199,
-      "discount": 0,
-      "rating": 4.2,
-      "stock": 29,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1037",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Marcus T.",
-          "date": "2026-02-21T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Fits true to size and holds its shape.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-03-24T09:00:00.000Z"
-        },
-        {
-          "rating": 3,
-          "comment": "Nice piece, delivery took a little longer than promised.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-04-27T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Elena V.",
-          "date": "2026-05-12T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/9yoXrG6Er_g"
-    },
-    {
-      "id": 1038,
-      "slug": "uniqlo-slim-tapered-jeans-1038",
-      "title": "Uniqlo Slim Tapered Jeans",
-      "description": "A slim tapered jeans from Uniqlo, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
-      "category": "jeans",
-      "brand": "Uniqlo",
-      "colour": "blue",
-      "colourLabel": "Blue",
-      "tags": [
-        "denim",
-        "bottoms",
-        "five-pocket"
-      ],
-      "price": 5399,
-      "mrp": 6352,
-      "discount": 15,
-      "rating": 4.5,
-      "stock": 30,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1038",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Exactly as pictured and the fabric feels substantial.",
-          "reviewerName": "Elena V.",
-          "date": "2026-03-22T09:00:00.000Z"
+          "reviewerName": "Aisha K.",
+          "date": "2026-03-12T09:00:00.000Z"
         },
         {
           "rating": 4,
           "comment": "Great cut, though I'd size up if you're between sizes.",
-          "reviewerName": "Rohan M.",
-          "date": "2026-04-25T09:00:00.000Z"
+          "reviewerName": "Marcus T.",
+          "date": "2026-06-05T09:00:00.000Z"
         }
       ],
-      "photoCredit": "https://unsplash.com/photos/UP9DtTjRYpI"
-    },
-    {
-      "id": 1039,
-      "slug": "vero-moda-bootcut-jeans-1039",
-      "title": "Vero Moda Bootcut Jeans",
-      "description": "A bootcut jeans from Vero Moda, cut from rigid cotton denim with a touch of stretch. Shown in blue, it layers easily and is built to hold its shape wash after wash.",
-      "category": "jeans",
-      "brand": "Vero Moda",
-      "colour": "blue",
-      "colourLabel": "Blue",
-      "tags": [
-        "denim",
-        "bottoms",
-        "five-pocket"
-      ],
-      "price": 7299,
-      "mrp": 9732,
-      "discount": 25,
-      "rating": 4.3,
-      "stock": 31,
-      "availability": "In Stock",
-      "images": [
-        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=80&fm=webp&fit=crop"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80&fm=webp&fit=crop",
-      "sku": "KPD-JEA-1039",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Lovely colour, slightly shorter than I expected.",
-          "reviewerName": "Aditi J.",
-          "date": "2026-04-23T09:00:00.000Z"
-        },
-        {
-          "rating": 5,
-          "comment": "Comfortable enough to wear all day.",
-          "reviewerName": "Daniel O.",
-          "date": "2026-05-26T09:00:00.000Z"
-        },
-        {
-          "rating": 4,
-          "comment": "Good value. Stitching is neat throughout.",
-          "reviewerName": "Elena V.",
-          "date": "2026-06-11T09:00:00.000Z"
-        }
-      ],
-      "photoCredit": "https://unsplash.com/photos/BciCcl8tjVU"
+      "photoCredit": "https://unsplash.com"
     },
     {
       "id": 1040,
@@ -5178,7 +4937,7 @@
     {
       "id": "photo-1767687700430-d1b2997ae598",
       "image": "https://images.unsplash.com/photo-1767687700430-d1b2997ae598?w=2000&h=1000&q=80&fm=webp&fit=crop&crop=faces",
-      "alt": "Knitted co-ord set \u2014 matching top and bottom in pink"
+      "alt": "Knitted co-ord set — matching top and bottom in pink"
     },
     {
       "id": "photo-1598554747436-c9293d6a588f",

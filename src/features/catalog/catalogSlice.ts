@@ -271,11 +271,17 @@ export const selectFeaturedProducts = createSelector([selectAllProducts], (produ
 
 // A second lens on the same catalogue: what other shoppers rated highest, with
 // review volume breaking ties so one five-star review cannot top the list.
-export const selectTopRated = createSelector([selectAllProducts], (products) =>
-  products
-    .filter(inStock)
-    .sort((a, b) => b.rating - a.rating || b.reviews.length - a.reviews.length)
-    .slice(0, 4),
+// Photos already spent on the markdown row are skipped, so the two home sections
+// never show the shopper the same image twice.
+export const selectTopRated = createSelector(
+  [selectAllProducts, selectFeaturedProducts],
+  (products, featured) => {
+    const alreadyShown = new Set(featured.map((product) => product.thumbnail));
+    return products
+      .filter((product) => inStock(product) && !alreadyShown.has(product.thumbnail))
+      .sort((a, b) => b.rating - a.rating || b.reviews.length - a.reviews.length)
+      .slice(0, 4);
+  },
 );
 
 /**
