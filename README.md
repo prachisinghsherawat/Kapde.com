@@ -1,14 +1,8 @@
 # Kapde
 
-A fashion storefront built with **React, TypeScript, Redux Toolkit, Ant Design and Tailwind CSS**.
-Browse a catalogue by category, filter and sort it, keep a bag and wishlist that survive a reload,
-and run through a demo checkout.
-
-- Category browsing with filters and sorting
-- Full-text search across title, brand, colour and tags
-- Bag + wishlist persisted across reloads
-- Demo auth with a guarded checkout route
-- Light and dark themes from a single antd token file
+A demo fashion storefront built with **React, TypeScript, Redux Toolkit, Ant Design and Tailwind CSS**.
+Browse a catalogue, filter and sort it, keep a bag and wishlist that survive a reload, and run
+through a demo checkout.
 
 ## Getting started
 
@@ -28,18 +22,9 @@ npm run dev
 
 ## Screenshots
 
-### Hero carousel
-
-![Hero carousel](https://github.com/user-attachments/assets/6016fba3-a0e5-4715-87de-b5a2badd6c15)
-
-### Home
-
-![Home](https://github.com/user-attachments/assets/209790f9-0ed3-416e-82d9-b990328cca5a)
-
-<details>
-<summary><b>More screens</b> — listing, product, search, bag, wishlist, checkout, auth, light mode</summary>
-
-<br>
+| Hero carousel | Home |
+| ------------- | ---- |
+| ![Hero carousel](https://github.com/user-attachments/assets/6016fba3-a0e5-4715-87de-b5a2badd6c15) | ![Home](https://github.com/user-attachments/assets/209790f9-0ed3-416e-82d9-b990328cca5a) |
 
 | Category listing & filters | Product detail |
 | -------------------------- | -------------- |
@@ -57,18 +42,15 @@ npm run dev
 | -------------- | ---------- |
 | ![Login and signup](https://github.com/user-attachments/assets/fb4322f8-87dd-4218-8dff-035225f1b2d1) | ![Light mode](https://github.com/user-attachments/assets/0506eb06-94ac-42a1-930a-555b1cc60cc6) |
 
-</details>
-
 ## Stack
 
 - **Vite + React 18 + TypeScript** (`strict`), path alias `@/*` → `src/*`
 - **Redux Toolkit** for state, **redux-persist** for the bag, wishlist and session
-- **Ant Design v5** for components, themed from one token file
+- **Ant Design v5**, themed from one token file (light + dark)
 - **Tailwind CSS** for layout and styling
 
-> Tailwind's Preflight is **off** — antd v5 ships its own reset. Bare `<button>`/`<input>`
-> elements therefore keep their browser default chrome, so anything meant to look unstyled has to
-> say so: `appearance-none border-0 bg-transparent p-0`.
+> Tailwind's Preflight is **off** — antd v5 ships its own reset. Anything meant to look unstyled
+> has to say so: `appearance-none border-0 bg-transparent p-0`.
 
 ## Structure
 
@@ -100,20 +82,13 @@ src/
 
 ## Data
 
-`src/data/catalog.json` holds 115 products across 7 categories, plus 6 hero banners. It is sample
-data for a demo storefront — the brand names are real, the products and prices are not. Photography
-is from [Unsplash](https://unsplash.com), and each product keeps a `photoCredit` link back to the
-photographer.
-
-`src/features/catalog/catalogApi.ts` is the only module that touches the JSON, so pointing the app
-at a real backend means rewriting that one file.
+`src/data/catalog.json` holds 115 products across 7 categories plus 6 hero banners. Brand names are
+real, products and prices are not. `src/features/catalog/catalogApi.ts` is the only module that
+touches the JSON, so swapping in a real backend means rewriting that one file.
 
 ## Deployment
 
-The build output is `build/`, not `dist/` — set that as the output directory on the host. On
-Vercel, `engines.node` in `package.json` pins the runtime.
+Build output is `build/`, not `dist/` — set that as the output directory on the host. On Vercel,
+`engines.node` in `package.json` pins the runtime.
 
-## Notes
-
-Authentication and payment are demonstrations. No credentials or card details are sent anywhere or
-written to storage.
+Auth and payment are demonstrations only. No credentials or card details are sent anywhere.
